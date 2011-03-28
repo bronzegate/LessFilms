@@ -1,0 +1,126 @@
+/* line 1 */
+body {
+  font-family: "museo-sans-1", "museo-sans-2";
+  font-font-size: 10pt;
+  color: black;
+  background: #eeeeee url("/images/bg.jpg");
+}
+
+/* line 9 */
+p.nav {
+  font-family: "league-gothic-1", "league-gothic-2";
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  line-height: 0;
+  margin-top: 160px;
+  text-shadow: black 1px 1px 0;
+}
+/* line 17 */
+p.who-description {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* line 23 */
+h2 {
+  font-family: "league-gothic-1", "league-gothic-2";
+  font-size: 148px;
+  text-align: center;
+  line-height: 80px;
+  letter-spacing: -1px;
+  text-shadow: 1px 1px 0 #fbfbfb, 2px 2px 0 #afafaf;
+}
+
+/* line 31 */
+h3 {
+  font-family: "league-gothic-1", "league-gothic-2";
+  font-size: 80px;
+  letter-spacing: -1px;
+  text-shadow: 1px 1px 0 #fbfbfb, 2px 2px 0 #afafaf;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+/* line 40 */
+h4 {
+  font-family: "league-gothic-1", "league-gothic-2";
+  color: white;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 48 */
+.tagline-second-line {
+  font-family: "league-gothic-1", "league-gothic-2";
+  font-size: 90px;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+/* line 55 */
+#top {
+  background: #619210 url("/images/top-bg.png");
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  border-bottom: 1px solid white;
+}
+
+/* line 62 */
+.sunburst {
+  background: url("/images/sunburst.png") no-repeat center top;
+}
+
+/* line 65 */
+img.logo {
+  display: block;
+  width: 200px;
+  height: 238px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 73 */
+.tagline-wrapper {
+  padding-top: 320px;
+}
+
+/* line 78 */
+.videos-second-row {
+  margin-top: 10px;
+}
+
+/* line 81 */
+.video {
+  border: 10px solid #c2c2c2;
+  background: white;
+  width: 290px;
+  height: 193px;
+}
+
+/* line 87 */
+.who-we-are {
+  margin-top: 100px;
+}
+
+/* line 90 */
+img.arrow {
+  padding-top: 5px;
+}
+
+/* line 93 */
+.message {
+  background: black;
+  padding: 30px;
+  border-top: 10px solid #c2c2c2;
+  border-left: 10px solid #c2c2c2;
+  border-right: 10px solid #c2c2c2;
+}
