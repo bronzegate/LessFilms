@@ -1,68 +1,38 @@
-#top
-  .container.sunburst
-    .span-6.prepend-9.append-9.last
-      = img 'logo.png', :class=>'logo'
-
-
-.container.tagline-wrapper
-  %h2.tagline 
-    WE MAKE GREAT VIDEOS 
-    %br 
-      %span.tagline-second-line DON'T ASK US TO DO ANYTHING ELSE
-
-.container.videos-first-row
-  .span-8
-    .video
-      %iframe.youtube-player{:allowfullscreen => "", :frameborder => "0", :height => "193", :src => "http://www.youtube.com/embed/locgXCkvTl0", :title => "YouTube video player", :type => "text/html", :width => "290"}
-  .span-8
-    .video
-      %iframe.youtube-player{:allowfullscreen => "", :frameborder => "0", :height => "193", :src => "http://www.youtube.com/embed/GPAF6Bqne8Q", :title => "YouTube video player", :type => "text/html", :width => "290"}
-  .span-8.last
-    .video
-      %iframe.youtube-player{:allowfullscreen => "", :frameborder => "0", :height => "193", :src => "http://www.youtube.com/embed/7_ODHzrUxnI", :title => "YouTube video player", :type => "text/html", :width => "290"}
-.container.videos-second-row
-  .span-8
-    .video
-      %iframe.youtube-player{:allowfullscreen => "", :frameborder => "0", :height => "193", :src => "http://www.youtube.com/embed/dSxw68N3uu8", :title => "YouTube video player", :type => "text/html", :width => "290"}
-  .span-8
-    .video
-      %iframe.youtube-player{:allowfullscreen => "", :frameborder => "0", :height => "193", :src => "http://www.youtube.com/embed/wEojTSxEUfk", :title => "YouTube video player", :type => "text/html", :width => "290"}
-  .span-8.last
-    .video
-      %iframe.youtube-player{:allowfullscreen => "", :frameborder => "0", :height => "193", :src => "http://www.youtube.com/embed/K-Y3tTBWe74", :title => "YouTube video player", :type => "text/html", :width => "290"}
-
-.container.who-we-are
-  .span-7
-    %h3 WHO WE ARE
-  .span-17.last
-    = img 'arrow.png', :class=>'arrow'
-  .span-24.last
-    %p.who-description LessFilms is all about video. We make commercials, music videos, virals, documentaries... you name it, we shoot it. But that's not all. We've also been known to make a mean banana's foster on one or more occasion. We don't take ourselves too seriously when it comes to persona. We like who we are and that's who we're going to be. What we do take seriously is storytelling and the communication of ideas. You should stop reading this for a moment and check out our work. It says more than a few paragraphs ever could.
-  .span-7
-    %h3 PROCESS
-  .span-17.last
-    = img 'arrow.png', :class=>'arrow'
-  .span-24.last
-    %p.who-description We're easy to work with as long as you go along with all of our ideas and never give us any lip. Just sit back and let us create something awesome for you. Or you could just remind us that your the one with the money and we should lie prostrate in your presence. Either way our incomparable brand of creativity and devotion to your project ensures that your story gets told in most awesome way possible.
-  .span-7
-    %h3 SUMMARY
-  .span-17.last
-    = img 'arrow.png', :class=>'arrow'
-  .span-24.last
-    %p.who-description In all seriousness, telling the world about this incredible thing that your doing is what we live for. You wouldn't want us to stop living would you? Contact us right now. We are dying to hear all about you.
-  .span-24.last
-    .message
-      %h4 TELL US ABOUT YOUR PROJECT
-      :plain
-        <script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
-
-      <script type="text/javascript">
-      var r7p8k9 = new WufooForm();
-      r7p8k9.initialize({
-      'userName':'lessconf', 
-      'formHash':'r7p8k9', 
-      'autoResize':true,
-      'height':'675', 
-      'ssl':true});
-      r7p8k9.display();
-      </script>
+.wrapper
+  .container
+    .span-24.last
+      = img 'header.png', :id=>'header'
+  .content
+    = img 'ribbon.png', :id=>'ribbon'
+    .container
+      .span-10.append-1.prepend-1
+        %h3 Who should attend?
+        %p 
+          %span.italic Anyone involved in a startup. 
+          Anyone who wants to start a business. Anyone whose curious how LessEverything got to where it's at today.
+      .span-10.append-1.prepend-1.last
+        %h3 What you'll learn.
+        %p You'll learn all of Allan and Steve's secrets for creating such a well-know and successful business. They'll also help you avoid pitfalls they went through.
+      .span-10.append-1.prepend-1
+        %h3.second Why it's awesome.
+        %p  
+          %span.italic It's $1000, 
+          and yes, we know that's not cheap, but you'll make your money back. We'll help you get better projects, clients, and build a better business.
+      .span-10.append-1.prepend-1.last
+        %h3.second When and where?
+        %p 
+          The LessMoney Workshop will take place 
+          %span.italic May 20th-22nd in Panama City Beach, Florida. 
+          We suggest 
+          %a{:href => "http://www.kayak.com/", :target => "_blank"} Kayak.com
+          , or 
+          %a{:href => "http://www.southwest.com/", :target => "_blank"} Southwest 
+          for finding travel deals.
+      .span-24.last
+        %p.limited There are only 20 tickets available, so you need to signup today!
+      .span-10.prepend-7.append-7.last
+        #please_click
+          %a{:href => "#", :target => "_blank"} Get your ticket now
+  %p.credits 
+    LessMoney is put on by
+    %a{:href => "http://LessEverything.com", :target => "_blank"} LessEverything.
