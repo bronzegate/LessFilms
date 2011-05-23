@@ -1,38 +1,146 @@
-.wrapper
-  .container
-    .span-24.last
-      = img 'header.png', :id=>'header'
+- @layout = "application"
+
+.top-wrapper
+  .nav
+    %ul
+      %li.pictos S S S S
+      %li 
+        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#header').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#header').offset().top}, 800);"} TOP
+      %li.pictos S
+      %li 
+        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#reel').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#reel').offset().top}, 800);"} REEL
+      %li.pictos S
+      %li 
+        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#about').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#about').offset().top}, 800);"} ABOUT
+      %li.pictos S
+      %li 
+        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#contact').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#contact').offset().top}, 800);"} CONTACT
+      %li.pictos S S S S
+
+#header
+.container
   .content
-    = img 'ribbon.png', :id=>'ribbon'
+    %p.guys 
+      THE  
+      %span.chubby CHUBBY GUYS 
+      AT LESSEVERYTHING
+      %span.chubby PRESENT
+    .title-wrapper
+      %p.title-left LESS
+      %p.title-right FILMS
+      = img 'logo.png', :class=>'logo'
+  %h2.make 
+    We make great films. 
+    %br 
+      %span.dont Don't ask us to do anything else.
+ 
+  
+#arrow-wrapper
+  #arrow
+    %p 
+      %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#reel').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#reel').offset().top}, 800);"} }
+
+#reel
+  .into-videos 
     .container
-      .span-10.append-1.prepend-1
-        %h3 Who should attend?
-        %p 
-          %span.italic Anyone involved in a startup. 
-          Anyone who wants to start a business. Anyone whose curious how LessEverything got to where it's at today.
-      .span-10.append-1.prepend-1.last
-        %h3 What you'll learn.
-        %p You'll learn all of Allan and Steve's secrets for creating such a well-know and successful business. They'll also help you avoid pitfalls they went through.
-      .span-10.append-1.prepend-1
-        %h3.second Why it's awesome.
-        %p  
-          %span.italic It's $1000, 
-          and yes, we know that's not cheap, but you'll make your money back. We'll help you get better projects, clients, and build a better business.
-      .span-10.append-1.prepend-1.last
-        %h3.second When and where?
-        %p 
-          The LessMoney Workshop will take place 
-          %span.italic May 20th-22nd in Panama City Beach, Florida. 
-          We suggest 
-          %a{:href => "http://www.kayak.com/", :target => "_blank"} Kayak.com
-          , or 
-          %a{:href => "http://www.southwest.com/", :target => "_blank"} Southwest 
-          for finding travel deals.
-      .span-24.last
-        %p.limited There are only 20 tickets available, so you need to signup today!
-      .span-10.prepend-7.append-7.last
-        #please_click
-          %a{:href => "#", :target => "_blank"} Get your ticket now
-  %p.credits 
-    LessMoney is put on by
+      .left_column
+        .video-info
+          %p.video-title 
+            We create 
+            %span.standout funny videos 
+            that drive sales and people love to share them.
+ 
+      .right_column
+        .block-first
+          %a{:href => "http://www.youtube.com/v/BucMlqq_06o", :class => "fancyYouTube"}
+            = img '3.png', :class=>'featured'    
+        .block-second
+          %a{:href => "http://www.youtube.com/v/ZwF5OOX3LT4", :class => "fancyYouTube"}
+            = img '6.png', :class=>'featured'    
+
+    .container
+      .breaker
+        .left_column
+          .video-info
+            %p.video-title 
+              We create amazing 
+              %span.standout  promo videos 
+              that entice your customers.
+
+        .right_column
+          .block-first
+            %a{:href => "http://www.youtube.com/v/locgXCkvTl0", :class => "fancyYouTube"}
+              = img '1.png', :class=>'featured'    
+          .block-second
+            %a{:href => "http://www.youtube.com/v/Rofk62bbR6o", :class => "fancyYouTube"}
+              = img '2.png', :class=>'featured'
+              
+
+    .container
+      .breaker
+        .left_column
+          .video-info
+            %p.video-title 
+              We also make beautiful
+              %span.standout  animated videos 
+              to help push brands forward.
+
+        .right_column
+          .block-first
+            %a{:href => "http://www.youtube.com/v/NYimEV0j3ns", :class => "fancyYouTube"}
+              = img '5.png', :class=>'featured'    
+          .block-second
+            %a{:href => "http://www.youtube.com/v/wEojTSxEUfk", :class => "fancyYouTube"}
+              = img '4.png', :class=>'featured'
+            
+#about
+  .container
+    %h2.about-header 
+      We've got mad skillz, yo.
+      %br
+        %span.dont
+          That's how the cool kids say it, right?
+    .luchador
+      .eyes
+        %p.who-we-are-content
+          %span.standout2 LessFilms is all about video. 
+          We make commercials, music videos, virals, documentaries... you name it, we shoot it. We take storytelling and the communication of ideas seriously. You should stop reading this for a moment and check out our reel. It says more than a few paragraphs ever could.
+    %h3.our-process OUR PROCESS
+    = img 'diagram.png', :class=>'diagram'
+
+
+#contact
+  .container
+    %h2.tell-us Tell us about your project
+    .left_column
+      .facebook
+        :plain
+          <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Flessfilms&amp;width=350&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=true&amp;height=480" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:480px;" allowTransparency="true"></iframe>
+      
+    .right_column
+      .contact-form 
+        .form
+          :plain
+            <script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+            <script type="text/javascript">
+            var s7p7r3 = new WufooForm();
+            s7p7r3.initialize({
+            'userName':'lessconf', 
+            'formHash':'s7p7r3', 
+            'autoResize':true,
+            'height':'675', 
+            'ssl':true});
+            s7p7r3.display();
+            </script>
+
+.footer
+  %p
+    Yet another project brought to you by the handsome fellows at
     %a{:href => "http://LessEverything.com", :target => "_blank"} LessEverything.
+
+
+#parallax
+  .j-outer
+    .j
+      %a{:name => "j"} j

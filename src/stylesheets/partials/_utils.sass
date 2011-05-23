@@ -1,0 +1,400 @@
+$solid: 1px solid
+$border: $solid #999
+$border2: $solid #ccc
+$gutter_width: 10px
+$pad: 20px
+
+$page_width: 960px
+$small_col_width: 300px
+$big_col_width: $page_width - $small_col_width - $gutter_width * 2
+
+$small_col_width2: 325px
+$big_col_width2: $page_width - $small_col_width2 - $gutter_width * 2 - $pad * 4
+
+$border_width: 1px
+
+$bg_color: #eee
+$border_color: darken($bg_color, 50)
+
+$default_border_radius: 4px
+
+=lesscolumns($width_of_page :960px, $number_of_columns :4, $column_padding :10px, $width_of_gutter :10px, $border_width :0px, $border_style :solid, $border_color :#333)
+  $number_of_gutters:   $number_of_columns - 1
+  $width_of_column:     ($width_of_page - ($width_of_gutter * $number_of_gutters)) / $number_of_columns - ($column_padding * 2) - ($border_width * 2)
+  width: $width_of_page
+  +pie-clearfix
+  > div 
+    width: $width_of_column
+    margin-left: $width_of_gutter
+    padding: $column_padding
+    border: $border_width $border_style $border_color
+    float: left
+
+    &:first-child
+      margin-left: 0px
+  .end
+    margin-right: 0px
+    
+  
+=museo($weight :300, $variant :normal)
+  font-family: "museo-sans-1", "museo-sans-2"
+  font-weight: $weight   
+  font-variant: $variant   
+      
+      
+
+////////
+
+
+=signup_button
+  //background: url('/images/2010/signup_button_green.png')
+  +linear-gradient(color-stops(#66D198, #50a477))
+  +museo(300)
+  color: white
+  padding: 10px 20px
+  @include border-radius(10px)
+  +text-shadow(rgba(0,0,0,0.8),0px,1px,2px)
+  +tdnone
+  border: 1px solid #50a477
+  border-bottom: 2px solid #33694c
+  font-size: 18px
+  +ls
+  line-height: 100%
+  margin: 2px 0 10px 0
+  display: block
+  text-align: center
+  padding: 10px
+  &:hover
+    +linear-gradient(color-stops(#50a477, #33694c))
+    border-bottom: 2px solid #333
+
+
+=inner-shadow($x: 0, $y: 1px, $blur: 1px, $color: rgba(0, 0, 0, 0.5), $style: inset)
+  -moz-box-shadow: $style $x $y $blur $color
+  box-shadow: $style $x $y $blur $color
+
+=clear-me
+  +pie-clearfix
+
+
+///////
+
+  
+=ls
+  letter-spacing: -0.02em
+
+=bordered
+  border-left: 1px solid #ccc
+  border-bottom: 1px solid #bbb
+
+=white_bg_rounded
+  padding: $pad
+  background-color: rgba(255,255,255,.3)
+  @include border-radius(5px)
+
+=border_top
+  border-top: 1px solid #40b0e1
+
+=border_bottom
+  border-bottom: 1px solid #0075a0
+
+=fr
+  float: right
+
+=fl
+  float: left
+
+=abs
+  position: absolute
+  
+.left
+  +fl
+
+.right
+  +fr
+
+
+=clear
+  clear: both
+
+=tdnone
+  text-decoration: none
+
+=tc
+  text-align: center
+
+=tr
+  text-align: right
+
+.tr
+  +tr
+
+=tl
+  text-align: left  
+
+strong
+  font-weight: bold
+  
+
+div
+  +pie-clearfix
+.c  
+  clear: both  
+  
+
+  
+  
+  
+=bb
+  border: 1px solid #333333
+
+=tdnone
+  text-decoration: none
+
+=georgia
+  font-family: georgia
+
+=arial
+  font-family: arial  
+
+=italic
+  font-style: italic
+
+=center
+  text-align: center
+
+=tc
+  text-align: center
+
+=font_sans
+  font-family: "Lucida Grande", arial, helvetica, sans-serif
+
+=arial
+  font-family: arial, helvetica, sans-serif
+
+=bold
+  font-weight: bold
+
+=normal
+  font-weight: normal  
+
+=uppercase
+  text-transform: uppercase
+
+=italic
+  font-style: italic
+
+  
+=block
+  display: block
+
+=relative
+  position: relative
+
+=p0
+  padding: 0 0 0 0
+
+=m0
+  margin: 0 0 0 0
+
+=helvetica
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+=rel
+  position: relative
+
+=abs
+  position: absolute
+  
+
+.abs
+  +abs
+  
+.rel
+  +rel
+
+=delete_colors
+  +linear-gradient(color-stops(#ce0000, #9a0101))
+  color: white
+  +text-shadow(rgba(0,0,0,0.7), 1px, 1px, 1px)
+  border: 1px solid #9a0101
+    
+=small_button
+  border: 0
+  width: auto
+  padding: 4px 10px
+  margin-right: 3px
+  letter-spacing: .03em
+  line-height: 15px
+  font-size: 12px
+  +helvetica
+  +box-shadow(rgba(0, 0, 0, 0.5), 1px, 1px, 2px)
+  +border-radius(6px)
+  cursor: pointer
+  
+ 
+
+=button
+  border: 0
+  width: auto
+  padding: 6px 12px
+  margin-right: 3px
+  letter-spacing: .03em
+  line-height: 18px
+  font-size: 13px
+  +helvetica
+  +box-shadow(rgba(0, 0, 0, 0.5), 1px, 1px, 2px)
+  +border-radius(6px)
+  cursor: pointer
+
+
+=baby_button_delete
+  +button
+  +delete_colors
+  &:hover
+    color: white
+    +tdnone
+    +linear-gradient(color-stops(#ce0000, #ce0000))
+
+
+ 
+=first_button
+  +button
+  +linear-gradient(color-stops(#66D198, #50a477))
+  border: 1px solid #50a477
+  border-bottom: 2px solid #33694c
+  +text-shadow(rgba(0,0,0,0.8),0px,1px,2px)
+  color: white
+  +bold
+  &:hover
+    +linear-gradient(color-stops(#50a477, #33694c))
+    border-bottom: 2px solid #333
+    +tdnone
+    
+
+  
+=secondary_button
+  +button
+  +linear-gradient(color-stops(#f5f5f5, #e5e5e5))
+  color: #333
+  +text-shadow(white,0px,1px,0px)
+  border: 1px solid #bbb
+  +bold
+  padding: 5px 10px
+  &:hover
+    color: #333
+    +tdnone
+    +linear-gradient(color-stops(#ccc, #bbb))
+
+
+  
+=delete_button
+  +button
+  +delete_colors
+  +bold
+  padding: 7px 12px
+  line-height: 21px
+  &:hover
+    color: white
+    +tdnone
+    +linear-gradient(color-stops(#ce0000, #ce0000))
+
+
+=green_button
+  +museo(300)
+  letter-spacing: -0.05em
+  color: white
+  +block
+  margin: 0 0 10px 0
+  +linear-gradient(color-stops(#66D198, #50a477))
+  border: 1px solid #50a477
+  border-bottom: 2px solid #33694c
+  +text-shadow(rgba(0,0,0,0.8),0px,1px,2px)
+  +border-radius(10px)
+  &:hover
+    +linear-gradient(color-stops(#50a477, #33694c))
+    border-bottom: 2px solid #333
+    +tdnone
+
+table.super_padding td
+  padding: 10px
+table td.linkage a
+  +linear-gradient(color-stops(#66D198, #50a477))
+  padding: 4px 10px 
+  border: 1px solid #50a477
+  border-bottom: 2px solid #33694c
+  color: white
+  +border-radius(5px)
+  +tc
+  width: auto
+  display: inline
+  
+a.buttoning
+  +green_button
+  font-size: 14px
+  padding: 8px 5px
+  margin: 0 15px 15px 15px
+  +tc
+  
+small
+  font-size: 9px
+
+.clear
+  clear: both
+
+.tr
+  text-align: right
+
+p
+  margin: 5px 0 10px 0
+
+
+
+div
+  +clear-me
+
+.c
+  +clear-me
+
+.hidden
+  display: none
+
+li
+  list-style: none
+
+.bullets
+  margin: 5px 0 15px 20px
+  li
+    list-style: disc
+
+.tr, div.tr, span.tc
+  text-align: right
+
+.tc, div.tc, span.tc, td.tc
+  text-align: center
+
+div, img, form, ul, td, th
+  margin: 0px
+  padding: 0px
+  border: 0px
+  text-align: left
+
+  .clear
+    clear: both
+
+ul
+  margin: 0 0 0 0
+  padding: 0 0 0 0
+
+.bullets
+  margin: 15px 0 15px 15px
+
+.no_bullets
+  list-style: none
+  margin: 0 0 0 0
+
+
+.bullets li
+  margin: 3px 0
+
+  

@@ -1,0 +1,400 @@
+@import compass
++global-reset
+@import utils
+
+
+$site_width: 960px
+$left_column: 400px
+$gutter: 40px
+
+.container
+  margin: 0 auto
+  padding: 0 0 0 0
+  height: 100%
+  width: $site_width
+ 
+.right_column
+  width: $site_width - $left_column - $gutter
+  float: left
+
+.left_column
+  width: $left_column
+  float: left
+  margin-right: $gutter
+  
+.content
+  padding-top: 110px
+  
+.top
+  background: url('/images/content-bg.png') no-repeat center 100px
+
+@font-face
+  font-family: "Pictos"
+  src: url('../fonts/pictos-web.eot')
+  src: local('☺')
+  src: url('../fonts/pictos-web.svg#webfontIyfZbseF') format('svg')
+  src: url('../fonts/pictos-web.woff') format('woff')
+  src: url('../fonts/pictos-web.ttf') format('truetype')
+
+body
+  font:
+    family: "museo-sans-1","museo-sans-2", helvetica, arial
+    font-size: 10pt
+  color: #2B1F0D
+  background: #ccc url('/images/bg.png') repeat top left
+
+#reel
+  margin-top: 100px
+  padding-top: 120px
+
+#about
+  margin: 100px 0 80px 0
+  padding-top: 1px
+  
+
+#contact
+  background: #111 url('/images/footer-bg.png') repeat top left
+  border-top: 1px solid #fff
+  margin-top: 200px
+  padding-bottom: 100px
+
+#arrow-wrapper
+  position: fixed
+  bottom: 0 
+  right: 50%
+  height: 100px
+
+#arrow
+  position: relative
+  overflow: hidden
+  background-color: #000
+  border: 5px solid #000
+  -moz-border-radius: 5px
+  -webkit-border-radius: 5px
+  filter: alpha(opacity=20)
+  opacity: 0.2
+
+#arrow p
+  font:
+    family: "Pictos"
+    size: 60px
+  color: #ffffff
+  margin: 5px 3px 0 3px
+  padding: 0
+  filter: alpha(opacity=50)
+  opacity: 0.5
+  cursor: pointer
+  
+p
+  font:
+    family: "museo-sans-1","museo-sans-2", helvetica, arial
+  color: #111
+  &.guys 
+    text-align: center
+    margin: 50px auto
+    padding: 0
+    position: relative
+    color: #333
+    text-shadow: 1px 1px 0 #fff
+  &.title-left
+    font:
+      size: 140px
+      weight: 900 
+    padding: 0
+    margin-top: -3px
+    display: block
+    float: left
+    letter-spacing: -0.04em
+  &.title-right
+    font:
+      size: 140px
+      weight: 900 
+    padding: 0
+    margin-top: -3px
+    display: block
+    float: right
+    letter-spacing: -0.04em
+  &.recent
+    color: #E7A933
+    font:
+      size: 30px
+      weight: 100
+    position: relative
+    left: 120px      
+  &.why
+    color: #E7A933
+    font:
+      size: 30px
+      weight: 100
+    bottom: -170px
+    position: relative
+    left: 120px   
+  &.video-title
+    font:
+      size: 30px
+      weight: 100
+      style: italic
+    margin: 10px 0 0 0
+    padding: 0
+    color: #333
+    text-align: right
+    line-height: 1.5em
+  &.who-we-are-content
+    color: #444
+    width: 400px
+    font:
+      size: 16px
+    line-height: 1.5em
+    margin: 0
+    padding: 120px 0 0 46px
+  &.diagram-title
+    font:
+      size: 20px
+      weight: 700
+    margin: 0
+    padding: 0
+    text-shadow: 1px 1px 0 #fff
+  &.diagram-content
+    color: #444
+    font:
+      size: 16px
+    line-height: 1.5em
+    margin-bottom: 25px
+    padding-bottom: 25px
+
+.border-bottom
+  border-bottom: 1px solid #fff
+
+h2
+  &.make
+    font:
+      size: 42px
+      weight: 900
+      style: italic
+    text-align: center
+    color: #111
+    margin-top: 76px
+    line-height: 0.9em
+    text-shadow: 1px 1px 0 #fff
+  &.about-header
+    font:
+      size: 62px
+      weight: 900
+      style: italic
+    text-align: center
+    color: #111
+    text-shadow: 1px 1px 0 #fff  
+    margin: 100px 0 50px 0
+    line-height: 0.7em
+  &.tell-us
+    font:
+      size: 62px
+      weight: 900
+      style: italic
+    text-align: center
+    color: #fff
+    text-shadow: 1px 1px 0 #fff  
+    margin: 100px 0 70px -20px
+    display: block
+    line-height: 0.7em
+    text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+h3
+  &.who-we-are
+    color: #fff
+    font:
+      size: 24px
+    padding: 10px 0 12px 10px
+    margin: 40px 0 40px 0
+    background: #111 url('/images/footer-bg.png') repeat top left
+    text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+  &.our-process
+    display: block
+    position: relative
+    color: #fff
+    font:
+      size: 24px
+    padding: 10px 0 12px 10px
+    margin: -80px 0 40px 0
+    background: #111 
+    text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+    z-index: -1000
+  &.behind
+    color: #fff
+    font:
+      size: 24px
+
+span.dont
+  font:
+    size: 26px
+    weight: 100
+  color: #333
+
+span.standout
+  font-weight: 900
+  color: #5D9732
+  text-shadow: 1px 1px 0 #fff
+
+span.standout2
+  color: #111
+  font:
+    style: italic
+  text-shadow: 1px 1px 0 #fff
+
+.luchador
+  background: url(/images/luchador.png) no-repeat top left
+  width: 960px
+  height: 500px
+  margin-top: -60px
+  z-index: 20
+
+.eyes
+  background: url(/images/eyes.png) no-repeat 586px 206px
+  width: 960px
+  height: 500px
+
+.eyes:hover
+  background: url(/images/eyes-hover.png) no-repeat 586px 203px
+  width: 960px
+  height: 500px
+
+.contact-form
+  background: #222
+  padding:  30px
+  height: 420px
+  width: 350px
+  margin-left: 20px
+  border: 1px solid #666
+
+.form
+  height:  300px
+  margin-top:  -80px
+
+.facebook
+  background: #fff
+  width: 350px
+  height: 480px
+  display: block
+  margin-left: 40px
+
+img.logo
+  width: 200px
+  height: 230px
+  display: block
+  margin-top: -50px
+  margin-left: 310px
+  margin-bottom: 0
+
+img.diagram
+  width: 960px
+  height: 190px
+  display: block
+  
+.top-wrapper
+  background: #000
+  color: #fff
+  position: fixed
+  width: 100%
+  z-index: 1000
+  margin: 0
+  padding: 0
+  top: 0
+  filter: alpha(opacity=70)
+  opacity: 0.7
+
+.chubby
+  font:
+    size: 18px
+    weight: 600
+  color: #111
+
+.title-wrapper
+  margin: 80px auto 0 auto
+  z-index: 10
+  border-top: 10px solid #5D9732
+  border-bottom: 10px solid #5D9732
+  height: 130px
+  display: block
+  width: 900px
+
+.into-videos
+  margin-top: 0
+
+.nav
+  width: 698px
+  margin: 14px auto
+  
+.nav ul li
+  display: inline-block
+  font-size: 22px
+  font-weight: 600
+  padding: 0 10px
+
+.nav ul li.pictos
+  font:
+    family: "Pictos"
+    size: 14px
+  top: -3px
+  position: relative
+  color: #fff
+
+.nav a 
+  color: #fff
+  text-decoration: none
+  text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+  cursor: pointer
+
+.nav a:hover
+  color: #5D9732
+  text-decoration: none
+  text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+  cursor: pointer
+
+.block-first
+  float: left
+  margin-right: 50px
+
+.block-second
+  float: left
+
+.breaker
+  margin-top: 50px
+  padding-top: 50px
+  border-top: 1px solid #fff
+
+.featured
+  position: relative
+  z-index: 10
+  padding: 2px
+  border: 8px solid #2B1F0D
+  background: #fff
+
+.featured:before
+  content: ""
+  display: block
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  right: 0 
+  bottom: 0
+  border: 1px solid #000
+
+.footer
+  height: 50px
+  background: #222
+  border-top: 1px solid #666
+  
+.footer p
+  color: #fff
+  text-align: center
+  margin: 20px 0
+
+.footer a
+  color: #fff
+  text-decoration: none
+  text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+
+.footer a:hover
+  color: #5D9732
+  text-decoration: none
+  text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
