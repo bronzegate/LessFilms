@@ -48,7 +48,7 @@
           %p.video-title 
             We create 
             %span.standout funny videos 
-            that drive sales and people love to share them.
+            that drive sales and are actually worth sharing.
  
       .right_column
         .block-first
@@ -104,7 +104,9 @@
       .eyes
         %p.who-we-are-content
           %span.standout2 LessFilms is all about video. 
-          We make commercials, music videos, virals, documentaries... you name it, we shoot it. We take storytelling and the communication of ideas seriously. You should stop reading this for a moment and check out our reel. It says more than a few paragraphs ever could.
+          We make commercials, music videos, virals, documentaries... you name it, we shoot it. We take storytelling and the communication of ideas seriously. You should stop reading this for a moment and check out 
+          %a.our-reel{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#reel').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#reel').offset().top}, 800);"} our reel. 
+          It says more than a few paragraphs ever could.
     %h3.our-process OUR PROCESS
     = img 'diagram.png', :class=>'diagram'
 

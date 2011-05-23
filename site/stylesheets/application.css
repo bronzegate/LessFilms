@@ -607,7 +607,7 @@ span.standout2 {
 /* line 279 */
 img.logo {
   width: 200px;
-  height: 230px;
+  height: 237px;
   display: block;
   margin-top: -50px;
   margin-left: 310px;
@@ -698,24 +698,30 @@ img.diagram {
 }
 
 /* line 352 */
+a.our-reel {
+  color: #5d9732;
+  cursor: pointer;
+}
+
+/* line 356 */
 .block-first {
   float: left;
   margin-right: 50px;
 }
 
-/* line 356 */
+/* line 360 */
 .block-second {
   float: left;
 }
 
-/* line 359 */
+/* line 363 */
 .breaker {
   margin-top: 50px;
   padding-top: 50px;
   border-top: 1px solid white;
 }
 
-/* line 364 */
+/* line 368 */
 .featured {
   position: relative;
   z-index: 10;
@@ -724,7 +730,7 @@ img.diagram {
   background: white;
 }
 
-/* line 371 */
+/* line 375 */
 .featured:before {
   content: "";
   display: block;
@@ -737,28 +743,28 @@ img.diagram {
   border: 1px solid black;
 }
 
-/* line 382 */
+/* line 386 */
 .footer {
   height: 50px;
   background: #222222;
   border-top: 1px solid #666666;
 }
 
-/* line 387 */
+/* line 391 */
 .footer p {
   color: white;
   text-align: center;
   margin: 20px 0;
 }
 
-/* line 392 */
+/* line 396 */
 .footer a {
   color: white;
   text-decoration: none;
   text-shadow: 1px 1px 0 #2b1f0d, 2px 2px 0 #5d9732;
 }
 
-/* line 397 */
+/* line 401 */
 .footer a:hover {
   color: #5d9732;
   text-decoration: none;
