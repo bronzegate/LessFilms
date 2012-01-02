@@ -1,123 +1,127 @@
-@charset "UTF-8";
-/* line 14, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
   font-size: 100%;
-  font-family: inherit;
+  font: inherit;
   vertical-align: baseline;
 }
 
-/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
-  color: black;
-  background: white;
 }
 
-/* line 19, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
-  vertical-align: middle;
 }
 
-/* line 23, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
-  quotes: "" "";
+  quotes: none;
 }
-/* line 96, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
+  content: none;
 }
 
-/* line 27, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 110, ./src/stylesheets/utils.sass */
+/* line 114, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 110, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .left {
   float: left;
 }
 
-/* line 113, ./src/stylesheets/utils.sass */
+/* line 113, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .right {
   float: right;
 }
 
-/* line 129, ./src/stylesheets/utils.sass */
+/* line 129, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .tr {
   text-align: right;
 }
 
-/* line 135, ./src/stylesheets/utils.sass */
+/* line 135, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 strong {
   font-weight: bold;
 }
 
-/* line 139, ./src/stylesheets/utils.sass */
+/* line 139, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 div {
   *zoom: 1;
 }
-/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 div:after {
-  content: "\0020";
-  display: block;
-  height: 0;
+  content: "";
+  display: table;
   clear: both;
-  overflow: hidden;
-  visibility: hidden;
 }
 
-/* line 141, ./src/stylesheets/utils.sass */
+/* line 141, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .c {
   clear: both;
 }
 
-/* line 210, ./src/stylesheets/utils.sass */
+/* line 210, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .abs {
   position: absolute;
 }
 
-/* line 213, ./src/stylesheets/utils.sass */
+/* line 213, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .rel {
   position: relative;
 }
 
-/* line 319, ./src/stylesheets/utils.sass */
+/* line 319, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 table.super_padding td {
   padding: 10px;
 }
 
-/* line 321, ./src/stylesheets/utils.sass */
+/* line 321, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 table td.linkage a {
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #66d198), color-stop(100%, #50a477));
-  background-image: -moz-linear-gradient(top, #66d198 0%, #50a477 100%);
-  background-image: linear-gradient(top, #66d198 0%, #50a477 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #66d198), color-stop(100%, #50a477));
+  background-image: -webkit-linear-gradient(top, #66d198, #50a477);
+  background-image: -moz-linear-gradient(top, #66d198, #50a477);
+  background-image: -o-linear-gradient(top, #66d198, #50a477);
+  background-image: -ms-linear-gradient(top, #66d198, #50a477);
+  background-image: linear-gradient(top, #66d198, #50a477);
   padding: 4px 10px;
   border: 1px solid #50a477;
   border-bottom: 2px solid #33694c;
@@ -133,7 +137,7 @@ table td.linkage a {
   display: inline;
 }
 
-/* line 332, ./src/stylesheets/utils.sass */
+/* line 332, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 a.buttoning {
   font-family: "museo-sans-1", "museo-sans-2";
   font-weight: 300;
@@ -142,9 +146,12 @@ a.buttoning {
   color: white;
   display: block;
   margin: 0 0 10px 0;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #66d198), color-stop(100%, #50a477));
-  background-image: -moz-linear-gradient(top, #66d198 0%, #50a477 100%);
-  background-image: linear-gradient(top, #66d198 0%, #50a477 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #66d198), color-stop(100%, #50a477));
+  background-image: -webkit-linear-gradient(top, #66d198, #50a477);
+  background-image: -moz-linear-gradient(top, #66d198, #50a477);
+  background-image: -o-linear-gradient(top, #66d198, #50a477);
+  background-image: -ms-linear-gradient(top, #66d198, #50a477);
+  background-image: linear-gradient(top, #66d198, #50a477);
   border: 1px solid #50a477;
   border-bottom: 2px solid #33694c;
   text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 2px;
@@ -159,122 +166,119 @@ a.buttoning {
   margin: 0 15px 15px 15px;
   text-align: center;
 }
-/* line 314, ./src/stylesheets/utils.sass */
+/* line 314, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 a.buttoning:hover {
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #50a477), color-stop(100%, #33694c));
-  background-image: -moz-linear-gradient(top, #50a477 0%, #33694c 100%);
-  background-image: linear-gradient(top, #50a477 0%, #33694c 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #50a477), color-stop(100%, #33694c));
+  background-image: -webkit-linear-gradient(top, #50a477, #33694c);
+  background-image: -moz-linear-gradient(top, #50a477, #33694c);
+  background-image: -o-linear-gradient(top, #50a477, #33694c);
+  background-image: -ms-linear-gradient(top, #50a477, #33694c);
+  background-image: linear-gradient(top, #50a477, #33694c);
   border-bottom: 2px solid #333333;
   text-decoration: none;
 }
 
-/* line 339, ./src/stylesheets/utils.sass */
+/* line 339, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 small {
   font-size: 9px;
 }
 
-/* line 342, ./src/stylesheets/utils.sass */
+/* line 342, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .clear {
   clear: both;
 }
 
-/* line 345, ./src/stylesheets/utils.sass */
+/* line 345, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .tr {
   text-align: right;
 }
 
-/* line 348, ./src/stylesheets/utils.sass */
+/* line 348, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 p {
   margin: 5px 0 10px 0;
 }
 
-/* line 353, ./src/stylesheets/utils.sass */
+/* line 353, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 div {
   *zoom: 1;
 }
-/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 div:after {
-  content: "\0020";
-  display: block;
-  height: 0;
+  content: "";
+  display: table;
   clear: both;
-  overflow: hidden;
-  visibility: hidden;
 }
 
-/* line 356, ./src/stylesheets/utils.sass */
+/* line 356, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .c {
   *zoom: 1;
 }
-/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/allanbranch/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .c:after {
-  content: "\0020";
-  display: block;
-  height: 0;
+  content: "";
+  display: table;
   clear: both;
-  overflow: hidden;
-  visibility: hidden;
 }
 
-/* line 359, ./src/stylesheets/utils.sass */
+/* line 359, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .hidden {
   display: none;
 }
 
-/* line 362, ./src/stylesheets/utils.sass */
+/* line 362, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 li {
   list-style: none;
 }
 
-/* line 365, ./src/stylesheets/utils.sass */
+/* line 365, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .bullets {
   margin: 5px 0 15px 20px;
 }
-/* line 367, ./src/stylesheets/utils.sass */
+/* line 367, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .bullets li {
   list-style: disc;
 }
 
-/* line 370, ./src/stylesheets/utils.sass */
+/* line 370, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .tr, div.tr, span.tc {
   text-align: right;
 }
 
-/* line 373, ./src/stylesheets/utils.sass */
+/* line 373, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .tc, div.tc, span.tc, td.tc {
   text-align: center;
 }
 
-/* line 376, ./src/stylesheets/utils.sass */
+/* line 376, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 div, img, form, ul, td, th {
   margin: 0px;
   padding: 0px;
   border: 0px;
   text-align: left;
 }
-/* line 382, ./src/stylesheets/utils.sass */
+/* line 382, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 div .clear, img .clear, form .clear, ul .clear, td .clear, th .clear {
   clear: both;
 }
 
-/* line 385, ./src/stylesheets/utils.sass */
+/* line 385, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 ul {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
 
-/* line 389, ./src/stylesheets/utils.sass */
+/* line 389, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .bullets {
   margin: 15px 0 15px 15px;
 }
 
-/* line 392, ./src/stylesheets/utils.sass */
+/* line 392, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .no_bullets {
   list-style: none;
   margin: 0 0 0 0;
 }
 
-/* line 397, ./src/stylesheets/utils.sass */
+/* line 397, /Users/allanbranch/rails/lessfilms/src/stylesheets/utils.sass */
 .bullets li {
   margin: 3px 0;
 }
@@ -660,7 +664,7 @@ img.diagram {
 
 /* line 322 */
 .nav {
-  width: 702px;
+  width: 688px;
   margin: 14px auto;
 }
 
