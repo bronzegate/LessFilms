@@ -23,7 +23,7 @@ $gutter: 40px
   margin-right: $gutter
   
 .content
-  padding-top: 110px
+  padding-top: 50px
   
 .top
   background: url('/images/content-bg.png') no-repeat center 100px
@@ -44,8 +44,8 @@ body
   background: #ccc url('/images/bg.png') repeat top left
 
 #reel
-  margin-top: 100px
-  padding-top: 120px
+  margin-top: 50px
+  padding-top: 50px
 
 #about
   margin: 100px 0 80px 0
@@ -53,10 +53,9 @@ body
   
 
 #contact
-  background: #111 url('/images/footer-bg.png') repeat top left
-  border-top: 1px solid #fff
-  margin-top: 200px
-  padding-bottom: 100px
+  //background: #111 url('/images/footer-bg.png') repeat top left
+  margin-top: 50px
+  padding-bottom: 50px
 
 #arrow-wrapper
   position: fixed
@@ -91,14 +90,14 @@ p
   color: #111
   &.guys 
     text-align: center
-    margin: 50px auto
+    margin: 0 auto 70px 0
     padding: 0
     position: relative
     color: #333
-    text-shadow: 1px 1px 0 #fff
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .5)
   &.title-left
     font:
-      size: 140px
+      size: 83px
       weight: 900 
     padding: 0
     margin-top: -3px
@@ -107,7 +106,7 @@ p
     letter-spacing: -0.04em
   &.title-right
     font:
-      size: 140px
+      size: 83px
       weight: 900 
     padding: 0
     margin-top: -3px
@@ -165,64 +164,47 @@ p
 .border-bottom
   border-bottom: 1px solid #fff
 
+
 h2
-  &.make
-    font:
-      size: 42px
-      weight: 900
-      style: italic
-    text-align: center
-    color: #111
-    margin-top: 76px
-    line-height: 0.9em
-    text-shadow: 1px 1px 0 #fff
-  &.about-header
-    font:
-      size: 62px
-      weight: 900
-      style: italic
-    text-align: center
-    color: #111
-    text-shadow: 1px 1px 0 #fff  
-    margin: 100px 0 50px 0
-    line-height: 0.7em
   &.tell-us
     font:
-      size: 62px
-      weight: 900
-      style: italic
+      size: 42px
+      weight: 600
     text-align: center
-    color: #fff
-    text-shadow: 1px 1px 0 #fff  
-    margin: 100px 0 70px -20px
+    margin: 100px 0 30px -20px
+    display: block
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .5)
+    line-height: 0.7em
+
+.reel
+  h3
+    font:
+      size: 32px
+      weight: 400
+    text-align: center
+    margin: 100px 0 30px -20px
     display: block
     line-height: 0.7em
-    text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
-h3
-  &.who-we-are
-    color: #fff
-    font:
-      size: 24px
-    padding: 10px 0 12px 10px
-    margin: 40px 0 40px 0
-    background: #111 url('/images/footer-bg.png') repeat top left
-    text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
-  &.our-process
-    display: block
-    position: relative
-    color: #fff
-    font:
-      size: 24px
-    padding: 10px 0 12px 10px
-    margin: -80px 0 40px 0
-    background: #111 
-    text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
-    z-index: -1000
-  &.behind
-    color: #fff
-    font:
-      size: 24px
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .5)
+    
 
+
+.make
+  font:
+    size: 38px
+    weight: 400
+  text-align: center
+  color: #111
+  margin-top: 76px
+  line-height: 110%
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, .7)
+  span
+    font-weight: 600
+    display: block
+    +tc
+    margin: 5px 0 0 0
+  
+  
 span.dont
   font:
     size: 26px
@@ -258,7 +240,7 @@ span.standout2
   height: 500px
 
 .contact-form
-  background: #222
+  background: #444
   padding:  30px
   height: 420px
   width: 350px
@@ -277,11 +259,11 @@ span.standout2
   margin-left: 40px
 
 img.logo
-  width: 200px
-  height: 237px
+  width: 170px
+  height: 207px
   display: block
-  margin-top: -50px
-  margin-left: 310px
+  margin-top: -65px
+  margin-left: 195px
   margin-bottom: 0
 
 img.diagram
@@ -306,15 +288,17 @@ img.diagram
     size: 18px
     weight: 600
   color: #111
+  
 
 .title-wrapper
-  margin: 80px auto 0 auto
+  margin: 50px auto 0 auto
   z-index: 10
-  border-top: 10px solid #5D9732
-  border-bottom: 10px solid #5D9732
-  height: 130px
+  padding-top: 10px
+  border-top: 7px solid #5D9732
+  border-bottom: 7px solid #5D9732
+  height: 85px
   display: block
-  width: 900px
+  width: 600px
 
 .into-videos
   margin-top: 0
@@ -353,6 +337,49 @@ a.our-reel
   color: #5D9732
   cursor: pointer
 
+
+
+.video
+  +fl
+  +rel
+  margin-bottom: 30px
+  span
+    color: #ddd
+  .client
+    +tc
+    +abs
+    bottom: 2px
+    left: 0px
+    width: 100%
+    padding: 15px 0
+    background: rgba(1, 1, 1, .7)
+    color: #eee
+    font-size: 13px
+  a.playbutton
+    margin-left: 10px
+    padding: 6px 13px
+    +border-radius(25px)
+    +background-image(linear-gradient(rgba(93, 151, 50, .9) 20%, rgba(78, 127, 42, .9)))
+    color: #eee
+    border: 1px solid rgba(78, 127, 42, 1.0)
+    +tdnone
+    box-shadow: 1px 1px 3px rgba(1, 1, 1, .75)
+    &:hover
+      +background-image(linear-gradient(rgba(93, 151, 50, 1.0) 20%, rgba(66, 107, 35, 1.0)))
+      color: #ddd
+  img
+    border: 1px solid #444
+    border-bottom: 1px solid #222
+    box-shadow: 1px 1px 5px rgba(1, 1, 1, .5)
+    width: 455px
+    &:hover
+      border: 1px solid #222
+      border-bottom: 1px solid #222
+      box-shadow: 1px 1px 5px rgba(1, 1, 1, .75)
+  &:last-child
+    +fr
+
+
 .block-first
   float: left
   margin-right: 50px
@@ -365,40 +392,15 @@ a.our-reel
   padding-top: 50px
   border-top: 1px solid #fff
 
-.featured
-  position: relative
-  z-index: 10
-  padding: 2px
-  border: 8px solid #2B1F0D
-  background: #fff
 
-.featured:before
-  content: ""
-  display: block
-  position: absolute
-  z-index: -1
-  top: 0
-  left: 0
-  right: 0 
-  bottom: 0
-  border: 1px solid #000
 
 .footer
-  height: 50px
-  background: #222
-  border-top: 1px solid #666
-  
-.footer p
-  color: #fff
-  text-align: center
-  margin: 20px 0
-
-.footer a
-  color: #fff
-  text-decoration: none
-  text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
-
-.footer a:hover
-  color: #5D9732
-  text-decoration: none
-  text-shadow: 1px 1px 0 #2B1F0D, 2px 2px 0 #5D9732
+  p
+    text-align: center
+    margin: 20px 0
+  a
+    color: #444
+    text-decoration: none
+    &:hover
+      color: black
+      text-decoration: none
