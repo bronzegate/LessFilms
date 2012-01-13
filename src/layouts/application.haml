@@ -12,6 +12,24 @@
     %script{:src => "js/site.js", :type => "text/javascript"}
     :plain
       <script type="text/javascript">
+      adroll_adv_id = "ZUD5WNRKHJDD7LR4TTY27F";
+      adroll_pix_id = "OI4AV5VW4JGADLS6YDJMMK";
+      (function () {
+      var oldonload = window.onload;
+      window.onload = function(){
+         __adroll_loaded=true;
+         var scr = document.createElement("script");
+         var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+         scr.setAttribute('async', 'true');
+         scr.type = "text/javascript";
+         scr.src = host + "/j/roundtrip.js";
+         ((document.getElementsByTagName('head') || [null])[0] ||
+          document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+         if(oldonload){oldonload()}};
+      }());
+      </script>
+    :plain
+      <script type="text/javascript">
 
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-410495-21']);
