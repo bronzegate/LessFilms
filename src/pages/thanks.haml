@@ -1,0 +1,38 @@
+- @layout = "application"
+
+//.top-wrapper
+//  .nav
+//    %ul
+//      %li.pictos S S S S
+//      %li 
+//        %a{:href => "http://lessfilms.tumblr.com", :target => "_blank"} BLOG
+//      %li.pictos S
+//      %li 
+//        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#reel').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#reel').offset().top}, 800);"} REEL
+//      %li.pictos S
+//      %li 
+//        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#about').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#about').offset().top}, 800);"} ABOUT
+//      %li.pictos S
+//      %li 
+//        %a{:onclick => "if($.browser.opera){$('html').animate({scrollTop: $('#contact').offset().top}, 800);} else $('html,body').animate({scrollTop: $('#contact').offset().top}, 800);"} CONTACT
+//      %li.pictos S S S S
+
+#header
+.container
+  %h1.make 
+    Thanks for the contact!
+    %span
+      Now we're like best friends, right? 
+
+  
+
+#contact
+  .facebook{:style=>'margin: 0 auto;'}
+    :plain
+      <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Flessfilms&amp;width=350&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=true&amp;height=480" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:480px;" allowTransparency="true"></iframe>
+
+
+.footer
+  %p
+    Yet another project brought to you by the handsome fellows at
+    %a{:href => "http://LessEverything.com", :target => "_blank"} LessEverything.
