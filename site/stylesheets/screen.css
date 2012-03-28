@@ -66,48 +66,58 @@ blockquote, q {
 /* line 77 */
 body {
   background: #f1f1f1;
+  color: #595959;
+  font-family: Tahoma;
 }
 
-/* line 80 */
+/* line 82 */
 h2 {
   font-family: LeagueGothicRegular;
-  color: #595959;
   font-size: 45px;
 }
 
-/* line 87 */
+/* line 88 */
 .clearfix {
   clear: both;
 }
 
-/* line 90 */
+/* line 91 */
 .wrapper {
   width: 1024px;
   margin: 0 auto;
+  margin-top: 24px;
 }
 
-/* line 94 */
+/* line 97 */
 .header {
   width: 1024px;
 }
 
-/* line 97 */
+/* line 100 */
+.nav {
+  float: right;
+}
+/* line 103 */
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 106 */
+.nav ul li:last-child {
+  margin-right: 0;
+}
+/* line 108 */
+.nav ul li a {
+  text-decoration: none;
+  color: #777777;
+}
+
+/* line 112 */
 .col_left {
   float: left;
 }
 
-/* line 100 */
+/* line 115 */
 .col_right {
   float: right;
-}
-
-/* line 108 */
-h1 {
-  font-family: LeagueGothicRegular;
-  color: red;
-}
-
-/* line 112 */
-.wrapper, .col_left, .col_right {
-  border: solid black 1px;
 }

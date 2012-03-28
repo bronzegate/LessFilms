@@ -1,5 +1,8 @@
 // Global Reset -->
 
+html
+  height: 100%
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
   margin: 0
   padding: 0
@@ -76,11 +79,13 @@ $lwidth: 1024px
 
 body
   background: #F1F1F1
+  color: #595959
+  font-family: Tahoma
   
 h2
   +f-LeagueGothicRegular
-  color: #595959
-  font-size: 45px
+  font-size: 50px
+  line-height: 50px
   
 // Class Styles -->
 
@@ -90,24 +95,42 @@ h2
 .wrapper
   width: $lwidth
   +centered
+  margin-top: 24px
+    
   
 .header 
   width: $lwidth
   
+.nav
+  +fr
+  ul
+    li
+      display: inline-block
+      margin-right: 20px
+      &:last-child
+        margin-right: 0
+      a
+        text-decoration: none
+        color: #777
+        &:hover
+          //text-decoration: underline
+          // -- or --
+          //&:after
+          //  content: "*"
+          //  margin-right: -9px
+  
 .col_left
   +fl
+  width: 485px
   
 .col_right
   +fr
-  
-//img.logo
-//  +fl
 
-// Testing -->
-
-h1
-  +f-LeagueGothicRegular
-  color: red
+  width: 539px
+  height: 500px
   
-.wrapper, .col_left, .col_right
-  border: solid black 1px
+
+// Home Styles -->
+
+h2.home_headline
+  margin: 75px 0 42px 0

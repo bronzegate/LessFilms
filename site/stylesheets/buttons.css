@@ -1,0 +1,60 @@
+/* Button */
+/* line 3 */
+.button {
+  text-align: center;
+  display: inline-block;
+  width: 81px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  font-size: 1em;
+}
+/* line 11 */
+.button:hover {
+  cursor: pointer;
+}
+
+/* line 14 */
+a.button {
+  text-decoration: none;
+}
+
+/* Color Definitions */
+/* line 26 */
+.main_hire {
+  /* Fallback Solid Color */
+  background: #f7f7f7;
+  /* Gradients */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fafafa), to(#e1e1e1));
+  /* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-linear-gradient(top, #fafafa, #e1e1e1);
+  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -moz-linear-gradient(top, #fafafa, #e1e1e1);
+  /* Firefox 3.6+ */
+  background-image: -ms-linear-gradient(top, #fafafa, #e1e1e1);
+  /* IE 10+ */
+  background-image: -o-linear-gradient(top, #fafafa, #e1e1e1);
+  /* Opera 11.10+ */
+  /* Shadows */
+  box-shadow: 0 -1px 0 #d0d0d0, 1px 0 0 #d0d0d0, 0 1px 0 white, 0 3px 2px #d0d0d0, -1px 0 0 #d0d0d0;
+  /* Text Color */
+  text-shadow: 0 1px 0 white;
+}
+/* line 47 */
+.main_hire:active {
+  /* Gradients */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1e1e1), to(#fafafa));
+  /* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-linear-gradient(top, #e1e1e1, #fafafa);
+  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -moz-linear-gradient(top, #e1e1e1, #fafafa);
+  /* Firefox 3.6+ */
+  background-image: -ms-linear-gradient(top, #e1e1e1, #fafafa);
+  /* IE 10+ */
+  background-image: -o-linear-gradient(top, #e1e1e1, #fafafa);
+  /* Opera 11.10+ */
+  box-shadow: 0 -1px 0 #d0d0d0, 1px 0 0 #d0d0d0, 0 1px 0 white, 0 3px 2px #d0d0d0, -1px 0 0 #d0d0d0;
+  /* Shadows */
+  /* Text Color */
+  text-shadow: 0 1px 0 white;
+}
