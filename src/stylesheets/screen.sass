@@ -1,8 +1,5 @@
 // Global Reset -->
 
-html
-  height: 100%
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
   margin: 0
   padding: 0
@@ -65,7 +62,9 @@ $f-LeagueGothicRegular: LeagueGothicRegular
 = centered
   margin: 0 auto
   
-// SASS Variables and Mixins
+// SASS Variables and Mixins -->
+
+$footer_height: 150px
   
 $lwidth: 1024px
 
@@ -76,6 +75,9 @@ $lwidth: 1024px
   float: right
   
 // Element Styles -->
+
+html, body
+  height: 100%
 
 body
   background: #F1F1F1
@@ -96,6 +98,7 @@ h2
   width: $lwidth
   +centered
   margin-top: 24px
+  min-height: 100%
     
   
 .header 
@@ -118,19 +121,48 @@ h2
           //&:after
           //  content: "*"
           //  margin-right: -9px
-  
-.col_left
-  +fl
-  width: 485px
-  
-.col_right
-  +fr
+          
 
-  width: 539px
-  height: 500px
+
+.content
+  overflow: auto
+  padding-bottom: 0 0 $footer_height 0
   
+.footer
+  background: #fff
+  color: #CACACA
+  font-size: 12px
+  text-align: center
+  position: relative
+  margin: -$footer_height auto 0 auto
+  height: $footer_height
+  clear: both
+  hr
+    padding: 5px 0 0 0
+    margin: 0 0 25px 0
+    border-width: 0
+    border-bottom: dashed 1px #CACACA
+.footer_cells
+  +centered
+  margin-top: 10px
+  width: 300px
+  p
+    display: inline-block
+    +fl
+    text-align: left
+    &:first-child
+      width: 190px
+    &:last-child
+      width: 110px
+  img
+    +fl
+    padding: 15px 10px 0 10px
 
 // Home Styles -->
+
+.home_col
+  +fl
+  width: 485px
 
 h2.home_headline
   margin: 75px 0 42px 0
@@ -139,5 +171,6 @@ h2.home_headline
   background: url('../images/lucha_home_large.png') no-repeat top center
   +centered
   min-width: 1024px
-  min-height: 772px
+  min-height: 837px
   height: auto
+  margin: 0 0 $footer_height 0
