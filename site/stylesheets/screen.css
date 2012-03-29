@@ -1,9 +1,4 @@
 /* line 3 */
-html {
-  height: 100%;
-}
-
-/* line 6 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -16,46 +11,46 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-/* line 19 */
+/* line 16 */
 :focus {
   outline: 0;
 }
 
-/* line 22 */
+/* line 19 */
 body {
   line-height: 1.5;
   color: black;
   background: white;
 }
 
-/* line 27 */
+/* line 24 */
 ol, ul {
   list-style: none;
 }
 
-/* line 32 */
+/* line 29 */
 table {
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* line 36 */
+/* line 33 */
 caption, th, td {
   text-align: left;
   font-weight: normal;
 }
 
-/* line 41 */
+/* line 38 */
 blockquote:before, blockquote:after {
   content: "";
 }
 
-/* line 45 */
+/* line 42 */
 q:before, q:after {
   content: "";
 }
 
-/* line 48 */
+/* line 45 */
 blockquote, q {
   quotes: "" "";
 }
@@ -68,14 +63,19 @@ blockquote, q {
   font-style: normal;
 }
 
-/* line 80 */
+/* line 79 */
+html, body {
+  height: 100%;
+}
+
+/* line 82 */
 body {
   background: #f1f1f1;
   color: #595959;
   font-family: Tahoma;
 }
 
-/* line 85 */
+/* line 87 */
 h2 {
   font-family: LeagueGothicRegular;
   font-size: 50px;
@@ -83,64 +83,120 @@ h2 {
 }
 
 /* line 92 */
+a {
+  color: #3f94cd;
+  text-decoration: none;
+}
+/* line 95 */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 100 */
 .clearfix {
   clear: both;
 }
 
-/* line 95 */
+/* line 103 */
 .wrapper {
   width: 1024px;
   margin: 0 auto;
   margin-top: 24px;
+  min-height: 100%;
 }
 
-/* line 101 */
+/* line 110 */
 .header {
   width: 1024px;
 }
 
-/* line 104 */
+/* line 113 */
 .nav {
   float: right;
 }
-/* line 107 */
+/* line 116 */
 .nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 110 */
+/* line 119 */
 .nav ul li:last-child {
   margin-right: 0;
 }
-/* line 112 */
+/* line 121 */
 .nav ul li a {
   text-decoration: none;
   color: #666666;
 }
 
-/* line 122 */
-.col_left {
+/* line 133 */
+.content {
+  overflow: auto;
+  padding-bottom: 0 0 150px 0;
+}
+
+/* line 137 */
+.footer {
+  background: white;
+  color: #cacaca;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  margin: -150px auto 0 auto;
+  height: 150px;
+  clear: both;
+}
+/* line 146 */
+.footer hr {
+  padding: 5px 0 0 0;
+  margin: 0 0 25px 0;
+  border-width: 0;
+  border-bottom: dashed 1px #cacaca;
+}
+
+/* line 151 */
+.footer_cells {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 300px;
+}
+/* line 155 */
+.footer_cells p {
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+/* line 159 */
+.footer_cells p:first-child {
+  width: 190px;
+}
+/* line 161 */
+.footer_cells p:last-child {
+  width: 110px;
+}
+/* line 163 */
+.footer_cells img {
+  float: left;
+  padding: 15px 10px 0 10px;
+}
+
+/* line 169 */
+.home_col {
   float: left;
   width: 485px;
 }
 
-/* line 126 */
-.col_right {
-  float: right;
-  width: 539px;
-  height: 500px;
-}
-
-/* line 135 */
+/* line 173 */
 h2.home_headline {
   margin: 75px 0 42px 0;
 }
 
-/* line 138 */
+/* line 176 */
 .lucha_home {
   background: url("../images/lucha_home_large.png") no-repeat top center;
   margin: 0 auto;
   min-width: 1024px;
-  min-height: 772px;
+  min-height: 837px;
   height: auto;
+  margin: 0 0 150px 0;
 }

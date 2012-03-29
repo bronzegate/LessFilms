@@ -2,8 +2,14 @@
 <html>
   <head>
     <title>LessFilms</title>
+    <!-- Remote JQuery library disabled temporarily so local testing will work properly -->
+    <!-- %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"} -->
+    <!-- Upon final deployment, remove below included file in favor of remote JQuery library -->
+    <script language="javascript" src="javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
     <link href='stylesheets/screen.css' rel='stylesheet' type='text/css' />
     <link href='stylesheets/buttons.css' rel='stylesheet' type='text/css' />
+    <link href='stylesheets/prettyPhoto.css' rel='stylesheet' type='text/css' />
   </head>
   <body>
     <div class='lucha_home'>
@@ -27,17 +33,34 @@
             </ul>
           </div>
         </div>
-        <div class='col_left'>
-          <h2 class='home_headline'>WE PRODUCE BEAUTIFUL FILMS WITH A LOTTA' ATTITUDE...GRRRR!!!</h2>
-          <p>
-            From the chubby guys at LessEverything, we present LessFilms. We shoot, edit and produce slammin' to chic videos for your product or service! See below or more videos.
-          </p>
-        </div>
-        <div class='col_right'>
-          <!-- %img{:class => "lucha_home", :src => "images/lucha_home.png"} -->
+        <div class='content'>
+          <div class='home_col'>
+            <h2 class='home_headline'>WE PRODUCE BEAUTIFUL FILMS WITH A LOTTA' ATTITUDE...GRRRR!!!</h2>
+            <p>
+              From the chubby guys at LessEverything, we present LessFilms. We shoot, edit and produce slammin' to chic videos for your product or service! See below or <a href="http://www.youtube.com/watch?v=z0haHu8oSuM" rel="prettyPhoto">more videos</a>.
+            </p>
+          </div>
         </div>
         <div class='clearfix'></div>
       </div>
     </div>
+    <div class='footer'>
+      <hr />
+      &copy; 2012 LessFilms. All rights reserved.
+      <div class='footer_cells'>
+        <p>
+          LessFIlms is another project brought to you by the handsome fellows of LessEverything.
+        </p>
+        <p>
+          <img alt="Copy logo" src="images/copy_logo.png"/>
+        </p>
+      </div>
+    </div>
+    <!-- PrettyPhoto Activation -->
+    <script charset='utf-8' type='text/javascript'>
+      $(document).ready(function(){
+      $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
+      });
+    </script>
   </body>
 </html>
