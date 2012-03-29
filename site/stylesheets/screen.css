@@ -1,4 +1,9 @@
 /* line 3 */
+html {
+  height: 100%;
+}
+
+/* line 6 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -11,46 +16,46 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-/* line 16 */
+/* line 19 */
 :focus {
   outline: 0;
 }
 
-/* line 19 */
+/* line 22 */
 body {
   line-height: 1.5;
   color: black;
   background: white;
 }
 
-/* line 24 */
+/* line 27 */
 ol, ul {
   list-style: none;
 }
 
-/* line 29 */
+/* line 32 */
 table {
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* line 33 */
+/* line 36 */
 caption, th, td {
   text-align: left;
   font-weight: normal;
 }
 
-/* line 38 */
+/* line 41 */
 blockquote:before, blockquote:after {
   content: "";
 }
 
-/* line 42 */
+/* line 45 */
 q:before, q:after {
   content: "";
 }
 
-/* line 45 */
+/* line 48 */
 blockquote, q {
   quotes: "" "";
 }
@@ -63,61 +68,79 @@ blockquote, q {
   font-style: normal;
 }
 
-/* line 77 */
+/* line 80 */
 body {
   background: #f1f1f1;
   color: #595959;
   font-family: Tahoma;
 }
 
-/* line 82 */
+/* line 85 */
 h2 {
   font-family: LeagueGothicRegular;
-  font-size: 45px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
-/* line 88 */
+/* line 92 */
 .clearfix {
   clear: both;
 }
 
-/* line 91 */
+/* line 95 */
 .wrapper {
   width: 1024px;
   margin: 0 auto;
   margin-top: 24px;
 }
 
-/* line 97 */
+/* line 101 */
 .header {
   width: 1024px;
 }
 
-/* line 100 */
+/* line 104 */
 .nav {
   float: right;
 }
-/* line 103 */
+/* line 107 */
 .nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 106 */
+/* line 110 */
 .nav ul li:last-child {
   margin-right: 0;
 }
-/* line 108 */
+/* line 112 */
 .nav ul li a {
   text-decoration: none;
-  color: #777777;
+  color: #666666;
 }
 
-/* line 112 */
+/* line 122 */
 .col_left {
   float: left;
+  width: 485px;
 }
 
-/* line 115 */
+/* line 126 */
 .col_right {
   float: right;
+  width: 539px;
+  height: 500px;
+}
+
+/* line 135 */
+h2.home_headline {
+  margin: 75px 0 42px 0;
+}
+
+/* line 138 */
+.lucha_home {
+  background: url("../images/lucha_home_large.png") no-repeat top center;
+  margin: 0 auto;
+  min-width: 1024px;
+  min-height: 772px;
+  height: auto;
 }

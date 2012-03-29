@@ -1,6 +1,6 @@
 /* Button */
 /* line 3 */
-.button {
+.main_hire_button {
   text-align: center;
   display: inline-block;
   width: 81px;
@@ -10,18 +10,13 @@
   font-size: 1em;
 }
 /* line 11 */
-.button:hover {
+.main_hire_button:hover {
   cursor: pointer;
-}
-
-/* line 14 */
-a.button {
-  text-decoration: none;
 }
 
 /* Color Definitions */
 /* line 26 */
-.main_hire {
+.main_hire_colors {
   /* Fallback Solid Color */
   background: #f7f7f7;
   /* Gradients */
@@ -41,7 +36,7 @@ a.button {
   text-shadow: 0 1px 0 white;
 }
 /* line 47 */
-.main_hire:active {
+.main_hire_colors:active {
   /* Gradients */
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1e1e1), to(#fafafa));
   /* Safari 4+, Chrome 1-9 */
