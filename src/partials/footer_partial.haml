@@ -1,0 +1,14 @@
+.footer
+  %hr
+  &copy; 2012 LessFilms. All rights reserved.
+  .footer_cells
+    %p
+      LessFIlms is another project brought to you by the handsome fellows of LessEverything.
+    %p
+      = img "copy_logo.png"
+
+/ PrettyPhoto Activation
+%script{:charset => "utf-8", :type => "text/javascript"}
+  $(document).ready(function(){
+  $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
+  });

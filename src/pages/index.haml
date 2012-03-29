@@ -1,34 +1,9 @@
 .lucha_home
   .wrapper
-    .header
-      = img "logo.png"
-      .nav
-        %ul
-          %li 
-            %a{:href => "#"} Videos
-          %li 
-            %a{:href => "#"} Process
-          %li 
-            %a{:href => "#"} About
-          %li 
-            %a{:href => "#", :class => "main_hire_button main_hire_colors"} Hire Us
+    = partial('header_partial')
     .content
       .home_col
         %h2{:class => "home_headline"} WE PRODUCE BEAUTIFUL FILMS WITH A LOTTA' ATTITUDE...GRRRR!!!
         %p
           From the chubby guys at LessEverything, we present LessFilms. We shoot, edit and produce slammin' to chic videos for your product or service! See below or <a href="http://www.youtube.com/watch?v=z0haHu8oSuM" rel="prettyPhoto">more videos</a>.
     .clearfix
-.footer
-  %hr
-  &copy; 2012 LessFilms. All rights reserved.
-  .footer_cells
-    %p
-      LessFIlms is another project brought to you by the handsome fellows of LessEverything.
-    %p
-      = img "copy_logo.png"
-
-/ PrettyPhoto Activation
-%script{:charset => "utf-8", :type => "text/javascript"}
-  $(document).ready(function(){
-  $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
-  });
