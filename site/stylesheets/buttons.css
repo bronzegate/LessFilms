@@ -1,4 +1,4 @@
-/* Button */
+/* Main Hire Button */
 /* line 3 */
 .main_hire_button {
   text-align: center;
@@ -52,4 +52,74 @@
   /* Shadows */
   /* Text Color */
   text-shadow: 0 1px 0 white;
+}
+
+/* Home Lg Hire Button */
+@font-face {
+  font-family: "SignikaSemibold";
+  src: url("Signika-Semibold-webfont.eot");
+  src: url("Signika-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Signika-Semibold-webfont.woff") format("woff"), url("../fonts/Signika-Semibold-webfont.ttf") format("truetype"), url("../fonts/Signika-Semibold-webfont.svg#SignikaSemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 79 */
+.home_lg_hire {
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 3px;
+  font-size: 25px;
+}
+/* line 87 */
+.home_lg_hire:hover {
+  cursor: pointer;
+}
+
+/* line 90 */
+a.home_lg_hire {
+  font-family: SignikaSemibold;
+  text-decoration: none;
+}
+
+/* Color Definitions */
+/* line 103 */
+.home_lg_hire_colors {
+  /* Fallback Solid Color */
+  background: #75b654;
+  /* Gradients */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#86cb52), to(#65a355));
+  /* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-linear-gradient(top, #86cb52, #65a355);
+  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -moz-linear-gradient(top, #86cb52, #65a355);
+  /* Firefox 3.6+ */
+  background-image: -ms-linear-gradient(top, #86cb52, #65a355);
+  /* IE 10+ */
+  background-image: -o-linear-gradient(top, #86cb52, #65a355);
+  /* Opera 11.10+ */
+  /* Shadows */
+  box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #777777;
+  border-right: solid 1px #5ea14d;
+  border-left: solid 1px #5ea14d;
+  /* Text Color */
+  color: white;
+  text-shadow: 0 -1px 0 #5b7745;
+}
+/* line 126 */
+.home_lg_hire_colors:active {
+  /* Gradients */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#65a355), to(#86cb52));
+  /* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-linear-gradient(top, #65a355, #86cb52);
+  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -moz-linear-gradient(top, #65a355, #86cb52);
+  /* Firefox 3.6+ */
+  background-image: -ms-linear-gradient(top, #65a355, #86cb52);
+  /* IE 10+ */
+  background-image: -o-linear-gradient(top, #65a355, #86cb52);
+  /* Opera 11.10+ */
+  /* box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0 */
 }
