@@ -1,0 +1,56 @@
+/* line 3 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 16 */
+:focus {
+  outline: 0;
+}
+
+/* line 19 */
+body {
+  line-height: 1.5;
+  color: black;
+  background: white;
+}
+
+/* line 24 */
+ol, ul {
+  list-style: none;
+}
+
+/* line 29 */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 33 */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 38 */
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 42 */
+q:before, q:after {
+  content: "";
+}
+
+/* line 45 */
+blockquote, q {
+  quotes: "" "";
+}
