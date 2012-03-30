@@ -48,6 +48,7 @@ a
   +centered
   margin-top: 24px
   min-height: 100%
+  text-align: center
     
   
 .header 
@@ -84,7 +85,8 @@ a
   font-size: 12px
   text-align: center
   position: relative
-  margin: -$footer_height auto 0 auto
+  //margin: -$footer_height auto 0 auto
+  margin: 0 auto
   height: $footer_height
   clear: both
   hr
@@ -151,8 +153,55 @@ h1.home_headline
   min-width: 1024px
   min-height: 837px
   height: auto
-  margin: 0 0 $footer_height 0
+  //margin: 0 0 $footer_height 0
   
 .hire_us_lg
   clear: both
   padding: 45px 1px 5px 1px
+  
+// Process Styles -->
+
+.process_col
+  text-align: center
+  
+h1.process_headline
+  pointer-events: none
+  line-height: inherit
+  position: relative
+  margin: 0 auto -40px auto
+  top: -100px
+
+.before_after
+  img
+    pointer-events: none
+    position: absolute
+    margin: -16px 0 0 0
+  .top
+    +tc
+    background: #fff
+    height: 307px
+    h1
+      +LeagueGothicRegular(100px, 400, #6FAA44)
+      line-height: 100px
+      padding: 25px 0 0 0
+    h3
+      +SignikaSemibold(20px, 600, #6FAA44)
+      padding: 20px 0 10px 0
+      line-height: 20px
+    .feature_list
+      width: 260px
+      +centered
+      +SignikaLight(15px, 400, #333)
+  .bottom
+    background: #333
+    height: 87px
+  .left
+    +fl
+    text-align: left
+  .right
+    +fr
+    text-align: left
+  .mid
+    +centered
+    text-align: center
+    

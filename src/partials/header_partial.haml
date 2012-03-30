@@ -1,11 +1,11 @@
 .header
-  = img "logo.png"
+  = link img("logo.png"), "index" 
   .nav
     %ul
       %li 
         %a{:href => "#"} Videos
       %li 
-        %a{:href => "#"} Process
+        = link "Process"
       %li 
         %a{:href => "#"} About
       %li 

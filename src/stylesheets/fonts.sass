@@ -1,4 +1,4 @@
-// LeagueGothic -->
+// LeagueGothicRegular -->
 
 @font-face
   font-family: 'LeagueGothicRegular'
@@ -24,6 +24,29 @@
    
 =SignikaSemibold($font_size :18px, $weight :400, $color: #333)
   font-family: "SignikaSemibold"
+  font-size: $font_size
+  font-weight: $weight
+  color: $color
+  
+// SignikaLight -->
+
+@font-face
+  font-family: 'SignikaLight'
+  src: url('Signika-Light-webfont.eot')
+  src: url('Signika-Light-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/Signika-Light-webfont.woff') format("woff"), url('../fonts/Signika-Light-webfont.ttf') format("truetype"), url('../fonts/Signika-Light-webfont.svg#SignikaLight') format("svg")
+  font-weight: normal
+  font-style: normal
+
+=SignikaLight($font_size :18px, $weight :400, $color: #333)
+  font-family: "SignikaLight"
+  font-size: $font_size
+  font-weight: $weight
+  color: $color
+  
+// Tahoma -->
+
+=Tahoma($font_size :18px, $weight :400, $color: #333)
+  font-family: "Tahoma"
   font-size: $font_size
   font-weight: $weight
   color: $color

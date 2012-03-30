@@ -91,7 +91,7 @@ a.home_lg_hire {
   font-family: "SignikaSemibold";
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: #bfea9d;
   text-decoration: none;
 }
 
@@ -115,11 +115,13 @@ a.home_lg_hire {
   box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #777777;
   border-right: solid 1px #5ea14d;
   border-left: solid 1px #5ea14d;
-  /* Text Color */
-  color: white;
   text-shadow: 0 -1px 0 #5b7745;
 }
-/* line 116 */
+/* line 112 */
+.home_lg_hire_colors:hover {
+  color: white;
+}
+/* line 114 */
 .home_lg_hire_colors:active {
   /* Gradients */
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#65a355), to(#86cb52));

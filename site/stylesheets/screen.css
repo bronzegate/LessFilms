@@ -236,27 +236,29 @@ body {
 
 /* line 31 */
 h1 {
-  font-family: LeagueGothicRegular;
+  font-family: "LeagueGothicRegular";
   font-size: 50px;
+  font-weight: 400;
+  color: #595959;
   line-height: 50px;
 }
 
-/* line 36 */
+/* line 35 */
 a {
   color: #3f94cd;
   text-decoration: none;
 }
-/* line 39 */
+/* line 38 */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 44 */
+/* line 43 */
 .clearfix {
   clear: both;
 }
 
-/* line 47 */
+/* line 46 */
 .wrapper {
   width: 1024px;
   margin: 0 auto;
@@ -264,28 +266,32 @@ a:hover {
   min-height: 100%;
 }
 
-/* line 54 */
+/* line 53 */
 .header {
   width: 1024px;
 }
 
-/* line 57 */
+/* line 56 */
 .nav {
   float: right;
 }
-/* line 60 */
+/* line 59 */
 .nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 63 */
+/* line 62 */
 .nav ul li:last-child {
   margin-right: 0;
 }
-/* line 65 */
+/* line 64 */
 .nav ul li a {
   text-decoration: none;
   color: #666666;
+}
+/* line 67 */
+.nav ul li a:hover {
+  color: #999999;
 }
 
 /* line 77 */
