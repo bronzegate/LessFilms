@@ -189,19 +189,32 @@ h1.process_headline
       padding: 20px 0 10px 0
       line-height: 20px
     .feature_list
-      width: 260px
+      width: 250px
       +centered
       +SignikaLight(15px, 400, #333)
+      ul
+        li
+          &:before
+            color: #6FAA44
+            content: "\2713"
+            +bold
+            margin: 0 8px 0 0
   .bottom
+    overflow: hidden
     background: #333
     height: 87px
-  .left
-    +fl
-    text-align: left
-  .right
-    +fr
-    text-align: left
-  .mid
-    +centered
-    text-align: center
-    
+    h2
+      +SignikaSemibold(25px, 400, #fff)
+      line-height: 87px
+      &.left
+        +fl
+        margin: 0 0 0 45px
+      &.right
+        +fr
+        margin: 0 45px 0 0
+    .mid
+      +centered
+      text-align: center     
+      width: 300px
+      height: 55px
+      margin-top: 16px

@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>LessFilms</title>
+    <!-- Remote JQuery library disabled temporarily so local testing will work properly -->
+    <!-- %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"} -->
+    <!-- Upon final deployment, remove below included file in favor of remote JQuery library -->
+    <script language="javascript" src="javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <link href='stylesheets/screen.css' rel='stylesheet' type='text/css' />
+    <link href='stylesheets/buttons.css' rel='stylesheet' type='text/css' />
+    <link href='stylesheets/prettyPhoto.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div class='wrapper'>
+      <div class='header'>
+        <a href="index"><img alt="Logo" src="images/logo.png"/></a>
+        <div class='nav'>
+          <ul>
+            <li>
+              <a href='#'>Videos</a>
+            </li>
+            <li>
+              <a href="process.html">Process</a>
+            </li>
+            <li>
+              <a href='#'>About</a>
+            </li>
+            <li>
+              <a class='main_hire_button main_hire_colors' href='#'>Hire Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1 class='process_headline'>INSANE PROCESS OF VIDEO PRODUCTION</h1>
+      <div class='content'>
+        <div class='process_col'>
+          <div class='before_after'>
+            <img alt="Lucha before after" src="images/lucha_before_after.png"/>
+            <div class='top'>
+              <h1>LETS GET IT ON!</h1>
+              <h3>Features of our Video Process</h3>
+              <div class='feature_list'>
+                <ul>
+                  <li>We discuss your product in detail</li>
+                  <li>You pay us to deliver a great video</li>
+                  <li>We'll shoot you an awesome video</li>
+                  <li>Your sales will go way up</li>
+                </ul>
+              </div>
+            </div>
+            <div class='bottom'>
+              <h2 class='left'>Before LessFilms....</h2>
+              <h2 class='right'>...and OMG, freakin after!</h2>
+              <div class='mid'>
+                <a class='process_lg_hire process_lg_hire_colors' href='#'>Hire Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='footer'>
+      <hr />
+      &copy; 2012 LessFilms. All rights reserved.
+      <div class='footer_cells'>
+        <p>
+          LessFIlms is another project brought to you by the handsome fellows of LessEverything.
+        </p>
+        <p>
+          <img alt="Copy logo" src="images/copy_logo.png"/>
+        </p>
+      </div>
+    </div>
+    <!-- PrettyPhoto Activation -->
+    <script charset='utf-8' type='text/javascript'>
+      $(document).ready(function(){
+      $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
+      });
+    </script>
+  </body>
+</html>

@@ -14,6 +14,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "SignikaLight";
+  src: url("Signika-Light-webfont.eot");
+  src: url("Signika-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Signika-Light-webfont.woff") format("woff"), url("../fonts/Signika-Light-webfont.ttf") format("truetype"), url("../fonts/Signika-Light-webfont.svg#SignikaLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* line 3, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
@@ -264,54 +272,55 @@ a:hover {
   margin: 0 auto;
   margin-top: 24px;
   min-height: 100%;
+  text-align: center;
 }
 
-/* line 53 */
+/* line 54 */
 .header {
   width: 1024px;
 }
 
-/* line 56 */
+/* line 57 */
 .nav {
   float: right;
 }
-/* line 59 */
+/* line 60 */
 .nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 62 */
+/* line 63 */
 .nav ul li:last-child {
   margin-right: 0;
 }
-/* line 64 */
+/* line 65 */
 .nav ul li a {
   text-decoration: none;
   color: #666666;
 }
-/* line 67 */
+/* line 68 */
 .nav ul li a:hover {
   color: #999999;
 }
 
-/* line 77 */
+/* line 78 */
 .content {
   overflow: auto;
   padding-bottom: 0 0 150px 0;
 }
 
-/* line 81 */
+/* line 82 */
 .footer {
   background: white;
   color: #cacaca;
   font-size: 12px;
   text-align: center;
   position: relative;
-  margin: -150px auto 0 auto;
+  margin: 0 auto;
   height: 150px;
   clear: both;
 }
-/* line 90 */
+/* line 92 */
 .footer hr {
   padding: 5px 0 0 0;
   margin: 0 0 25px 0;
@@ -319,39 +328,39 @@ a:hover {
   border-bottom: dashed 1px #cacaca;
 }
 
-/* line 95 */
+/* line 97 */
 .footer_cells {
   margin: 0 auto;
   margin-top: 10px;
   width: 300px;
 }
-/* line 99 */
+/* line 101 */
 .footer_cells p {
   display: inline-block;
   float: left;
   text-align: left;
 }
-/* line 103 */
+/* line 105 */
 .footer_cells p:first-child {
   width: 190px;
 }
-/* line 105 */
+/* line 107 */
 .footer_cells p:last-child {
   width: 110px;
 }
-/* line 107 */
+/* line 109 */
 .footer_cells img {
   float: left;
   padding: 15px 10px 0 10px;
 }
 
-/* line 113 */
+/* line 115 */
 .video_sm {
   float: left;
   display: inline-block;
   margin: 25px 20px 0 0;
 }
-/* line 117 */
+/* line 119 */
 .video_sm .video_sm_top {
   display: block;
   background: #505050;
@@ -362,7 +371,7 @@ a:hover {
   margin: 0 0 0 1px;
   overflow: hidden;
 }
-/* line 126 */
+/* line 128 */
 .video_sm .video_sm_bottom {
   font-size: 13px;
   display: block;
@@ -374,34 +383,126 @@ a:hover {
   box-shadow: 0 2px 2px #d0d0d0, 1px 0 1px #d0d0d0, -1px 0 2px #d0d0d0;
   margin: 0 0 10px 1px;
 }
-/* line 136 */
+/* line 138 */
 .video_sm:first-child {
   margin-right: 20px;
 }
 
-/* line 141 */
+/* line 143 */
 .home_col {
   float: left;
   width: 485px;
 }
 
-/* line 145 */
+/* line 147 */
 h1.home_headline {
   margin: 75px 0 42px 0;
 }
 
-/* line 148 */
+/* line 150 */
 .lucha_home {
   background: url("../images/lucha_home_large.png") no-repeat top center;
   margin: 0 auto;
   min-width: 1024px;
   min-height: 837px;
   height: auto;
-  margin: 0 0 150px 0;
 }
 
-/* line 156 */
+/* line 158 */
 .hire_us_lg {
   clear: both;
   padding: 45px 1px 5px 1px;
+}
+
+/* line 164 */
+.process_col {
+  text-align: center;
+}
+
+/* line 167 */
+h1.process_headline {
+  pointer-events: none;
+  line-height: inherit;
+  position: relative;
+  margin: 0 auto -40px auto;
+  top: -100px;
+}
+
+/* line 175 */
+.before_after img {
+  pointer-events: none;
+  position: absolute;
+  margin: -16px 0 0 0;
+}
+/* line 179 */
+.before_after .top {
+  text-align: center;
+  background: white;
+  height: 307px;
+}
+/* line 183 */
+.before_after .top h1 {
+  font-family: "LeagueGothicRegular";
+  font-size: 100px;
+  font-weight: 400;
+  color: #6faa44;
+  line-height: 100px;
+  padding: 25px 0 0 0;
+}
+/* line 187 */
+.before_after .top h3 {
+  font-family: "SignikaSemibold";
+  font-size: 20px;
+  font-weight: 600;
+  color: #6faa44;
+  padding: 20px 0 10px 0;
+  line-height: 20px;
+}
+/* line 191 */
+.before_after .top .feature_list {
+  width: 250px;
+  margin: 0 auto;
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #333333;
+}
+/* line 197 */
+.before_after .top .feature_list ul li:before {
+  color: #6faa44;
+  content: "\2713";
+  font-weight: bold;
+  margin: 0 8px 0 0;
+}
+/* line 202 */
+.before_after .bottom {
+  overflow: hidden;
+  background: #333333;
+  height: 87px;
+}
+/* line 206 */
+.before_after .bottom h2 {
+  font-family: "SignikaSemibold";
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  line-height: 87px;
+}
+/* line 209 */
+.before_after .bottom h2.left {
+  float: left;
+  margin: 0 0 0 45px;
+}
+/* line 212 */
+.before_after .bottom h2.right {
+  float: right;
+  margin: 0 45px 0 0;
+}
+/* line 215 */
+.before_after .bottom .mid {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 55px;
+  margin-top: 16px;
 }
