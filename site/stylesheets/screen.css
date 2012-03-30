@@ -436,11 +436,12 @@ h1.process_headline {
 }
 /* line 179 */
 .before_after .top {
+  border-radius: 3px 3px 0 0;
   text-align: center;
   background: white;
   height: 307px;
 }
-/* line 183 */
+/* line 184 */
 .before_after .top h1 {
   font-family: "LeagueGothicRegular";
   font-size: 100px;
@@ -449,7 +450,7 @@ h1.process_headline {
   line-height: 100px;
   padding: 25px 0 0 0;
 }
-/* line 187 */
+/* line 188 */
 .before_after .top h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -458,7 +459,7 @@ h1.process_headline {
   padding: 20px 0 10px 0;
   line-height: 20px;
 }
-/* line 191 */
+/* line 192 */
 .before_after .top .feature_list {
   width: 250px;
   margin: 0 auto;
@@ -467,20 +468,21 @@ h1.process_headline {
   font-weight: 400;
   color: #333333;
 }
-/* line 197 */
+/* line 198 */
 .before_after .top .feature_list ul li:before {
   color: #6faa44;
   content: "\2713";
   font-weight: bold;
   margin: 0 8px 0 0;
 }
-/* line 202 */
+/* line 203 */
 .before_after .bottom {
+  border-radius: 0 0 3px 3px;
   overflow: hidden;
   background: #333333;
   height: 87px;
 }
-/* line 206 */
+/* line 208 */
 .before_after .bottom h2 {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -488,21 +490,65 @@ h1.process_headline {
   color: white;
   line-height: 87px;
 }
-/* line 209 */
+/* line 211 */
 .before_after .bottom h2.left {
   float: left;
   margin: 0 0 0 45px;
 }
-/* line 212 */
+/* line 214 */
 .before_after .bottom h2.right {
   float: right;
   margin: 0 45px 0 0;
 }
-/* line 215 */
+/* line 217 */
 .before_after .bottom .mid {
   margin: 0 auto;
   text-align: center;
   width: 300px;
   height: 55px;
   margin-top: 16px;
+}
+
+/* line 224 */
+.process_item {
+  float: left;
+  width: 225px;
+  display: inline-block;
+  text-align: center;
+  margin: 80px 40px 40px 0;
+}
+/* line 230 */
+.process_item:last-child {
+  margin-right: 0;
+}
+/* line 232 */
+.process_item h3 {
+  font-family: "SignikaSemibold";
+  font-size: 20px;
+  font-weight: 400;
+  color: #6faa44;
+  display: inline-block;
+  float: left;
+  margin-top: 15px;
+}
+/* line 237 */
+.process_item h3.step_num {
+  color: white;
+  background: #6faa44;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  margin-right: 10px;
+}
+/* line 245 */
+.process_item p {
+  text-align: left;
+  clear: both;
+  padding: 15px 0 0 0;
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 25px;
 }
