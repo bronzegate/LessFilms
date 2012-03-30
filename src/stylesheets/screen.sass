@@ -177,6 +177,7 @@ h1.process_headline
     position: absolute
     margin: -16px 0 0 0
   .top
+    border-radius: 3px 3px 0 0
     +tc
     background: #fff
     height: 307px
@@ -200,6 +201,7 @@ h1.process_headline
             +bold
             margin: 0 8px 0 0
   .bottom
+    border-radius: 0 0 3px 3px
     overflow: hidden
     background: #333
     height: 87px
@@ -218,3 +220,31 @@ h1.process_headline
       width: 300px
       height: 55px
       margin-top: 16px
+      
+.process_item
+  +fl
+  width: 225px
+  display: inline-block
+  +tc
+  margin: 80px 40px 40px 0
+  &:last-child
+    margin-right: 0
+  h3
+    +SignikaSemibold(20px, 400, #6FAA44)
+    display: inline-block
+    +fl
+    margin-top: 15px
+  h3.step_num
+    color: #fff
+    background: #6FAA44
+    width: 32px
+    height: 32px
+    line-height: 32px
+    border-radius: 32px
+    margin-right: 10px
+  p
+    +tl
+    clear: both
+    padding: 15px 0 0 0
+    +SignikaLight(15px, 400, #838383)
+    line-height: 25px
