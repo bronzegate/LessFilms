@@ -1,5 +1,7 @@
+@import compass
 @import fonts
 @import global_reset
+@import partials/utils
 
 // SASS Variables and Mixins -->
 
@@ -26,9 +28,8 @@ body
   color: #595959
   font-family: Tahoma
   
-h2
-  +f-LeagueGothicRegular
-  font-size: 50px
+h1
+  +LeagueGothicRegular(50px, 400, #595959)
   line-height: 50px
   
 a
@@ -140,7 +141,7 @@ a
   +fl
   width: 485px
 
-h2.home_headline
+h1.home_headline
   margin: 75px 0 42px 0
   
 .lucha_home
