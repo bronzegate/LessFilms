@@ -279,37 +279,42 @@ a:hover {
 .header {
   width: 1024px;
 }
+/* line 56 */
+.header img {
+  position: relative;
+  z-index: 2;
+}
 
-/* line 57 */
+/* line 60 */
 .nav {
   float: right;
 }
-/* line 60 */
+/* line 63 */
 .nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 63 */
+/* line 66 */
 .nav ul li:last-child {
   margin-right: 0;
 }
-/* line 65 */
+/* line 68 */
 .nav ul li a {
   text-decoration: none;
   color: #666666;
 }
-/* line 68 */
+/* line 71 */
 .nav ul li a:hover {
   color: #999999;
 }
 
-/* line 78 */
+/* line 81 */
 .content {
   overflow: auto;
   padding-bottom: 0 0 150px 0;
 }
 
-/* line 82 */
+/* line 85 */
 .footer {
   background: white;
   color: #cacaca;
@@ -320,7 +325,7 @@ a:hover {
   height: 150px;
   clear: both;
 }
-/* line 92 */
+/* line 95 */
 .footer hr {
   padding: 5px 0 0 0;
   margin: 0 0 25px 0;
@@ -328,39 +333,39 @@ a:hover {
   border-bottom: dashed 1px #cacaca;
 }
 
-/* line 97 */
+/* line 100 */
 .footer_cells {
   margin: 0 auto;
   margin-top: 10px;
   width: 300px;
 }
-/* line 101 */
+/* line 104 */
 .footer_cells p {
   display: inline-block;
   float: left;
   text-align: left;
 }
-/* line 105 */
+/* line 108 */
 .footer_cells p:first-child {
   width: 190px;
 }
-/* line 107 */
+/* line 110 */
 .footer_cells p:last-child {
   width: 110px;
 }
-/* line 109 */
+/* line 112 */
 .footer_cells img {
   float: left;
   padding: 15px 10px 0 10px;
 }
 
-/* line 115 */
+/* line 118 */
 .video_sm {
   float: left;
   display: inline-block;
   margin: 25px 20px 0 0;
 }
-/* line 119 */
+/* line 122 */
 .video_sm .video_sm_top {
   display: block;
   background: #505050;
@@ -371,7 +376,7 @@ a:hover {
   margin: 0 0 0 1px;
   overflow: hidden;
 }
-/* line 128 */
+/* line 131 */
 .video_sm .video_sm_bottom {
   font-size: 13px;
   display: block;
@@ -383,23 +388,23 @@ a:hover {
   box-shadow: 0 2px 2px #d0d0d0, 1px 0 1px #d0d0d0, -1px 0 2px #d0d0d0;
   margin: 0 0 10px 1px;
 }
-/* line 138 */
+/* line 141 */
 .video_sm:first-child {
   margin-right: 20px;
 }
 
-/* line 143 */
+/* line 146 */
 .home_col {
   float: left;
   width: 485px;
 }
 
-/* line 147 */
+/* line 150 */
 h1.home_headline {
   margin: 75px 0 42px 0;
 }
 
-/* line 150 */
+/* line 153 */
 .lucha_home {
   background: url("../images/lucha_home_large.png") no-repeat top center;
   margin: 0 auto;
@@ -408,40 +413,40 @@ h1.home_headline {
   height: auto;
 }
 
-/* line 158 */
+/* line 161 */
 .hire_us_lg {
   clear: both;
   padding: 45px 1px 5px 1px;
 }
 
-/* line 164 */
+/* line 167 */
 .process_col {
   text-align: center;
 }
 
-/* line 167 */
+/* line 170 */
 h1.process_headline {
-  pointer-events: none;
+  z-index: 1;
   line-height: inherit;
   position: relative;
   margin: 0 auto -40px auto;
   top: -100px;
 }
 
-/* line 175 */
+/* line 178 */
 .before_after img {
   pointer-events: none;
   position: absolute;
   margin: -16px 0 0 0;
 }
-/* line 179 */
+/* line 182 */
 .before_after .top {
   border-radius: 3px 3px 0 0;
   text-align: center;
   background: white;
   height: 307px;
 }
-/* line 184 */
+/* line 187 */
 .before_after .top h1 {
   font-family: "LeagueGothicRegular";
   font-size: 100px;
@@ -450,7 +455,7 @@ h1.process_headline {
   line-height: 100px;
   padding: 25px 0 0 0;
 }
-/* line 188 */
+/* line 191 */
 .before_after .top h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -459,7 +464,7 @@ h1.process_headline {
   padding: 20px 0 10px 0;
   line-height: 20px;
 }
-/* line 192 */
+/* line 195 */
 .before_after .top .feature_list {
   width: 250px;
   margin: 0 auto;
@@ -468,21 +473,21 @@ h1.process_headline {
   font-weight: 400;
   color: #333333;
 }
-/* line 198 */
+/* line 201 */
 .before_after .top .feature_list ul li:before {
   color: #6faa44;
   content: "\2713";
   font-weight: bold;
   margin: 0 8px 0 0;
 }
-/* line 203 */
+/* line 206 */
 .before_after .bottom {
   border-radius: 0 0 3px 3px;
   overflow: hidden;
   background: #333333;
   height: 87px;
 }
-/* line 208 */
+/* line 211 */
 .before_after .bottom h2 {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -490,17 +495,17 @@ h1.process_headline {
   color: white;
   line-height: 87px;
 }
-/* line 211 */
+/* line 214 */
 .before_after .bottom h2.left {
   float: left;
   margin: 0 0 0 45px;
 }
-/* line 214 */
+/* line 217 */
 .before_after .bottom h2.right {
   float: right;
   margin: 0 45px 0 0;
 }
-/* line 217 */
+/* line 220 */
 .before_after .bottom .mid {
   margin: 0 auto;
   text-align: center;
@@ -509,7 +514,7 @@ h1.process_headline {
   margin-top: 16px;
 }
 
-/* line 224 */
+/* line 227 */
 .process_item {
   float: left;
   width: 225px;
@@ -517,11 +522,11 @@ h1.process_headline {
   text-align: center;
   margin: 80px 40px 40px 0;
 }
-/* line 230 */
+/* line 233 */
 .process_item:last-child {
   margin-right: 0;
 }
-/* line 232 */
+/* line 235 */
 .process_item h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -531,7 +536,7 @@ h1.process_headline {
   float: left;
   margin-top: 15px;
 }
-/* line 237 */
+/* line 240 */
 .process_item h3.step_num {
   color: white;
   background: #6faa44;
@@ -541,7 +546,7 @@ h1.process_headline {
   border-radius: 32px;
   margin-right: 10px;
 }
-/* line 245 */
+/* line 248 */
 .process_item p {
   text-align: left;
   clear: both;
