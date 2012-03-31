@@ -569,9 +569,13 @@ h1.page_headline {
 
 /* line 264 */
 .about_col {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
   width: 561px;
 }
-/* line 266 */
+/* line 267 */
 .about_col h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -579,31 +583,47 @@ h1.page_headline {
   color: #6faa44;
   margin: 0 0 10px 0;
 }
-/* line 269 */
+/* line 270 */
 .about_col .team_member {
   width: 173px;
   display: inline-block;
   margin: 0 21px 140px 0;
   float: left;
 }
-/* line 274 */
+/* line 275 */
 .about_col .team_member:nth-of-type(3) {
   margin-right: 0;
 }
-/* line 276 */
+/* line 277 */
 .about_col .team_member img {
   padding: 7px;
   background: white;
   border-radius: 2px;
   box-shadow: 0 2px 2px #aaaaaa;
+  margin: 5px 0 20px 0;
+}
+/* line 283 */
+.about_col .team_member h4 {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 900;
+  color: #666666;
+}
+/* line 285 */
+.about_col .team_member p {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #888888;
+  margin: 10px 0 0 0;
 }
 
-/* line 283 */
+/* line 289 */
 p.world_changer {
   margin: 0 0 50px 0;
 }
 
-/* line 288 */
+/* line 294 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -613,12 +633,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 295 */
+/* line 301 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 299 */
+/* line 305 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -626,7 +646,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 305 */
+/* line 311 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -636,7 +656,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 310 */
+/* line 316 */
 .foot_banner a {
   float: right;
   position: relative;
