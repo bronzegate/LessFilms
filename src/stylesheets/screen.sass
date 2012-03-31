@@ -229,8 +229,8 @@ h1.process_headline
   width: 225px
   display: inline-block
   +tc
-  margin: 80px 40px 40px 0
-  &:last-child
+  margin: 80px 40px 90px 0
+  &:nth-child(5)
     margin-right: 0
   h3
     +SignikaSemibold(20px, 400, #6FAA44)
@@ -251,3 +251,31 @@ h1.process_headline
     padding: 15px 0 0 0
     +SignikaLight(15px, 400, #838383)
     line-height: 25px
+   
+.base_banner
+  height: 130px
+  background: #333
+  display: block
+  clear: both
+  border-radius: 5px
+  margin: 0 0 50px 0
+  img
+    position: absolute
+    margin-top: -82px
+  /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead.
+  .banner_text
+    width: 460px
+    line-height: 20px
+    color: #D6D6D6
+    margin: 0 auto
+    padding: 0 0 0 45px
+    h3
+      +LeagueGothicRegular(40px, 400, #fff)
+      line-height: 40px
+      padding: 25px 0 0 0
+      margin: 0 0 0 0
+  a
+    +fr
+    position: relative
+    top: -65px
+    right: 35px
