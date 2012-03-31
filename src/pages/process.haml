@@ -1,6 +1,6 @@
 .wrapper
-  = partial('header_partial')
-  %h1.process_headline INSANE PROCESS OF VIDEO PRODUCTION
+  = partial('_header')
+  %h1.page_headline INSANE PROCESS OF VIDEO PRODUCTION
   .content
     .process_col
       .before_after
@@ -47,9 +47,4 @@
         %h3 Watch Sales Rise
         %p
           Lorem ipsum dolor sit amet, consect etur adipiscing elit. Duis dapibus euismod imperdiet. Donec sit amet dolor vestibulum massa aliquet euismod. Mauris ut ma uris in mattis conv allis.
-      .base_banner
-        = img 'lucha_small_banner.png'
-        .banner_text 
-          %h3 ...SO WHAT ARE YOU WAITING FOR CHAMP?
-          Lorem ipsum dolor sit amet, maiores ornare ac ferme nt at nunc. Quam euismod sem ets. Lets start shooting today!
-        %a{:href => "#", :class => "home_lg_hire home_lg_hire_colors lucha_banner"} Hire Us
+      = partial('_foot_banner')

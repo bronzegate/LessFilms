@@ -425,7 +425,7 @@ h1.home_headline {
 }
 
 /* line 170 */
-h1.process_headline {
+h1.page_headline {
   z-index: 1;
   line-height: inherit;
   position: relative;
@@ -558,8 +558,17 @@ h1.process_headline {
   line-height: 25px;
 }
 
-/* line 255 */
-.base_banner {
+/* line 257 */
+.lucha_about {
+  background: url("../images/lucha_about.png") no-repeat top center;
+  margin: 0 auto;
+  min-width: 1024px;
+  min-height: 837px;
+  height: auto;
+}
+
+/* line 266 */
+.foot_banner {
   height: 130px;
   background: #333333;
   display: block;
@@ -568,21 +577,21 @@ h1.process_headline {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 262 */
-.base_banner img {
+/* line 273 */
+.foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 266 */
-.base_banner .banner_text {
+/* line 277 */
+.foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
   color: #d6d6d6;
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 272 */
-.base_banner .banner_text h3 {
+/* line 283 */
+.foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
   font-weight: 400;
@@ -591,8 +600,8 @@ h1.process_headline {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 277 */
-.base_banner a {
+/* line 288 */
+.foot_banner a {
   float: right;
   position: relative;
   top: -65px;
