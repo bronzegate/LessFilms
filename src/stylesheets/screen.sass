@@ -230,7 +230,7 @@ h1.page_headline
   display: inline-block
   +tc
   margin: 80px 40px 90px 0
-  &:nth-child(5)
+  &:nth-of-type(5)
     margin-right: 0
   h3
     +SignikaSemibold(20px, 400, #6FAA44)
@@ -260,6 +260,28 @@ h1.page_headline
   min-width: 1024px
   min-height: 837px
   height: auto
+  
+.about_col
+  width: 561px
+  h3
+    +SignikaSemibold(20px, 600, #6FAA44)
+    margin: 0 0 10px 0
+  .team_member
+    width: 173px
+    display: inline-block
+    margin: 0 21px 140px 0
+    +fl
+    &:nth-of-type(3)
+      margin-right: 0
+    img
+      padding: 7px
+      background: #fff
+      border-radius: 2px
+      box-shadow: 0 2px 2px #aaa
+      
+    
+p.world_changer
+  margin: 0 0 50px 0
 
 // Foot Banner Partial Styles -->
     
