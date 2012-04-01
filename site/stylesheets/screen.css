@@ -625,6 +625,45 @@ p.world_changer {
 }
 
 /* line 295 */
+.videos_col {
+  background: white;
+  padding: 20px;
+  margin: 0 0 135px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #d6d6d6;
+}
+/* line 301 */
+.videos_col .vid_nav {
+  width: 205px;
+}
+/* line 304 */
+.videos_col .vid_nav .vid_category .triangle {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #3f94cd;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+/* line 312 */
+.videos_col .vid_nav .vid_category .triangle:hover {
+  cursor: pointer;
+}
+/* line 314 */
+.videos_col .vid_nav .vid_category h3 {
+  font-family: "SignikaSemibold";
+  font-size: 18px;
+  font-weight: 400;
+  color: #3f94cd;
+  display: inline-block;
+}
+/* line 317 */
+.videos_col .vid_nav .vid_category h3:hover {
+  cursor: pointer;
+}
+
+/* line 322 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -634,12 +673,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 302 */
+/* line 329 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 306 */
+/* line 333 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -647,7 +686,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 312 */
+/* line 339 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -657,7 +696,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 317 */
+/* line 344 */
 .foot_banner a {
   float: right;
   position: relative;
