@@ -301,6 +301,7 @@ p.world_changer
   .vid_nav
     width: 205px
     .vid_category
+      margin: 0 0 10px 0
       .triangle
         width: 0
         height: 0
@@ -316,6 +317,13 @@ p.world_changer
         display: inline-block
         &:hover
           cursor: pointer
+      li
+        +SignikaLight(15px, 400, #3F94CD)
+        line-height: 20px
+        margin: 0 0 10px 25px
+        &:before
+          content: "- "
+          margin: 0 0 0 -8px
 
 // Foot Banner Partial Styles -->
     

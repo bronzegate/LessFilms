@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $(".vid_category ul").hide();
   
-  $(".vid_category h3").click(function(){
+  $(".vid_category h3, .vid_category .triangle").click(function(){
     if ($(this).parent().hasClass('closed')){
       $(this).parent().children("ul").slideToggle(200);
       $(this).parent().children(".triangle").rotate('90deg');
