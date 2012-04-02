@@ -239,7 +239,10 @@ html, body {
 body {
   background: #f1f1f1;
   color: #595959;
-  font-family: Tahoma;
+  font-family: "SignikaLight";
+  font-size: 16px;
+  font-weight: 400;
+  color: #595959;
 }
 
 /* line 31 */
@@ -318,7 +321,7 @@ a:hover {
 .footer {
   background: white;
   color: #cacaca;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   position: relative;
   margin: 0 auto;
@@ -636,12 +639,13 @@ p.world_changer {
 .videos_col .vid_nav {
   float: left;
   width: 205px;
+  margin: 0 15px 0 0;
 }
-/* line 304 */
+/* line 305 */
 .videos_col .vid_nav .vid_category {
   margin: 0 0 10px 0;
 }
-/* line 306 */
+/* line 307 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -651,11 +655,11 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 314 */
+/* line 315 */
 .videos_col .vid_nav .vid_category .triangle:hover {
   cursor: pointer;
 }
-/* line 316 */
+/* line 317 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -663,11 +667,11 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 319 */
+/* line 320 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
-/* line 321 */
+/* line 322 */
 .videos_col .vid_nav .vid_category li {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -676,17 +680,40 @@ p.world_changer {
   line-height: 20px;
   margin: 0 0 10px 25px;
 }
-/* line 325 */
+/* line 326 */
 .videos_col .vid_nav .vid_category li:before {
   content: "- ";
   margin: 0 0 0 -8px;
 }
-/* line 328 */
+/* line 329 */
 .videos_col .vid_nav .vid_category:last-of-type {
   margin-bottom: 0;
 }
-
+/* line 331 */
+.videos_col .vid_thumbs {
+  display: inline-block;
+}
 /* line 333 */
+.videos_col .vid_thumbs .vid_item {
+  display: inline-block;
+}
+/* line 335 */
+.videos_col .vid_thumbs .vid_item img {
+  width: 191px;
+  height: 115px;
+  margin: 0 -5px 0 0;
+}
+/* line 339 */
+.videos_col .vid_thumbs .new_vid {
+  background: url("../images/new_vid_ribbon.png");
+  width: 69px;
+  height: 69px;
+  display: inline-block;
+  position: absolute;
+  margin: -11px 0 0 -11px;
+}
+
+/* line 349 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -696,12 +723,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 340 */
+/* line 356 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 344 */
+/* line 360 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -709,7 +736,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 350 */
+/* line 366 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -719,7 +746,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 355 */
+/* line 371 */
 .foot_banner a {
   float: right;
   position: relative;
