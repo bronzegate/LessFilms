@@ -634,9 +634,14 @@ p.world_changer {
 }
 /* line 301 */
 .videos_col .vid_nav {
+  float: left;
   width: 205px;
 }
 /* line 304 */
+.videos_col .vid_nav .vid_category {
+  margin: 0 0 10px 0;
+}
+/* line 306 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -646,11 +651,11 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 312 */
+/* line 314 */
 .videos_col .vid_nav .vid_category .triangle:hover {
   cursor: pointer;
 }
-/* line 314 */
+/* line 316 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -658,12 +663,30 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 317 */
+/* line 319 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
+/* line 321 */
+.videos_col .vid_nav .vid_category li {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #3f94cd;
+  line-height: 20px;
+  margin: 0 0 10px 25px;
+}
+/* line 325 */
+.videos_col .vid_nav .vid_category li:before {
+  content: "- ";
+  margin: 0 0 0 -8px;
+}
+/* line 328 */
+.videos_col .vid_nav .vid_category:last-of-type {
+  margin-bottom: 0;
+}
 
-/* line 322 */
+/* line 333 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -673,12 +696,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 329 */
+/* line 340 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 333 */
+/* line 344 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -686,7 +709,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 339 */
+/* line 350 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -696,7 +719,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 344 */
+/* line 355 */
 .foot_banner a {
   float: right;
   position: relative;
