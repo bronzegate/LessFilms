@@ -330,12 +330,27 @@ p.world_changer
         margin-bottom: 0
   .vid_thumbs
     display: inline-block
+    width: 764px
     .vid_item
       display: inline-block
+      margin: 0 0 30px 0
       img
         width: 191px
         height: 115px
         margin: 0 -5px 0 0
+      h3
+        +SignikaLight(15px, 600, #838383)
+        display: inline-block
+        margin: 0 5px 0 0
+      .vid_thumb_time_box
+        display: inline-block
+        +SignikaSemibold(13px, 400, #838383)
+        line-height: 13px
+        background: #F2F2F2
+        border: solid #CCCCCC 1px
+        border-radius: 2px
+        padding: 3px
+        
     .new_vid
       background: url('../images/new_vid_ribbon.png')
       width: 69px

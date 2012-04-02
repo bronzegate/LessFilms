@@ -692,18 +692,42 @@ p.world_changer {
 /* line 331 */
 .videos_col .vid_thumbs {
   display: inline-block;
+  width: 764px;
 }
-/* line 333 */
+/* line 334 */
 .videos_col .vid_thumbs .vid_item {
   display: inline-block;
+  margin: 0 0 30px 0;
 }
-/* line 335 */
+/* line 337 */
 .videos_col .vid_thumbs .vid_item img {
   width: 191px;
   height: 115px;
   margin: 0 -5px 0 0;
 }
-/* line 339 */
+/* line 341 */
+.videos_col .vid_thumbs .vid_item h3 {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 600;
+  color: #838383;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+/* line 345 */
+.videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
+  display: inline-block;
+  font-family: "SignikaSemibold";
+  font-size: 13px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 13px;
+  background: #f2f2f2;
+  border: solid #cccccc 1px;
+  border-radius: 2px;
+  padding: 3px;
+}
+/* line 354 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -713,7 +737,7 @@ p.world_changer {
   margin: -11px 0 0 -11px;
 }
 
-/* line 349 */
+/* line 364 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -723,12 +747,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 356 */
+/* line 371 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 360 */
+/* line 375 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -736,7 +760,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 366 */
+/* line 381 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -746,7 +770,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 371 */
+/* line 386 */
 .foot_banner a {
   float: right;
   position: relative;
