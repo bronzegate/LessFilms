@@ -538,7 +538,7 @@ h1.page_headline {
   margin-top: 15px;
 }
 /* line 241 */
-.process_item h3.step_num {
+.process_item h3:nth-of-type(1) {
   color: white;
   background: #6faa44;
   width: 32px;
