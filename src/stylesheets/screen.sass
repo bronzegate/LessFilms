@@ -26,7 +26,7 @@ html, body
 body
   background: #F1F1F1
   color: #595959
-  font-family: Tahoma
+  +SignikaLight(16px, 400, #595959)
   
 h1
   +LeagueGothicRegular(50px, 400, #595959)
@@ -85,7 +85,7 @@ a
 .footer
   background: #fff
   color: #CACACA
-  font-size: 12px
+  font-size: 13px
   text-align: center
   position: relative
   //margin: -$footer_height auto 0 auto
@@ -301,6 +301,7 @@ p.world_changer
   .vid_nav
     +fl
     width: 205px
+    margin: 0 15px 0 0
     .vid_category
       margin: 0 0 10px 0
       .triangle
@@ -327,6 +328,21 @@ p.world_changer
           margin: 0 0 0 -8px
       &:last-of-type
         margin-bottom: 0
+  .vid_thumbs
+    display: inline-block
+    .vid_item
+      display: inline-block
+      img
+        width: 191px
+        height: 115px
+        margin: 0 -5px 0 0
+    .new_vid
+      background: url('../images/new_vid_ribbon.png')
+      width: 69px
+      height: 69px
+      display: inline-block
+      position: absolute
+      margin: -11px 0 0 -11px
 
 // Foot Banner Partial Styles -->
     
