@@ -748,36 +748,44 @@ p.world_changer {
 
 /* line 364 */
 .hire_us_col {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #9a9a9a;
   margin: 0 0 45px 0;
 }
-/* line 366 */
+/* line 367 */
 .hire_us_col h3 {
   font-family: "SignikaSemibold";
   font-size: 22px;
   font-weight: 600;
   color: #6faa44;
+  white-space: nowrap;
 }
-/* line 368 */
+/* line 370 */
 .hire_us_col h4 {
-  font-family: "SignikaSemibold";
-  font-size: 20px;
-  font-weight: 400;
-  color: #666666;
-  margin: 10px 0 5px 0;
-}
-/* line 371 */
-.hire_us_col h4.ready {
   font-family: "SignikaSemibold";
   font-size: 18px;
   font-weight: 400;
   color: #666666;
-  margin-bottom: 13px;
+  margin: 10px 0 5px 0;
+  clear: left;
 }
 /* line 374 */
+.hire_us_col h4.ready {
+  font-family: "SignikaSemibold";
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 13px;
+}
+/* line 377 */
 .hire_us_col .contact_form_col {
   width: 248px;
+  margin: 0 100px 0 0;
+  float: left;
 }
-/* line 376 */
+/* line 381 */
 .hire_us_col .contact_form_col input, .hire_us_col .contact_form_col textarea {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -790,8 +798,30 @@ p.world_changer {
   border-radius: 3px;
   line-height: 20px;
 }
+/* line 389 */
+.hire_us_col .social_col {
+  float: left;
+}
+/* line 391 */
+.hire_us_col .social_col img {
+  background: #6faa44;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  margin: 0 5px 10px 0;
+  float: left;
+  clear: left;
+}
+/* line 399 */
+.hire_us_col .social_col img:last-of-type {
+  margin-bottom: 20px;
+}
+/* line 401 */
+.hire_us_col .social_col a {
+  float: left;
+}
 
-/* line 388 */
+/* line 406 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -801,12 +831,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 395 */
+/* line 413 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 399 */
+/* line 417 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -814,7 +844,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 405 */
+/* line 423 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -824,7 +854,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 410 */
+/* line 428 */
 .foot_banner a {
   float: right;
   position: relative;
