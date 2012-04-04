@@ -88,7 +88,8 @@
               = link "Second List Item", "#"
             %li 
               = link "Second List Item", "#" 
-      .vid_thumbs.vid_default
+      / category class refers to the category of videos currently displayed
+      .vid_thumbs.vid_promos_category
         .vid_item
           .new_vid
           = img ('vid_thumb_temp_odd.png')
@@ -123,4 +124,6 @@
           %h3 When Ping Pong Goes Bad and You Get Owned
           .vid_thumb_time_box
             10:31
+        %a{:href => "#", :class => "main_hire_button main_hire_colors left"} Show 4 More
+        %a{:href => "#", :class => "main_hire_button main_hire_colors right"} Next Category
     = partial('_foot_banner')

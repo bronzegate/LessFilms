@@ -27,19 +27,29 @@
 .main_hire_button {
   text-align: center;
   display: inline-block;
-  width: 81px;
+  padding: 0 15px;
   height: 30px;
   line-height: 30px;
   border-radius: 3px;
   font-size: 1em;
 }
-/* line 13 */
+/* line 14 */
 .main_hire_button:hover {
   cursor: pointer;
 }
 
+/* line 17 */
+a.main_hire_button {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 20 */
+a.main_hire_button:hover {
+  color: #999999;
+}
+
 /* Color Definitions */
-/* line 28 */
+/* line 25 */
 .main_hire_colors {
   /* Fallback Solid Color */
   background: #f7f7f7;
@@ -59,7 +69,7 @@
   /* Text Color */
   text-shadow: 0 1px 0 white;
 }
-/* line 49 */
+/* line 46 */
 .main_hire_colors:active {
   /* Gradients */
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1e1e1), to(#fafafa));
@@ -79,7 +89,7 @@
 }
 
 /* Home Lg Hire Button */
-/* line 69 */
+/* line 66 */
 .home_lg_hire {
   text-align: center;
   display: inline-block;
@@ -89,12 +99,12 @@
   border-radius: 3px;
   font-size: 25px;
 }
-/* line 77 */
+/* line 74 */
 .home_lg_hire:hover {
   cursor: pointer;
 }
 
-/* line 80 */
+/* line 77 */
 a.home_lg_hire {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -104,7 +114,7 @@ a.home_lg_hire {
 }
 
 /* Color Definitions */
-/* line 93 */
+/* line 90 */
 .home_lg_hire_colors {
   /* Fallback Solid Color */
   background: #75b654;
@@ -125,11 +135,11 @@ a.home_lg_hire {
   border-left: solid 1px #5ea14d;
   text-shadow: 0 -1px 0 #5b7745;
 }
-/* line 112 */
+/* line 109 */
 .home_lg_hire_colors:hover {
   color: white;
 }
-/* line 114 */
+/* line 111 */
 .home_lg_hire_colors:active {
   /* Gradients */
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#65a355), to(#86cb52));
@@ -146,7 +156,7 @@ a.home_lg_hire {
 }
 
 /* Process Lg Hire Button */
-/* line 130 */
+/* line 127 */
 .process_lg_hire {
   text-align: center;
   display: inline-block;
@@ -156,12 +166,12 @@ a.home_lg_hire {
   border-radius: 5px;
   font-size: 25px;
 }
-/* line 138 */
+/* line 135 */
 .process_lg_hire:hover {
   cursor: pointer;
 }
 
-/* line 141 */
+/* line 138 */
 a.process_lg_hire {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -171,7 +181,7 @@ a.process_lg_hire {
 }
 
 /* Color Definitions */
-/* line 154 */
+/* line 151 */
 .process_lg_hire_colors {
   /* Fallback Solid Color */
   background: #75b654;
@@ -192,11 +202,11 @@ a.process_lg_hire {
   border-left: solid 1px #5ea14d;
   text-shadow: 0 -1px 0 #5b7745;
 }
-/* line 173 */
+/* line 170 */
 .process_lg_hire_colors:hover {
   color: white;
 }
-/* line 175 */
+/* line 172 */
 .process_lg_hire_colors:active {
   /* Gradients */
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#65a355), to(#86cb52));
@@ -212,7 +222,7 @@ a.process_lg_hire {
   /* box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0 */
 }
 
-/* line 189 */
+/* line 186 */
 .lucha_banner {
   box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #111111;
   border-radius: 5px;
