@@ -3,26 +3,20 @@
     = partial('_header')
     %h1.page_headline HEAD TO THE BATTLE ARENA 
     .content
-      .about_col
-        %h3 The World Changed Since We Arrived
-        %p.world_changer
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet dolor a felis tempus a aliquet enim pulvinar. Etiam metus libero, congue a lacinia eu, condimentum vitae mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet dolor a felis tempus a aliquet enim pulvinar. Etiam metus libero, congue a lacinia eu, condimentum vitae mi. 
-        %h3 Meet the Handsome Peeps of LessFilms
-        .team_member
-          = img ('team_placeholder.png')
-          %h4 Allan Branch
-          Title
-          %p
-            Lorem ipsum dolor sit amet, consect etur adipiscing elit. Duis dapibus euismod imperdiet. Donec sit amet dolor vestibulum massa aliquet euismod. Mauris ut ma uris in mattis conv allis.
-        .team_member
-          = img ('team_placeholder.png')
-          %h4 Eric Darnell
-          Title
-          %p
-            Lorem ipsum dolor sit amet, consect etur adipiscing elit. Duis dapibus euismod imperdiet. Donec sit amet dolor vestibulum massa aliquet euismod. Mauris ut ma uris in mattis conv allis.
-        .team_member
-          = img ('team_placeholder.png')
-          %h4 Corey Forbus
-          Title
-          %p
-            Lorem ipsum dolor sit amet, consect etur adipiscing elit. Duis dapibus euismod imperdiet. Donec sit amet dolor vestibulum massa aliquet euismod. Mauris ut ma uris in mattis conv allis.
+      .hire_us_col
+        %h3 What's Your Project About?
+        .contact_form_col
+          / %h3 What's Your Project About?
+          %form
+            %h4 Customer Info
+            %input{:type => "text", :name => "full_name", :onfocus => "if(this.value == 'Full Name or Company') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Full Name or Company'; }", :value => "Full Name or Company"}
+            %input{:type => "text", :name => "email", :onfocus => "if(this.value == 'Email') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Email'; }", :value => "Email"}
+            %h4 Project Details
+            %input{:type => "text", :name => "project_title", :onfocus => "if(this.value == 'Project Title') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Project Title'; }", :value => "Project Title"}
+            %textarea{:name => "project_description", :onfocus => "if(this.value == 'Project Description') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Project Description'; }", :rows => "5"}
+              Project Description
+            %h4 Project Scope
+            %input{:type => "text", :name => "budget", :onfocus => "if(this.value == 'My budget is $000.00') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'My budget is $000.00'; }", :value => "My budget is $000.00"}
+            %input{:type => "text", :name => "turnaround_date", :onfocus => "if(this.value == 'Turnaround Date') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Turnaround Date'; }", :value => "Turnaround Date"}
+            %h4.ready Ready to Rumble? Hit the Bell!
+            %a{:href => "#", :class => "home_lg_hire home_lg_hire_colors left"} Hire Us              
