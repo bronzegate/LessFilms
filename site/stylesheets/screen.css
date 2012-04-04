@@ -311,13 +311,13 @@ a:hover {
   color: #999999;
 }
 
-/* line 81 */
+/* line 74 */
 .content {
   overflow: auto;
   padding-bottom: 0 0 150px 0;
 }
 
-/* line 85 */
+/* line 78 */
 .footer {
   background: white;
   color: #cacaca;
@@ -329,7 +329,7 @@ a:hover {
   clear: both;
   box-shadow: 0 -15px 30px #dddddd;
 }
-/* line 96 */
+/* line 89 */
 .footer hr {
   padding: 5px 0 0 0;
   margin: 0 0 25px 0;
@@ -337,39 +337,39 @@ a:hover {
   border-bottom: dashed 1px #cacaca;
 }
 
-/* line 101 */
+/* line 94 */
 .footer_cells {
   margin: 0 auto;
   margin-top: 10px;
   width: 300px;
 }
-/* line 105 */
+/* line 98 */
 .footer_cells p {
   display: inline-block;
   float: left;
   text-align: left;
 }
-/* line 109 */
+/* line 102 */
 .footer_cells p:first-child {
   width: 190px;
 }
-/* line 111 */
+/* line 104 */
 .footer_cells p:last-child {
   width: 110px;
 }
-/* line 113 */
+/* line 106 */
 .footer_cells img {
   float: left;
   padding: 15px 10px 0 10px;
 }
 
-/* line 119 */
+/* line 112 */
 .video_sm {
   float: left;
   display: inline-block;
   margin: 25px 20px 0 0;
 }
-/* line 123 */
+/* line 116 */
 .video_sm .video_sm_top {
   display: block;
   background: #505050;
@@ -380,7 +380,7 @@ a:hover {
   margin: 0 0 0 1px;
   overflow: hidden;
 }
-/* line 132 */
+/* line 125 */
 .video_sm .video_sm_bottom {
   font-size: 13px;
   display: block;
@@ -392,23 +392,23 @@ a:hover {
   box-shadow: 0 2px 2px #d0d0d0, 1px 0 1px #d0d0d0, -1px 0 2px #d0d0d0;
   margin: 0 0 10px 1px;
 }
-/* line 142 */
+/* line 135 */
 .video_sm:first-child {
   margin-right: 20px;
 }
 
-/* line 147 */
+/* line 140 */
 .home_col {
   float: left;
   width: 485px;
 }
 
-/* line 151 */
+/* line 144 */
 h1.home_headline {
   margin: 75px 0 42px 0;
 }
 
-/* line 154 */
+/* line 147 */
 .lucha_home {
   background: url("../images/lucha_home_large.png") no-repeat top center;
   margin: 0 auto;
@@ -417,18 +417,18 @@ h1.home_headline {
   height: auto;
 }
 
-/* line 162 */
+/* line 155 */
 .hire_us_lg {
   clear: both;
   padding: 45px 1px 5px 1px;
 }
 
-/* line 168 */
+/* line 161 */
 .process_col {
   text-align: center;
 }
 
-/* line 171 */
+/* line 164 */
 h1.page_headline {
   z-index: 1;
   line-height: inherit;
@@ -437,20 +437,20 @@ h1.page_headline {
   top: -100px;
 }
 
-/* line 179 */
+/* line 172 */
 .before_after img {
   pointer-events: none;
   position: absolute;
   margin: -16px 0 0 0;
 }
-/* line 183 */
+/* line 176 */
 .before_after .top {
   border-radius: 3px 3px 0 0;
   text-align: center;
   background: white;
   height: 307px;
 }
-/* line 188 */
+/* line 181 */
 .before_after .top h1 {
   font-family: "LeagueGothicRegular";
   font-size: 100px;
@@ -459,7 +459,7 @@ h1.page_headline {
   line-height: 100px;
   padding: 25px 0 0 0;
 }
-/* line 192 */
+/* line 185 */
 .before_after .top h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -468,7 +468,7 @@ h1.page_headline {
   padding: 20px 0 10px 0;
   line-height: 20px;
 }
-/* line 196 */
+/* line 189 */
 .before_after .top .feature_list {
   width: 250px;
   margin: 0 auto;
@@ -477,21 +477,21 @@ h1.page_headline {
   font-weight: 400;
   color: #333333;
 }
-/* line 202 */
+/* line 195 */
 .before_after .top .feature_list ul li:before {
   color: #6faa44;
   content: "\2713";
   font-weight: bold;
   margin: 0 8px 0 0;
 }
-/* line 207 */
+/* line 200 */
 .before_after .bottom {
   border-radius: 0 0 3px 3px;
   overflow: hidden;
   background: #333333;
   height: 87px;
 }
-/* line 212 */
+/* line 205 */
 .before_after .bottom h2 {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -499,17 +499,17 @@ h1.page_headline {
   color: white;
   line-height: 87px;
 }
-/* line 215 */
+/* line 208 */
 .before_after .bottom h2.left {
   float: left;
   margin: 0 0 0 45px;
 }
-/* line 218 */
+/* line 211 */
 .before_after .bottom h2.right {
   float: right;
   margin: 0 45px 0 0;
 }
-/* line 221 */
+/* line 214 */
 .before_after .bottom .mid {
   margin: 0 auto;
   text-align: center;
@@ -518,7 +518,7 @@ h1.page_headline {
   margin-top: 16px;
 }
 
-/* line 228 */
+/* line 221 */
 .process_item {
   float: left;
   width: 225px;
@@ -526,11 +526,11 @@ h1.page_headline {
   text-align: center;
   margin: 80px 40px 90px 0;
 }
-/* line 234 */
+/* line 227 */
 .process_item:nth-of-type(5) {
   margin-right: 0;
 }
-/* line 236 */
+/* line 229 */
 .process_item h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -540,7 +540,7 @@ h1.page_headline {
   float: left;
   margin-top: 15px;
 }
-/* line 241 */
+/* line 234 */
 .process_item h3:nth-of-type(1) {
   color: white;
   background: #6faa44;
@@ -550,7 +550,7 @@ h1.page_headline {
   border-radius: 32px;
   margin-right: 10px;
 }
-/* line 249 */
+/* line 242 */
 .process_item p {
   text-align: left;
   clear: both;
@@ -562,7 +562,7 @@ h1.page_headline {
   line-height: 25px;
 }
 
-/* line 258 */
+/* line 251 */
 .lucha_about {
   background: url("../images/lucha_about.png") no-repeat top center;
   margin: 0 auto;
@@ -571,7 +571,7 @@ h1.page_headline {
   height: auto;
 }
 
-/* line 265 */
+/* line 258 */
 .about_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -579,7 +579,7 @@ h1.page_headline {
   color: #666666;
   width: 561px;
 }
-/* line 268 */
+/* line 261 */
 .about_col h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -587,18 +587,18 @@ h1.page_headline {
   color: #6faa44;
   margin: 0 0 10px 0;
 }
-/* line 271 */
+/* line 264 */
 .about_col .team_member {
   width: 173px;
   display: inline-block;
   margin: 0 21px 140px 0;
   float: left;
 }
-/* line 276 */
+/* line 269 */
 .about_col .team_member:nth-of-type(3) {
   margin-right: 0;
 }
-/* line 278 */
+/* line 271 */
 .about_col .team_member img {
   padding: 7px;
   background: white;
@@ -606,14 +606,14 @@ h1.page_headline {
   box-shadow: 0 2px 2px #aaaaaa;
   margin: 5px 0 20px 0;
 }
-/* line 284 */
+/* line 277 */
 .about_col .team_member h4 {
   font-family: "SignikaLight";
   font-size: 15px;
   font-weight: 900;
   color: #666666;
 }
-/* line 286 */
+/* line 279 */
 .about_col .team_member p {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -622,12 +622,12 @@ h1.page_headline {
   margin: 10px 0 0 0;
 }
 
-/* line 290 */
+/* line 283 */
 p.world_changer {
   margin: 0 0 50px 0;
 }
 
-/* line 295 */
+/* line 288 */
 .videos_col {
   background: white;
   padding: 20px;
@@ -635,17 +635,17 @@ p.world_changer {
   border-radius: 5px;
   box-shadow: 0 2px 2px #d6d6d6;
 }
-/* line 301 */
+/* line 294 */
 .videos_col .vid_nav {
   float: left;
   width: 205px;
   margin: 0 15px 0 0;
 }
-/* line 305 */
+/* line 298 */
 .videos_col .vid_nav .vid_category {
   margin: 0 0 10px 0;
 }
-/* line 307 */
+/* line 300 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -655,11 +655,11 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 315 */
+/* line 308 */
 .videos_col .vid_nav .vid_category .triangle:hover {
   cursor: pointer;
 }
-/* line 317 */
+/* line 310 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -667,11 +667,11 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 320 */
+/* line 313 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
-/* line 322 */
+/* line 315 */
 .videos_col .vid_nav .vid_category li {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -680,32 +680,32 @@ p.world_changer {
   line-height: 20px;
   margin: 0 0 10px 25px;
 }
-/* line 326 */
+/* line 319 */
 .videos_col .vid_nav .vid_category li:before {
   content: "- ";
   margin: 0 0 0 -8px;
 }
-/* line 329 */
+/* line 322 */
 .videos_col .vid_nav .vid_category:last-of-type {
   margin-bottom: 0;
 }
-/* line 331 */
+/* line 324 */
 .videos_col .vid_thumbs {
   display: inline-block;
   width: 764px;
 }
-/* line 334 */
+/* line 327 */
 .videos_col .vid_thumbs .vid_item {
   display: inline-block;
   margin: 0 0 30px 0;
 }
-/* line 337 */
+/* line 330 */
 .videos_col .vid_thumbs .vid_item img {
   width: 191px;
   height: 115px;
   margin: 0 -4px 0 0;
 }
-/* line 341 */
+/* line 334 */
 .videos_col .vid_thumbs .vid_item h3 {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -714,7 +714,7 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 345 */
+/* line 338 */
 .videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
   display: inline-block;
   font-family: "SignikaSemibold";
@@ -727,7 +727,7 @@ p.world_changer {
   border-radius: 2px;
   padding: 3px;
 }
-/* line 354 */
+/* line 347 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -737,7 +737,61 @@ p.world_changer {
   margin: -11px 0 0 -11px;
 }
 
+/* line 357 */
+.lucha_hire_us {
+  background: url("../images/lucha_hire_us.png") no-repeat top center;
+  margin: 0 auto;
+  min-width: 1024px;
+  min-height: 837px;
+  height: auto;
+}
+
 /* line 364 */
+.hire_us_col {
+  margin: 0 0 45px 0;
+}
+/* line 366 */
+.hire_us_col h3 {
+  font-family: "SignikaSemibold";
+  font-size: 22px;
+  font-weight: 600;
+  color: #6faa44;
+}
+/* line 368 */
+.hire_us_col h4 {
+  font-family: "SignikaSemibold";
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  margin: 10px 0 5px 0;
+}
+/* line 371 */
+.hire_us_col h4.ready {
+  font-family: "SignikaSemibold";
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 13px;
+}
+/* line 374 */
+.hire_us_col .contact_form_col {
+  width: 248px;
+}
+/* line 376 */
+.hire_us_col .contact_form_col input, .hire_us_col .contact_form_col textarea {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #9a9a9a;
+  width: 100%;
+  padding: 13px 15px;
+  margin: 0 0 10px 0;
+  border: solid #dddddd 1px;
+  border-radius: 3px;
+  line-height: 20px;
+}
+
+/* line 388 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -747,12 +801,12 @@ p.world_changer {
   margin: 0 0 50px 0;
   /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 371 */
+/* line 395 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 375 */
+/* line 399 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -760,7 +814,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 381 */
+/* line 405 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -770,7 +824,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 386 */
+/* line 410 */
 .foot_banner a {
   float: right;
   position: relative;

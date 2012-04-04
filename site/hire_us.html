@@ -15,13 +15,7 @@
     <link href='stylesheets/prettyPhoto.css' rel='stylesheet' type='text/css' />
   </head>
   <body>
-    <!-- Get rid of the footer box-shadow only on this page -->
-    <style type='text/css'>
-      /*<![CDATA[*/
-        .footer{box-shadow: 0 0 0;}
-      /*]]>*/
-    </style>
-    <div class='lucha_home'>
+    <div class='lucha_hire_us'>
       <div class='wrapper'>
         <div class='header'>
           <a href="index.html"><img alt="Logo" src="images/logo.png"/></a>
@@ -42,42 +36,28 @@
             </ul>
           </div>
         </div>
+        <h1 class='page_headline'>HEAD TO THE BATTLE ARENA</h1>
         <div class='content'>
-          <div class='home_col'>
-            <h1 class='home_headline'>WE PRODUCE BEAUTIFUL FILMS WITH A LOTTA' ATTITUDE...GRRRR!!!</h1>
-            <p>
-              From the chubby guys at LessEverything, we present LessFilms. We shoot, edit and produce slammin' to chic videos for your product or service! See below or <a href="#">more videos</a>.
-            </p>
-            <div class='video_sm'>
-              <div class='video_sm_top'>
-                <a href='http://youtu.be/lNFNOSzik14' rel='prettyPhoto'>
-                  <img alt="The Information Diet" src="images/info_diet_thumb_sm.jpg"/>
-                </a>
-              </div>
-              <div class='video_sm_bottom'>
-                <a href='http://youtu.be/lNFNOSzik14' rel='prettyPhoto'>"Book Promo Video"</a>
-                <br />
-                <a href='http://www.informationdiet.com/' target='_blank'>The Information Diet</a>
-              </div>
-            </div>
-            <div class='video_sm'>
-              <div class='video_sm_top'>
-                <a href='http://youtu.be/UwXoUEJiKBY' rel='prettyPhoto'>
-                  <img alt="BusinessPartners.com" src="images/business_partners_thumb_sm.jpg"/>
-                </a>
-              </div>
-              <div class='video_sm_bottom'>
-                <a href='http://youtu.be/UwXoUEJiKBY' rel='prettyPhoto'>"Site Marketing"</a>
-                <br />
-                <a href='http://businesspartners.com/' target='_blank'>BusinessPartners.com</a>
-              </div>
-            </div>
-            <div class='hire_us_lg'>
-              <a class='home_lg_hire home_lg_hire_colors' href='#'>Hire Us</a>
+          <div class='hire_us_col'>
+            <h3>What's Your Project About?</h3>
+            <div class='contact_form_col'>
+              <!-- %h3 What's Your Project About? -->
+              <form>
+                <h4>Customer Info</h4>
+                <input name='full_name' onblur="if(this.value == '') { this.value = 'Full Name or Company'; }" onfocus="if(this.value == 'Full Name or Company') { this.value = ''; }" type='text' value='Full Name or Company' />
+                <input name='email' onblur="if(this.value == '') { this.value = 'Email'; }" onfocus="if(this.value == 'Email') { this.value = ''; }" type='text' value='Email' />
+                <h4>Project Details</h4>
+                <input name='project_title' onblur="if(this.value == '') { this.value = 'Project Title'; }" onfocus="if(this.value == 'Project Title') { this.value = ''; }" type='text' value='Project Title' />
+                <textarea name='project_description' onblur="if(this.value == '') { this.value = 'Project Description'; }" onfocus="if(this.value == 'Project Description') { this.value = ''; }" rows='5'>Project Description</textarea>
+                <h4>Project Scope</h4>
+                <input name='budget' onblur="if(this.value == '') { this.value = 'My budget is $000.00'; }" onfocus="if(this.value == 'My budget is $000.00') { this.value = ''; }" type='text' value='My budget is $000.00' />
+                <input name='turnaround_date' onblur="if(this.value == '') { this.value = 'Turnaround Date'; }" onfocus="if(this.value == 'Turnaround Date') { this.value = ''; }" type='text' value='Turnaround Date' />
+                <h4 class='ready'>Ready to Rumble? Hit the Bell!</h4>
+                <a class='home_lg_hire home_lg_hire_colors left' href='#'>Hire Us</a>
+              </form>
             </div>
           </div>
         </div>
-        <div class='clearfix'></div>
       </div>
     </div>
     <div class='footer'>
