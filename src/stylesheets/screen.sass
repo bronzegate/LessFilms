@@ -362,6 +362,7 @@ p.world_changer
   height: auto
   
 .hire_us_col
+  +SignikaLight(15px, 400, #9A9A9A)
   margin: 0 0 45px 0
   h3
     +SignikaSemibold(22px, 600, #6FAA44)
@@ -369,12 +370,13 @@ p.world_changer
   h4
     +SignikaSemibold(18px, 400, #666)
     margin: 10px 0 5px 0
+    clear: left
     &.ready
       +SignikaSemibold(16px, 400, #666) 
       margin-bottom: 13px
   .contact_form_col
     width: 248px
-    margin: 0 60px 0 0
+    margin: 0 100px 0 0
     +fl
     input, textarea
       +SignikaLight(15px, 400, #9A9A9A)
@@ -394,9 +396,10 @@ p.world_changer
       margin: 0 5px 10px 0
       +fl
       clear: left
+      &:last-of-type
+        margin-bottom: 20px
     a
       +fl
-
 
 // Foot Banner Partial Styles -->
     
