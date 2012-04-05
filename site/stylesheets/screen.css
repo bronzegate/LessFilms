@@ -230,12 +230,12 @@ ul {
   margin: 3px 0;
 }
 
-/* line 24 */
+/* line 18 */
 html, body {
   height: 100%;
 }
 
-/* line 27 */
+/* line 21 */
 body {
   background: #f1f1f1;
   color: #595959;
@@ -246,7 +246,7 @@ body {
   position: relative;
 }
 
-/* line 33 */
+/* line 27 */
 h1 {
   font-family: "LeagueGothicRegular";
   font-size: 50px;
@@ -255,22 +255,22 @@ h1 {
   line-height: 50px;
 }
 
-/* line 37 */
+/* line 31 */
 a {
   color: #3f94cd;
   text-decoration: none;
 }
-/* line 40 */
+/* line 34 */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 45 */
+/* line 39 */
 .clearfix {
   clear: both;
 }
 
-/* line 48 */
+/* line 42 */
 .wrapper {
   width: 1024px;
   margin: 0 auto;
@@ -279,46 +279,46 @@ a:hover {
   text-align: center;
 }
 
-/* line 56 */
+/* line 50 */
 .header {
   width: 1024px;
 }
-/* line 58 */
+/* line 52 */
 .header img {
   position: relative;
   z-index: 2;
 }
 
-/* line 62 */
+/* line 56 */
 .nav {
   float: right;
 }
-/* line 65 */
+/* line 59 */
 .nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 68 */
+/* line 62 */
 .nav ul li:last-child {
   margin-right: 0;
 }
-/* line 70 */
+/* line 64 */
 .nav ul li a {
   text-decoration: none;
   color: #666666;
 }
-/* line 73 */
+/* line 67 */
 .nav ul li a:hover {
   color: #999999;
 }
 
-/* line 76 */
+/* line 70 */
 .content {
   overflow: auto;
   padding-bottom: 0 0 150px 0;
 }
 
-/* line 80 */
+/* line 74 */
 .footer {
   background: white;
   color: #cacaca;
@@ -330,7 +330,7 @@ a:hover {
   clear: both;
   box-shadow: 0 -15px 30px #dddddd;
 }
-/* line 91 */
+/* line 84 */
 .footer hr {
   padding: 5px 0 0 0;
   margin: 0 0 25px 0;
@@ -338,39 +338,39 @@ a:hover {
   border-bottom: dashed 1px #cacaca;
 }
 
-/* line 96 */
+/* line 89 */
 .footer_cells {
   margin: 0 auto;
   margin-top: 10px;
   width: 300px;
 }
-/* line 100 */
+/* line 93 */
 .footer_cells p {
   display: inline-block;
   float: left;
   text-align: left;
 }
-/* line 104 */
+/* line 97 */
 .footer_cells p:first-child {
   width: 190px;
 }
-/* line 106 */
+/* line 99 */
 .footer_cells p:last-child {
   width: 110px;
 }
-/* line 108 */
+/* line 101 */
 .footer_cells img {
   float: left;
   padding: 15px 10px 0 10px;
 }
 
-/* line 114 */
+/* line 107 */
 .video_sm {
   float: left;
   display: inline-block;
   margin: 25px 20px 0 0;
 }
-/* line 118 */
+/* line 111 */
 .video_sm .video_sm_top {
   display: block;
   background: #505050;
@@ -381,7 +381,7 @@ a:hover {
   margin: 0 0 0 1px;
   overflow: hidden;
 }
-/* line 127 */
+/* line 120 */
 .video_sm .video_sm_bottom {
   font-size: 13px;
   display: block;
@@ -393,23 +393,23 @@ a:hover {
   box-shadow: 0 2px 2px #d0d0d0, 1px 0 1px #d0d0d0, -1px 0 2px #d0d0d0;
   margin: 0 0 10px 1px;
 }
-/* line 137 */
+/* line 130 */
 .video_sm:first-child {
   margin-right: 20px;
 }
 
-/* line 142 */
+/* line 135 */
 .home_col {
   float: left;
   width: 485px;
 }
 
-/* line 146 */
+/* line 139 */
 h1.home_headline {
   margin: 75px 0 42px 0;
 }
 
-/* line 149 */
+/* line 142 */
 .lucha_home {
   background: url("../images/lucha_home_large.png") no-repeat top center;
   margin: 0 auto;
@@ -418,18 +418,18 @@ h1.home_headline {
   height: auto;
 }
 
-/* line 157 */
+/* line 150 */
 .hire_us_lg {
   clear: both;
   padding: 45px 1px 5px 1px;
 }
 
-/* line 163 */
+/* line 156 */
 .process_col {
   text-align: center;
 }
 
-/* line 166 */
+/* line 159 */
 h1.page_headline {
   z-index: 1;
   line-height: inherit;
@@ -438,20 +438,20 @@ h1.page_headline {
   top: -100px;
 }
 
-/* line 174 */
+/* line 167 */
 .before_after img {
   pointer-events: none;
   position: absolute;
   margin: -16px 0 0 0;
 }
-/* line 178 */
+/* line 171 */
 .before_after .top {
   border-radius: 3px 3px 0 0;
   text-align: center;
   background: white;
   height: 307px;
 }
-/* line 183 */
+/* line 176 */
 .before_after .top h1 {
   font-family: "LeagueGothicRegular";
   font-size: 100px;
@@ -460,7 +460,7 @@ h1.page_headline {
   line-height: 100px;
   padding: 25px 0 0 0;
 }
-/* line 187 */
+/* line 180 */
 .before_after .top h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -469,7 +469,7 @@ h1.page_headline {
   padding: 20px 0 10px 0;
   line-height: 20px;
 }
-/* line 191 */
+/* line 184 */
 .before_after .top .feature_list {
   width: 250px;
   margin: 0 auto;
@@ -478,21 +478,21 @@ h1.page_headline {
   font-weight: 400;
   color: #333333;
 }
-/* line 197 */
+/* line 190 */
 .before_after .top .feature_list ul li:before {
   color: #6faa44;
   content: "\2713";
   font-weight: bold;
   margin: 0 8px 0 0;
 }
-/* line 202 */
+/* line 195 */
 .before_after .bottom {
   border-radius: 0 0 3px 3px;
   overflow: hidden;
   background: #333333;
   height: 87px;
 }
-/* line 207 */
+/* line 200 */
 .before_after .bottom h2 {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -500,17 +500,17 @@ h1.page_headline {
   color: white;
   line-height: 87px;
 }
-/* line 210 */
+/* line 203 */
 .before_after .bottom h2.left {
   float: left;
   margin: 0 0 0 45px;
 }
-/* line 213 */
+/* line 206 */
 .before_after .bottom h2.right {
   float: right;
   margin: 0 45px 0 0;
 }
-/* line 216 */
+/* line 209 */
 .before_after .bottom .mid {
   margin: 0 auto;
   text-align: center;
@@ -518,13 +518,13 @@ h1.page_headline {
   height: 55px;
   margin-top: 16px;
 }
-/* line 222 */
+/* line 215 */
 .before_after .bottom .mid .gradient_button_green {
   width: 230px;
   box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #111111;
 }
 
-/* line 226 */
+/* line 219 */
 .process_item {
   float: left;
   width: 225px;
@@ -532,11 +532,11 @@ h1.page_headline {
   text-align: center;
   margin: 80px 40px 90px 0;
 }
-/* line 232 */
+/* line 225 */
 .process_item:nth-of-type(5) {
   margin-right: 0;
 }
-/* line 234 */
+/* line 227 */
 .process_item h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -546,7 +546,7 @@ h1.page_headline {
   float: left;
   margin-top: 15px;
 }
-/* line 239 */
+/* line 232 */
 .process_item h3:nth-of-type(1) {
   color: white;
   background: #6faa44;
@@ -556,7 +556,7 @@ h1.page_headline {
   border-radius: 32px;
   margin-right: 10px;
 }
-/* line 247 */
+/* line 240 */
 .process_item p {
   text-align: left;
   clear: both;
@@ -568,7 +568,7 @@ h1.page_headline {
   line-height: 25px;
 }
 
-/* line 256 */
+/* line 249 */
 .lucha_about {
   background: url("../images/lucha_about.png") no-repeat top center;
   margin: 0 auto;
@@ -577,7 +577,7 @@ h1.page_headline {
   height: auto;
 }
 
-/* line 263 */
+/* line 256 */
 .about_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -585,7 +585,7 @@ h1.page_headline {
   color: #666666;
   width: 561px;
 }
-/* line 266 */
+/* line 259 */
 .about_col h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -593,18 +593,18 @@ h1.page_headline {
   color: #6faa44;
   margin: 0 0 10px 0;
 }
-/* line 269 */
+/* line 262 */
 .about_col .team_member {
   width: 173px;
   display: inline-block;
   margin: 0 21px 140px 0;
   float: left;
 }
-/* line 274 */
+/* line 267 */
 .about_col .team_member:nth-of-type(3) {
   margin-right: 0;
 }
-/* line 276 */
+/* line 269 */
 .about_col .team_member img {
   padding: 7px;
   background: white;
@@ -612,14 +612,14 @@ h1.page_headline {
   box-shadow: 0 2px 2px #aaaaaa;
   margin: 5px 0 20px 0;
 }
-/* line 282 */
+/* line 275 */
 .about_col .team_member h4 {
   font-family: "SignikaLight";
   font-size: 15px;
   font-weight: 900;
   color: #666666;
 }
-/* line 284 */
+/* line 277 */
 .about_col .team_member p {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -628,12 +628,12 @@ h1.page_headline {
   margin: 10px 0 0 0;
 }
 
-/* line 288 */
+/* line 281 */
 p.world_changer {
   margin: 0 0 50px 0;
 }
 
-/* line 293 */
+/* line 286 */
 .videos_col {
   background: white;
   padding: 20px;
@@ -641,17 +641,17 @@ p.world_changer {
   border-radius: 5px;
   box-shadow: 0 2px 2px #d6d6d6;
 }
-/* line 299 */
+/* line 292 */
 .videos_col .vid_nav {
   float: left;
   width: 205px;
   margin: 0 15px 0 0;
 }
-/* line 303 */
+/* line 296 */
 .videos_col .vid_nav .vid_category {
   margin: 0 0 10px 0;
 }
-/* line 305 */
+/* line 298 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -661,11 +661,11 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 313 */
+/* line 306 */
 .videos_col .vid_nav .vid_category .triangle:hover {
   cursor: pointer;
 }
-/* line 315 */
+/* line 308 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -673,11 +673,11 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 318 */
+/* line 311 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
-/* line 320 */
+/* line 313 */
 .videos_col .vid_nav .vid_category li {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -686,32 +686,32 @@ p.world_changer {
   line-height: 20px;
   margin: 0 0 10px 25px;
 }
-/* line 324 */
+/* line 317 */
 .videos_col .vid_nav .vid_category li:before {
   content: "- ";
   margin: 0 0 0 -8px;
 }
-/* line 327 */
+/* line 320 */
 .videos_col .vid_nav .vid_category:last-of-type {
   margin-bottom: 0;
 }
-/* line 329 */
+/* line 322 */
 .videos_col .vid_thumbs {
   display: inline-block;
   width: 764px;
 }
-/* line 332 */
+/* line 325 */
 .videos_col .vid_thumbs .vid_item {
   display: inline-block;
   margin: 0 0 30px 0;
 }
-/* line 335 */
+/* line 328 */
 .videos_col .vid_thumbs .vid_item img {
   width: 191px;
   height: 115px;
   margin: 0 -4px 0 0;
 }
-/* line 339 */
+/* line 332 */
 .videos_col .vid_thumbs .vid_item h3 {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -720,7 +720,7 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 343 */
+/* line 336 */
 .videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
   display: inline-block;
   font-family: "SignikaSemibold";
@@ -733,7 +733,7 @@ p.world_changer {
   border-radius: 2px;
   padding: 3px;
 }
-/* line 352 */
+/* line 345 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -743,7 +743,7 @@ p.world_changer {
   margin: -11px 0 0 -11px;
 }
 
-/* line 362 */
+/* line 355 */
 .lucha_hire_us {
   background: url("../images/lucha_hire_us.png") no-repeat top center;
   margin: 0 auto;
@@ -752,7 +752,7 @@ p.world_changer {
   height: auto;
 }
 
-/* line 369 */
+/* line 362 */
 .hire_us_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -760,7 +760,7 @@ p.world_changer {
   color: #9a9a9a;
   margin: 0 0 45px 0;
 }
-/* line 372 */
+/* line 365 */
 .hire_us_col h3 {
   font-family: "SignikaSemibold";
   font-size: 22px;
@@ -768,7 +768,7 @@ p.world_changer {
   color: #6faa44;
   white-space: nowrap;
 }
-/* line 375 */
+/* line 368 */
 .hire_us_col h4 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -777,7 +777,7 @@ p.world_changer {
   margin: 10px 0 5px 0;
   clear: left;
 }
-/* line 379 */
+/* line 372 */
 .hire_us_col h4.ready {
   font-family: "SignikaSemibold";
   font-size: 16px;
@@ -785,13 +785,13 @@ p.world_changer {
   color: #666666;
   margin-bottom: 13px;
 }
-/* line 382 */
+/* line 375 */
 .hire_us_col .contact_form_col {
   width: 248px;
   margin: 0 100px 0 0;
   float: left;
 }
-/* line 386 */
+/* line 379 */
 .hire_us_col .contact_form_col input, .hire_us_col .contact_form_col textarea {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -804,11 +804,11 @@ p.world_changer {
   border-radius: 3px;
   line-height: 20px;
 }
-/* line 394 */
+/* line 387 */
 .hire_us_col .social_col {
   float: left;
 }
-/* line 396 */
+/* line 389 */
 .hire_us_col .social_col img {
   background: #6faa44;
   width: 24px;
@@ -818,16 +818,16 @@ p.world_changer {
   float: left;
   clear: left;
 }
-/* line 404 */
+/* line 397 */
 .hire_us_col .social_col img:last-of-type {
   margin-bottom: 20px;
 }
-/* line 406 */
+/* line 399 */
 .hire_us_col .social_col a {
   float: left;
 }
 
-/* line 411 */
+/* line 404 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -835,14 +835,13 @@ p.world_changer {
   clear: both;
   border-radius: 5px;
   margin: 0 0 50px 0;
-  /* HAML seems to be rendering paragraph tags imporoperly here if a header tag is nested inside it. Going with a class instead. */
 }
-/* line 418 */
+/* line 411 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 422 */
+/* line 414 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -850,7 +849,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 428 */
+/* line 420 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -860,7 +859,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 433 */
+/* line 425 */
 .foot_banner .gradient_button_green {
   float: right;
   position: relative;
