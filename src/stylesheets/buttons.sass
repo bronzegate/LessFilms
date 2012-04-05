@@ -1,189 +1,48 @@
 @import fonts
+@import compass
 
-/* Main Hire Button
-
-.main_hire_button
-  text-align: center
-  display: inline-block
-  // width: 81px
-  padding: 0 15px
-  height: 30px
-  line-height: 30px
-  border-radius: 3px
-  font-size: 1em
-  &:hover
-    cursor: pointer
-
-a.main_hire_button
-  color: #666
-  text-decoration: none
-  &:hover
-    color: #999
-
-/* Color Definitions
-    
-.main_hire_colors
-  /* Fallback Solid Color
-  background: #F7F7F7
-  /* Gradients
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAFAFA), to(#E1E1E1))
-  /* Safari 4+, Chrome 1-9
-  background-image: -webkit-linear-gradient(top, #FAFAFA, #E1E1E1)
-  /* Safari 5.1+, Mobile Safari, Chrome 10+
-  background-image: -moz-linear-gradient(top, #FAFAFA, #E1E1E1)
-  /* Firefox 3.6+
-  background-image: -ms-linear-gradient(top, #FAFAFA, #E1E1E1)
-  /* IE 10+
-  background-image: -o-linear-gradient(top, #FAFAFA, #E1E1E1)
-  /* Opera 11.10+
-  /* Shadows
-  box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0
-  /* Text Color
-  //color: #777
-  text-shadow: 0 1px 0 #fff
-  &:hover
-    //color: #fff
-  &:active
-    /* Gradients
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E1E1E1), to(#FAFAFA))
-    /* Safari 4+, Chrome 1-9
-    background-image: -webkit-linear-gradient(top, #E1E1E1, #FAFAFA)
-    /* Safari 5.1+, Mobile Safari, Chrome 10+
-    background-image: -moz-linear-gradient(top, #E1E1E1, #FAFAFA)
-    /* Firefox 3.6+
-    background-image: -ms-linear-gradient(top, #E1E1E1, #FAFAFA)
-    /* IE 10+
-    background-image: -o-linear-gradient(top, #E1E1E1, #FAFAFA)
-    /* Opera 11.10+
-    box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0
-    /* Shadows
-    /* Text Color
-    //color: #E1E5E7
-    text-shadow: 0 1px 0 #fff
-    
-/* Home Lg Hire Button
-
-.home_lg_hire
-  text-align: center
-  display: inline-block
+// Green Button -->
+.gradient_button_green, a.gradient_button_green
+  background: #75B654
   width: 180px
   height: 55px
   line-height: 55px
-  border-radius: 3px
-  font-size: 25px
-  &:hover
-    cursor: pointer
-
-a.home_lg_hire
-  +SignikaSemibold(25px, 400, #BFEA9D)
+  border-radius: 5px
+  +SignikaSemibold(30px, 400, #BFEA9D)
+  //
+  $experimental-support-for-svg: true
+  @include background-image(linear-gradient(top, #86CB52, #65A355)) 
+  text-align: center
   text-decoration: none
-
-//.home_lg_hire:active
-  // // Move text down on Active
-  //padding-top: 1px
-  //height: 54px
-  // // Size difference based upon original button size minus padding-top
-  //font-size: .97em
-
-/* Color Definitions
-    
-.home_lg_hire_colors
-  /* Fallback Solid Color
-  background: #75B654
-  /* Gradients
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#86CB52), to(#65A355))
-  /* Safari 4+, Chrome 1-9
-  background-image: -webkit-linear-gradient(top, #86CB52, #65A355)
-  /* Safari 5.1+, Mobile Safari, Chrome 10+
-  background-image: -moz-linear-gradient(top, #86CB52, #65A355)
-  /* Firefox 3.6+
-  background-image: -ms-linear-gradient(top, #86CB52, #65A355)
-  /* IE 10+
-  background-image: -o-linear-gradient(top, #86CB52, #65A355)
-  /* Opera 11.10+
-  /* Shadows
+  display: inline-block
   box-shadow: 0 -2px 0 #AFE483, 0 -3px 0 #5EA14D, 0 3px 3px #777
   border-right: solid 1px #5EA14D
   border-left: solid 1px #5EA14D
   text-shadow: 0 -1px 0 #5B7745
   &:hover
-    color: #fff
+    color: #fff 
+    cursor: pointer
   &:active
-    /* Gradients
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#65A355), to(#86CB52))
-    /* Safari 4+, Chrome 1-9
-    background-image: -webkit-linear-gradient(top, #65A355, #86CB52)
-    /* Safari 5.1+, Mobile Safari, Chrome 10+
-    background-image: -moz-linear-gradient(top, #65A355, #86CB52)
-    /* Firefox 3.6+
-    background-image: -ms-linear-gradient(top, #65A355, #86CB52)
-    /* IE 10+
-    background-image: -o-linear-gradient(top, #65A355, #86CB52)
-    /* Opera 11.10+
-    /* box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0
-    
-/* Process Lg Hire Button
+    @include background-image(linear-gradient(top, #65A355, #86CB52))
 
-.process_lg_hire
+// White Button -->    
+.gradient_button_white, a.gradient_button_white
+  background: #F7F7F7
+  color: #666
+  padding: 0 15px
+  height: 30px
+  line-height: 30px
+  border-radius: 3px
+  $experimental-support-for-svg: true
+  @include background-image(linear-gradient(top, #FAFAFA, #E1E1E1)) 
   text-align: center
+  text-decoration: none
   display: inline-block
-  width: 220px
-  height: 55px
-  line-height: 55px
-  border-radius: 5px
-  font-size: 25px
+  box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0
+  text-shadow: 0 1px 0 #fff
   &:hover
     cursor: pointer
-
-a.process_lg_hire
-  +SignikaSemibold(25px, 400, #BFEA9D)
-  text-decoration: none
-
-//.process_lg_hire:active
-  // // Move text down on Active
-  //padding-top: 1px
-  //height: 54px
-  // // Size difference based upon original button size minus padding-top
-  //font-size: .97em
-
-/* Color Definitions
-    
-.process_lg_hire_colors
-  /* Fallback Solid Color
-  background: #75B654
-  /* Gradients
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#86CB52), to(#65A355))
-  /* Safari 4+, Chrome 1-9
-  background-image: -webkit-linear-gradient(top, #86CB52, #65A355)
-  /* Safari 5.1+, Mobile Safari, Chrome 10+
-  background-image: -moz-linear-gradient(top, #86CB52, #65A355)
-  /* Firefox 3.6+
-  background-image: -ms-linear-gradient(top, #86CB52, #65A355)
-  /* IE 10+
-  background-image: -o-linear-gradient(top, #86CB52, #65A355)
-  /* Opera 11.10+
-  /* Shadows
-  box-shadow: 0 -2px 0 #AFE483, 0 -3px 0 #5EA14D, 0 3px 3px #111
-  border-right: solid 1px #5EA14D
-  border-left: solid 1px #5EA14D
-  text-shadow: 0 -1px 0 #5B7745
-  &:hover
-    color: #fff
+    color: #999
   &:active
-    /* Gradients
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#65A355), to(#86CB52))
-    /* Safari 4+, Chrome 1-9
-    background-image: -webkit-linear-gradient(top, #65A355, #86CB52)
-    /* Safari 5.1+, Mobile Safari, Chrome 10+
-    background-image: -moz-linear-gradient(top, #65A355, #86CB52)
-    /* Firefox 3.6+
-    background-image: -ms-linear-gradient(top, #65A355, #86CB52)
-    /* IE 10+
-    background-image: -o-linear-gradient(top, #65A355, #86CB52)
-    /* Opera 11.10+
-    /* box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0
+    @include background-image(linear-gradient(top, #E1E1E1, #FAFAFA))
     
-.lucha_banner
-  box-shadow: 0 -2px 0 #AFE483, 0 -3px 0 #5EA14D, 0 3px 3px #111
-  border-radius: 5px
-  

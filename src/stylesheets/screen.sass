@@ -3,6 +3,7 @@
 @import global_reset
 @import partials/utils
 
+
 // SASS Variables and Mixins -->
 
 = centered
@@ -27,6 +28,7 @@ body
   background: #F1F1F1
   color: #595959
   +SignikaLight(16px, 400, #595959)
+  position: relative
   
 h1
   +LeagueGothicRegular(50px, 400, #595959)
@@ -217,6 +219,9 @@ h1.page_headline
       width: 300px
       height: 55px
       margin-top: 16px
+      .gradient_button_green
+        width: 230px
+        box-shadow: 0 -2px 0 #AFE483, 0 -3px 0 #5EA14D, 0 3px 3px #111
       
 .process_item
   +fl
@@ -425,8 +430,9 @@ p.world_changer
       line-height: 40px
       padding: 25px 0 0 0
       margin: 0 0 0 0
-  a
+  .gradient_button_green
     +fr
     position: relative
     top: -65px
     right: 35px
+    box-shadow: 0 -2px 0 #AFE483, 0 -3px 0 #5EA14D, 0 3px 3px #111
