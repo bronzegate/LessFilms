@@ -5,6 +5,11 @@
 :css
   .footer{box-shadow: 0 0 0;}
 / Start Normal Flow
+.intro_vid
+  %video{:autoplay => "autoplay", :width => "1280px"}
+    %source{:src => "/videos/Lucha_Pop_Up_1080.m4v", :type => "video/mp4"}
+    %source{:src => "/videos/Lucha_Pop_Up_1080.webm", :type => "video/webm"}/
+
 .lucha_home
   .wrapper
     = partial('_header')

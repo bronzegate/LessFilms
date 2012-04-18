@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$(".lucha_home").css({'position' : 'relative', 'top' : '100%', 'overflow' : 'hidden'});
-	$(".lucha_home").stop().animate({top: '0' }, {queue:false, duration:1000, easing:'easeOutBounce'});
-	$(".lucha_home").css({'overflow' : 'auto'});
+	$(".lucha_home, .footer").css({'position' : 'relative', 'top' : '100%', 'overflow' : 'hidden'}).stop();
+	$(".lucha_home, .footer").delay(4000).queue(function( nxt ) {	
+		$(this).animate({top: '0' }, {duration:1000, easing:'easeOutBounce'}).css({'overflow' : 'auto'});
+	nxt();
+	});
 });
