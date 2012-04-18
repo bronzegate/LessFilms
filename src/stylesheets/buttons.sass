@@ -1,6 +1,8 @@
 @import fonts
 @import compass
 
+$experimental-support-for-svg: true
+
 // Green Button -->
 .gradient_button_green, a.gradient_button_green
   background: #75B654
@@ -9,7 +11,6 @@
   line-height: 55px
   border-radius: 5px
   +SignikaSemibold(30px, 400, #BFEA9D)
-  $experimental-support-for-svg: true
   @include background-image(linear-gradient(top, #86CB52, #65A355)) 
   text-align: center
   text-decoration: none
@@ -30,9 +31,8 @@
   color: #666
   padding: 0 15px
   height: 30px
-  line-height: 30px
+  line-height: 31px
   border-radius: 3px
-  $experimental-support-for-svg: true
   +background-image(linear-gradient(top, #FAFAFA, #E1E1E1)) 
   text-align: center
   text-decoration: none
