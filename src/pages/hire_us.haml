@@ -4,21 +4,7 @@
     %h1.page_headline HEAD TO THE BATTLE ARENA 
     .content
       .hire_us_col
-        .contact_form_col
-          %h3 What's Your Project About?
-          %form
-            %h4 Customer Info
-            %input{:type => "text", :name => "full_name", :onfocus => "if(this.value == 'Full Name or Company') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Full Name or Company'; }", :value => "Full Name or Company"}
-            %input{:type => "text", :name => "email", :onfocus => "if(this.value == 'Email') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Email'; }", :value => "Email"}
-            %h4 Project Details
-            %input{:type => "text", :name => "project_title", :onfocus => "if(this.value == 'Project Title') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Project Title'; }", :value => "Project Title"}
-            %textarea{:name => "project_description", :onfocus => "if(this.value == 'Project Description') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Project Description'; }", :rows => "5"}
-              Project Description
-            %h4 Project Scope
-            %input{:type => "text", :name => "budget", :onfocus => "if(this.value == 'My budget is $000.00') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'My budget is $000.00'; }", :value => "My budget is $000.00"}
-            %input{:type => "text", :name => "turnaround_date", :onfocus => "if(this.value == 'Turnaround Date') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Turnaround Date'; }", :value => "Turnaround Date"}
-            %h4.ready Ready to Rumble? Hit the Bell!
-            %a{:href => "#", :class => "gradient_button_green"} Hire Us    
+        = partial('_contact')   
         .social_col
           %h3 Rave with the other Fans!
           %h4 Connect
