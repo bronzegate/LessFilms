@@ -9,7 +9,7 @@ $(document).ready(function(){
 		$(".wrapper, .footer").css({'display' : 'none'});
 	nxt();
 	});
-	$(".wrapper, .footer").delay(5300).queue(function( trd ) {
+	$(".wrapper, .footer").delay(4600).queue(function( trd ) {
 		$(this).fadeIn(1000).css({'overflow' : 'auto'});
 	trd();
 	});

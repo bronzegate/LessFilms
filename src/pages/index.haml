@@ -2,16 +2,16 @@
 = javascripts ('jquery.easing.1.3')
 /= javascripts ('site_intro_slide_up')
 /= javascripts ('site_intro_slide_down')
-//= javascripts ('site_intro_fade_in')
+= javascripts ('site_intro_fade_in')
 
 / Get rid of the footer box-shadow only on this page
 :css
   .footer{box-shadow: 0 0 0;}
 / Start Normal Flow
-//.intro_vid
-//  %video{:autoplay => "autoplay", :width => "1410px"}
-//    %source{:src => "videos/Lucha_Pop_Up_1080.m4v", :type => "video/mp4"}
-//    %source{:src => "videos/Lucha_Pop_Up_1080.webm", :type => "video/webm"}/
+.intro_vid
+  %video{:autoplay => "autoplay", :width => "1410px"}
+    %source{:src => "videos/Lucha_Pop_Up_1080.m4v", :type => "video/mp4"}
+    %source{:src => "videos/Lucha_Pop_Up_1080.webm", :type => "video/webm"}/
 
 .lucha_home
   .wrapper
@@ -31,7 +31,7 @@
             %a{:href => "http://www.informationdiet.com/", :target => "_blank"} The Information Diet
         .video_sm
           .video_sm_top
-            %a{:href => "http://youtu.be/UwXoUEJiKBY", :rel => "prettyPhoto"}
+            %a{:href => "http://youtube.com/v/UwXoUEJiKBY;autoplay=1", :class => "video", :title => "Test Title"}
               = img 'business_partners_thumb_sm.jpg', :alt => "BusinessPartners.com"
           .video_sm_bottom
             %a{:href => "http://youtu.be/UwXoUEJiKBY", :rel => "prettyPhoto"} "Site Marketing"
