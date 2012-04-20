@@ -10,9 +10,11 @@ jQuery(document).ready(function() {
 				'height'			: 495,
 				'href'				: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
 				'type'				: 'swf',
+				'centerOnScroll'	: 'true',
+				'titleShow'			: false,
 				'swf'				: {
 			   	'wmode'				: 'transparent',
-				'allowfullscreen'	: 'true'
+				'allowfullscreen'	: 'true',
 				}
 			});
 	
