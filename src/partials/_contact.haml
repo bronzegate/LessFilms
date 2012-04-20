@@ -21,9 +21,17 @@
             Project Description
       %li
         %h4 Project Scope            
-      %li#foli8.notranslate
+      %li#foli12.notranslate
         %div
-          %input#Field8.field.text.medium.normal{:maxlength => "255", :name => "Field8", :onkeyup => "", :tabindex => "5", :type => "text", :onfocus => "if(this.value == 'My budget is $000.00') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'My budget is $000.00'; }", :value => "My budget is $000.00"}/
+          %select#Field12.field.select.medium{:name => "Field12", :tabindex => "6"}
+            %option{:selected => "selected", :value => "$5,000 - $10,000"}
+              $5,000 - $10,000
+            %option{:value => "$10,000 - $30,000"}
+              $10,000 - $30,000
+            %option{:value => "$30,000 - $100,000"}
+              $30,000 - $100,000
+            %option{:value => "+$100,000"}
+              +$100,000
       %li#foli10.notranslate
         %div
           %input#Field10.field.text.medium.normal{:maxlength => "255", :name => "Field10", :onkeyup => "", :tabindex => "6", :type => "text", :onfocus => "if(this.value == 'Turnaround Date') { this.value = ''; }", :onblur => "if(this.value == '') { this.value = 'Turnaround Date'; }", :value => "Turnaround Date"}/
