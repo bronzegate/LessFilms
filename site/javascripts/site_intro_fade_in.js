@@ -8,7 +8,7 @@ $(document).ready(function(){
 		frst();
 		});
 		$(".lucha_home").delay(4300).queue(function( nxt ) {
-			$(this).fadeIn(1000).css({'overflow' : 'auto'});
+			$(this).fadeIn(1000).css({'overflow' : 'auto', 'background-position' : 'center 24px'});
 			$(".wrapper, .footer").css({'display' : 'none'});
 		nxt();
 		});
