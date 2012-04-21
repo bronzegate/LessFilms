@@ -258,6 +258,98 @@ ul {
   display: none;
 }
 
+/* line 19, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector {
+  line-height: 47px;
+  margin: 0 0 20px -2px;
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  background-position: -483px -130px;
+  line-height: 47px;
+  height: 47px;
+}
+/* line 25, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select {
+  width: 100%;
+  height: 47px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  border: solid 1px white;
+}
+/* line 26, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select:hover {
+  cursor: pointer;
+}
+/* line 33, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector span {
+  padding: 0px 0px 0px 7px;
+  cursor: pointer;
+  color: #9a9a9a;
+  width: 265px;
+  height: 47px;
+  line-height: 47px;
+  text-shadow: 0 1px 0 white;
+}
+/* line 41, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.disabled span {
+  color: #bbbbbb;
+}
+/* line 46, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector span {
+  background-position: right 0px;
+  height: 47px;
+  line-height: 48px;
+}
+/* line 51, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select {
+  width: 278px;
+  top: 0px;
+  left: 3px;
+  right: 0px;
+  bottom: 3px;
+}
+/* line 52, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select option {
+  color: #9a9a9a;
+}
+/* line 59, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector:active, div.selector.active {
+  background-position: -483px -130px;
+}
+/* line 61, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector:active span, div.selector.active span {
+  background-position: right 0;
+}
+/* line 63, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus, div.selector.hover, div.selector:hover {
+  background-position: -483px -130px;
+}
+/* line 65, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus span, div.selector.hover span, div.selector:hover span {
+  background-position: right 0;
+}
+/* line 68, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus:active, div.selector.focus.active {
+  background-position: -483px -130px;
+}
+/* line 70, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector:hover:active, div.selector.active:hover {
+  background-position: -483px -130px;
+}
+/* line 72, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus:active span, div.selector:hover:active span, div.selector.active:hover span, div.selector.focus.active span {
+  background-position: right 0;
+}
+/* line 74, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.disabled {
+  background-position: -483px -130px;
+}
+/* line 76, c:/Sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.disabled span {
+  background-position: right 0;
+}
+
 /* line 19 */
 html, body {
   height: 100%;
