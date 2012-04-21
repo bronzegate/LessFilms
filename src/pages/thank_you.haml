@@ -1,0 +1,19 @@
+/ Get Intro Partial
+= partial('_site_intro')
+
+/ Get rid of the footer box-shadow only on this page
+:css
+  .footer{box-shadow: 0 0 0;}
+  
+/ Start Normal Flow
+.lucha_home
+  .wrapper
+    = partial('_header')
+    .content
+      .home_col
+        %h1.home_headline SUBMISSION RECEIVED!
+        %p
+          Thank you for your interest in working with LessFilms. We will be contacting you soon!
+        .hire_us_lg
+          %a{:href => "index.html", :class => "gradient_button_green"} Take Me Home!
+    .clearfix
