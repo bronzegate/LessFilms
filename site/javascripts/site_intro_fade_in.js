@@ -9,6 +9,7 @@ $(document).ready(function(){
 		});
 		$(".lucha_home").delay(4300).queue(function( nxt ) {
 			$(this).fadeIn(1000).css({'overflow' : 'auto', 'background-position' : 'center 24px'});
+			$('#fancybox-overlay').css({'margin-top' : '0'});
 			$(".wrapper, .footer").css({'display' : 'none'});
 		nxt();
 		});
