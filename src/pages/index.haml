@@ -1,9 +1,14 @@
-/ Get Intro Partial
-= partial('_site_intro')
-
 / Get rid of the footer box-shadow only on this page
 :css
   .footer{box-shadow: 0 0 0;}
+
+/ Play the intro video once per session  
+= javascripts ('site_intro_fade_in')
+
+.intro_vid
+  %video{:autoplay => "autoplay", :width => "1410px"}
+    %source{:src => "videos/Lucha_Pop_Up_1080.m4v", :type => "video/mp4"}
+    %source{:src => "videos/Lucha_Pop_Up_1080.webm", :type => "video/webm"}
   
 / Start Normal Flow
 .lucha_home
