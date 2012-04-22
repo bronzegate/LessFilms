@@ -9,10 +9,10 @@ $(document).ready(function(){
 		$(this).removeClass('closed');
 		$(this).addClass('current');
 		
-		fadeOutSpeed = 1000
-		fadeInSpeed = 1000
+		fadeOutSpeed = 1000;
+		fadeInSpeed = 1000;
 		
-		$(".vid_thumbs, .new_vid").fadeOut(fadeOutSpeed).delay(fadeOutSpeed -100);
+		$(".vid_thumbs, .new_vid").fadeOut(fadeOutSpeed).delay(fadeOutSpeed - 100);
 		
 		if($(this).hasClass('vid_nav_promos')){
 			$('.vid_cat_promos, .vid_cat_promos .new_vid').fadeIn(fadeInSpeed);
