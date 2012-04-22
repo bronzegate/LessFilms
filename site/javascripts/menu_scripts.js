@@ -12,7 +12,7 @@ $(document).ready(function(){
 		fadeOutSpeed = 1000
 		fadeInSpeed = 1000
 		
-		$(".vid_thumbs").fadeOut(fadeOutSpeed);
+		$(".vid_thumbs").fadeOut(fadeOutSpeed).delay(1000);
 		
 		if($(this).hasClass('vid_nav_promos')){
 			$('.vid_cat_promos').fadeIn(fadeInSpeed);
@@ -35,8 +35,8 @@ $(document).ready(function(){
 		if($(this).hasClass('vid_nav_motion_graphics')){
 			$('.vid_cat_motion_graphics').fadeIn(fadeInSpeed);
 		}
+	
 	});
-
 });
 
 
