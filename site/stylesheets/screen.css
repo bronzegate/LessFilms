@@ -169,7 +169,7 @@ div:after {
 
 /* line 317, c:/Sites/lessfilms/src/stylesheets/utils.sass */
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /* line 320, c:/Sites/lessfilms/src/stylesheets/utils.sass */
@@ -775,14 +775,16 @@ p.world_changer {
 /* line 302 */
 .videos_col .vid_nav {
   float: left;
-  width: 205px;
-  margin: 0 15px 0 0;
+  width: 190px;
+  box-sizing: content-box;
+  margin: 0 0 0 15px;
+  padding: 0 15px 0 0;
 }
-/* line 306 */
+/* line 308 */
 .videos_col .vid_nav .vid_category {
   margin: 0 0 10px 0;
 }
-/* line 308 */
+/* line 310 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -790,13 +792,10 @@ p.world_changer {
   border-bottom: 5px solid transparent;
   border-left: 5px solid #3f94cd;
   display: inline-block;
-  margin: 0 5px 0 0;
+  position: absolute;
+  margin: 8px 0 0 -15px;
 }
-/* line 316 */
-.videos_col .vid_nav .vid_category .triangle:hover {
-  cursor: pointer;
-}
-/* line 318 */
+/* line 321 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -804,11 +803,11 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 321 */
+/* line 324 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
-/* line 323 */
+/* line 326 */
 .videos_col .vid_nav .vid_category li {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -817,32 +816,33 @@ p.world_changer {
   line-height: 20px;
   margin: 0 0 10px 25px;
 }
-/* line 327 */
+/* line 330 */
 .videos_col .vid_nav .vid_category li:before {
   content: "- ";
   margin: 0 0 0 -8px;
 }
-/* line 330 */
+/* line 333 */
 .videos_col .vid_nav .vid_category:last-of-type {
   margin-bottom: 0;
 }
-/* line 332 */
-.videos_col .vid_thumbs {
-  display: inline-block;
-  width: 764px;
-}
 /* line 335 */
+.videos_col .vid_thumbs {
+  float: right;
+  width: 764px;
+  display: none;
+}
+/* line 339 */
 .videos_col .vid_thumbs .vid_item {
   display: inline-block;
   margin: 0 0 30px 0;
 }
-/* line 338 */
+/* line 342 */
 .videos_col .vid_thumbs .vid_item img {
   width: 191px;
   height: 115px;
   margin: 0 -4px 0 0;
 }
-/* line 342 */
+/* line 346 */
 .videos_col .vid_thumbs .vid_item h3 {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -851,7 +851,7 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 346 */
+/* line 350 */
 .videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
   display: inline-block;
   font-family: "SignikaSemibold";
@@ -864,7 +864,7 @@ p.world_changer {
   border-radius: 2px;
   padding: 3px;
 }
-/* line 355 */
+/* line 359 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -873,8 +873,12 @@ p.world_changer {
   position: absolute;
   margin: -11px 0 0 -11px;
 }
+/* line 368 */
+.videos_col div:nth-of-type(2) {
+  display: inline-block;
+}
 
-/* line 365 */
+/* line 373 */
 .lucha_hire_us {
   background: url("../images/lucha_hire_us.png") no-repeat top center;
   margin: 0 auto;
@@ -883,7 +887,7 @@ p.world_changer {
   height: auto;
 }
 
-/* line 372 */
+/* line 380 */
 .hire_us_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -891,7 +895,7 @@ p.world_changer {
   color: #9a9a9a;
   margin: 0 0 45px 0;
 }
-/* line 375 */
+/* line 383 */
 .hire_us_col h3 {
   font-family: "SignikaSemibold";
   font-size: 22px;
@@ -899,7 +903,7 @@ p.world_changer {
   color: #6faa44;
   white-space: nowrap;
 }
-/* line 378 */
+/* line 386 */
 .hire_us_col h4 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -908,7 +912,7 @@ p.world_changer {
   margin: 10px 0 5px 0;
   clear: left;
 }
-/* line 382 */
+/* line 390 */
 .hire_us_col h4.ready {
   font-family: "SignikaSemibold";
   font-size: 16px;
@@ -916,11 +920,11 @@ p.world_changer {
   color: #666666;
   margin-bottom: 13px;
 }
-/* line 385 */
+/* line 393 */
 .hire_us_col .social_col {
   float: left;
 }
-/* line 387 */
+/* line 395 */
 .hire_us_col .social_col img {
   background: #6faa44;
   width: 24px;
@@ -930,16 +934,16 @@ p.world_changer {
   float: left;
   clear: left;
 }
-/* line 395 */
+/* line 403 */
 .hire_us_col .social_col img:last-of-type {
   margin-bottom: 20px;
 }
-/* line 397 */
+/* line 405 */
 .hire_us_col .social_col a {
   float: left;
 }
 
-/* line 402 */
+/* line 410 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -948,12 +952,12 @@ p.world_changer {
   border-radius: 5px;
   margin: 0 0 50px 0;
 }
-/* line 409 */
+/* line 417 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 412 */
+/* line 420 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -961,7 +965,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 418 */
+/* line 426 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -971,7 +975,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 423 */
+/* line 431 */
 .foot_banner .gradient_button_green {
   float: right;
   position: relative;

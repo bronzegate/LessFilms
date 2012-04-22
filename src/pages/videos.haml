@@ -4,93 +4,24 @@
   .content
     .videos_col
       .vid_nav
-        .vid_category.closed
-          .triangle
-          %h3 Promos
-          %ul
-            %li 
-              = link "Hiring a Luchador", "#"
-            %li 
-              = link "Day and Night Shooting", "#"
-            %li 
-              = link "When Ping Pong Goes Bad and You Get Owned", "#"
-            %li 
-              = link "Luchador VS Eric", "#"              
-        .vid_category.closed
-          .triangle
+        .vid_category.vid_nav_promos.current
+          %h3 Promos            
+        .vid_category.vid_nav_conferences.closed
           %h3 Conferences
-          %ul
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-        .vid_category.closed
-          .triangle
+        .vid_category.vid_nav_documentaries.closed
           %h3 Documentaries
-          %ul
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#" 
-        .vid_category.closed
-          .triangle
+        .vid_category.vid_nav_office_culture.closed
           %h3 Office Culture
-          %ul
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#" 
-        .vid_category.closed
-          .triangle
+        .vid_category.vid_nav_web_commercials.closed
           %h3 Web Commercials
-          %ul
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#" 
-        .vid_category.closed
-          .triangle
+        .vid_category.vid_nav_animation.closed
           %h3 Animation
-          %ul
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#" 
-        .vid_category.closed
-          .triangle
+        .vid_category.vid_nav_motion_graphics.closed
           %h3 Motion Graphics
-          %ul
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#"
-            %li 
-              = link "Second List Item", "#" 
       / Category class refers to the category of videos currently displayed
       / Add the new_vid class in the vid_item class to get the "New" ribbon overlay
-      .vid_thumbs.vid_promos_category
+      / Promos Category
+      .vid_thumbs.vid_cat_promos
         .vid_item
           .new_vid
           = img ('vid_thumb_temp_odd.png')
@@ -125,6 +56,221 @@
           %h3 When Ping Pong Goes Bad and You Get Owned
           .vid_thumb_time_box
             10:31
-        %a{:href => "#", :class => "gradient_button_white left"} Show 4 More
-        %a{:href => "#", :class => "gradient_button_white right"} Next Category
+      / Conferences Category
+      .vid_thumbs.vid_cat_conferences
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Hiring a Luchador
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Day and Night Shooting
+          .vid_thumb_time_box
+            02:51
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Luchador VS Eric
+          .vid_thumb_time_box
+            00:58
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 When Ping Pong Goes Bad and You Get Owned
+          .vid_thumb_time_box
+            10:31
+      / Documentaries Category
+      .vid_thumbs.vid_cat_documentaries
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Hiring a Luchador
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Day and Night Shooting
+          .vid_thumb_time_box
+            02:51
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Luchador VS Eric
+          .vid_thumb_time_box
+            00:58
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 When Ping Pong Goes Bad and You Get Owned
+          .vid_thumb_time_box
+            10:31
+      / Office Culture Category
+      .vid_thumbs.vid_cat_office_culture
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Hiring a Luchador
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Day and Night Shooting
+          .vid_thumb_time_box
+            02:51
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Luchador VS Eric
+          .vid_thumb_time_box
+            00:58
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 When Ping Pong Goes Bad and You Get Owned
+          .vid_thumb_time_box
+            10:31
+      / Web Commercials Category
+      .vid_thumbs.vid_cat_web_commercials
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Hiring a Luchador
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Day and Night Shooting
+          .vid_thumb_time_box
+            02:51
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Luchador VS Eric
+          .vid_thumb_time_box
+            00:58
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 When Ping Pong Goes Bad and You Get Owned
+          .vid_thumb_time_box
+            10:31
+      / Animation Category
+      .vid_thumbs.vid_cat_animation
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Hiring a Luchador
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Day and Night Shooting
+          .vid_thumb_time_box
+            02:51
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Luchador VS Eric
+          .vid_thumb_time_box
+            00:58
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 When Ping Pong Goes Bad and You Get Owned
+          .vid_thumb_time_box
+            10:31
+      / Motion Graphics Category
+      .vid_thumbs.vid_cat_motion_graphics
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Hiring a Luchador
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          .new_vid
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Day and Night Shooting
+          .vid_thumb_time_box
+            02:51
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 Luchador VS Eric
+          .vid_thumb_time_box
+            00:58
+        .vid_item
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          = img ('vid_thumb_temp_odd.png')
+          = img ('vid_thumb_temp_even.png')
+          %h3 When Ping Pong Goes Bad and You Get Owned
+          .vid_thumb_time_box
+            10:31
+        /%a{:href => "#", :class => "gradient_button_white left"} Show 4 More
+        /%a{:href => "#", :class => "gradient_button_white right"} Next Category
     = partial('_foot_banner')
