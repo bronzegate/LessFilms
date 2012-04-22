@@ -12,28 +12,28 @@ $(document).ready(function(){
 		fadeOutSpeed = 1000
 		fadeInSpeed = 1000
 		
-		$(".vid_thumbs").fadeOut(fadeOutSpeed).delay(fadeOutSpeed - 1);
+		$(".vid_thumbs, .new_vid").fadeOut(fadeOutSpeed).delay(fadeOutSpeed);
 		
 		if($(this).hasClass('vid_nav_promos')){
-			$('.vid_cat_promos').fadeIn(fadeInSpeed);
+			$('.vid_cat_promos, .vid_cat_promos .new_vid').fadeIn(fadeInSpeed);
 		}
 		if($(this).hasClass('vid_nav_conferences')){
-			$('.vid_cat_conferences').fadeIn(fadeInSpeed);
+			$('.vid_cat_conferences, .vid_cat_conferences .new_vid').fadeIn(fadeInSpeed);
 		}
 		if($(this).hasClass('vid_nav_documentaries')){
-			$('.vid_cat_documentaries').fadeIn(fadeInSpeed);
+			$('.vid_cat_documentaries, .vid_cat_documentaries .new_vid').fadeIn(fadeInSpeed);
 		}
 		if($(this).hasClass('vid_nav_office_culture')){
-			$('.vid_cat_office_culture').fadeIn(fadeInSpeed);
+			$('.vid_cat_office_culture, .vid_cat_office_culture .new_vid').fadeIn(fadeInSpeed);
 		}
 		if($(this).hasClass('vid_nav_web_commercials')){
-			$('.vid_cat_web_commercials').fadeIn(fadeInSpeed);
+			$('.vid_cat_web_commercials, .vid_cat_web_commercials .new_vid').fadeIn(fadeInSpeed);
 		}
 		if($(this).hasClass('vid_nav_animation')){
-			$('.vid_cat_animation').fadeIn(fadeInSpeed);
+			$('.vid_cat_animation, .vid_cat_animation .new_vid').fadeIn(fadeInSpeed);
 		}
 		if($(this).hasClass('vid_nav_motion_graphics')){
-			$('.vid_cat_motion_graphics').fadeIn(fadeInSpeed);
+			$('.vid_cat_motion_graphics, .vid_cat_motion_graphics .new_vid').fadeIn(fadeInSpeed);
 		}
 	
 	});
