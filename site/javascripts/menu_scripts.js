@@ -12,7 +12,7 @@ $(document).ready(function(){
 		fadeOutSpeed = 1000
 		fadeInSpeed = 1000
 		
-		$(".vid_thumbs").fadeOut(fadeOutSpeed).delay(1000);
+		$(".vid_thumbs").fadeOut(fadeOutSpeed).delay(fadeOutSpeed - 1);
 		
 		if($(this).hasClass('vid_nav_promos')){
 			$('.vid_cat_promos').fadeIn(fadeInSpeed);
