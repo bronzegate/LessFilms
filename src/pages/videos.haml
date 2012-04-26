@@ -3,77 +3,55 @@
   %h1.page_headline SLAMMIN' VIDEOS FROM YOURS TRULY...
   .content
     .videos_col
-      .vid_nav
-        .vid_category.vid_nav_promos.current
-          %h3 Promos            
-        .vid_category.vid_nav_conferences.closed
+      .vid_nav        
+        .vid_category.vid_nav_conferences.current
           %h3 Conferences
-        .vid_category.vid_nav_documentaries.closed
-          %h3 Documentaries
+        .vid_category.vid_nav_motion_graphics.closed
+          %h3 Motion Graphics
         .vid_category.vid_nav_office_culture.closed
           %h3 Office Culture
         .vid_category.vid_nav_web_commercials.closed
           %h3 Web Commercials
-        .vid_category.vid_nav_animation.closed
-          %h3 Animation
-        .vid_category.vid_nav_motion_graphics.closed
-          %h3 Motion Graphics
       / Category class refers to the category of videos currently displayed
       / Add the new_vid class in the vid_item class to get the "New" ribbon overlay
-      / Promos Category
-      .vid_thumbs.vid_cat_promos
-        .vid_item
-          .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Hiring a Luchador
-          .vid_thumb_time_box
-            00:31
-        .vid_item
-          .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Day and Night Shooting
-          .vid_thumb_time_box
-            02:51
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Luchador VS Eric
-          .vid_thumb_time_box
-            00:58
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 When Ping Pong Goes Bad and You Get Owned
-          .vid_thumb_time_box
-            10:31
       / Conferences Category
       .vid_thumbs.vid_cat_conferences
         .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Luchador VS Eric
+          .new_vid
+          = link img("vid_thumbs/lessconf1.jpg"), "http://youtube.com/v/_uGMo6yvqvE;autoplay=1", :class => "video"
+          = link img("vid_thumbs/lessconf2.jpg"), "http://youtube.com/v/_uGMo6yvqvE;autoplay=1", :class => "video"
+          = link img("vid_thumbs/lessconf3.jpg"), "http://youtube.com/v/_uGMo6yvqvE;autoplay=1", :class => "video"
+          = link img("vid_thumbs/lessconf4.jpg"), "http://youtube.com/v/_uGMo6yvqvE;autoplay=1", :class => "video"
+          %h3 LessConf 2012
           .vid_thumb_time_box
-            00:58
+            01:23
         .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 When Ping Pong Goes Bad and You Get Owned
+          .new_vid
+          = link img("vid_thumbs/mr1.jpg"), "http://youtube.com/v/SXZxE9_My4c;autoplay=1", :class => "video"
+          = link img("vid_thumbs/mr2.jpg"), "http://youtube.com/v/SXZxE9_My4c;autoplay=1", :class => "video"
+          = link img("vid_thumbs/mr3.jpg"), "http://youtube.com/v/SXZxE9_My4c;autoplay=1", :class => "video"
+          = link img("vid_thumbs/mr4.jpg"), "http://youtube.com/v/SXZxE9_My4c;autoplay=1", :class => "video"
+          %h3 Madison Ruby
           .vid_thumb_time_box
-            10:31
+            00:23
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/sf1.jpg"), "http://youtube.com/v/p0PgvH0nAZY;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sf2.jpg"), "http://youtube.com/v/p0PgvH0nAZY;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sf3.jpg"), "http://youtube.com/v/p0PgvH0nAZY;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sf4.jpg"), "http://youtube.com/v/p0PgvH0nAZY;autoplay=1", :class => "video"
+          %h3 Social Fresh
+          .vid_thumb_time_box
+            03:27
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/sl1.jpg"), "http://youtube.com/v/SjgPIW1Bno4;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sl2.jpg"), "http://youtube.com/v/SjgPIW1Bno4;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sl3.jpg"), "http://youtube.com/v/SjgPIW1Bno4;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sl4.jpg"), "http://youtube.com/v/SjgPIW1Bno4;autoplay=1", :class => "video"
+          %h3 Strange Loop 2011
+          .vid_thumb_time_box
+            01:05
       / Documentaries Category
       .vid_thumbs.vid_cat_documentaries
         .vid_item
@@ -113,146 +91,80 @@
       .vid_thumbs.vid_cat_office_culture
         .vid_item
           .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Hiring a Luchador
+          = link img("vid_thumbs/gowalla1.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla2.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla3.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla4.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          %h3 Gowalla
           .vid_thumb_time_box
-            00:31
+            01:16
         .vid_item
           .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Day and Night Shooting
+          = link img("vid_thumbs/grooveshark1.jpg"), "http://youtube.com/v/qtcYIP31QXo;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grooveshark2.jpg"), "http://youtube.com/v/qtcYIP31QXo;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grooveshark3.jpg"), "http://youtube.com/v/qtcYIP31QXo;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grooveshark4.jpg"), "http://youtube.com/v/qtcYIP31QXo;autoplay=1", :class => "video"
+          %h3 Grooveshark
           .vid_thumb_time_box
-            02:51
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Luchador VS Eric
-          .vid_thumb_time_box
-            00:58
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 When Ping Pong Goes Bad and You Get Owned
-          .vid_thumb_time_box
-            10:31
+            00:55
       / Web Commercials Category
       .vid_thumbs.vid_cat_web_commercials
         .vid_item
           .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Hiring a Luchador
+          = link img("vid_thumbs/gowalla1.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla2.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla3.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla4.jpg"), "http://youtube.com/v/2aDsjk8bfLc;autoplay=1", :class => "video"
+          %h3 Gowalla
           .vid_thumb_time_box
-            00:31
-        .vid_item
-          .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Day and Night Shooting
-          .vid_thumb_time_box
-            02:51
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Luchador VS Eric
-          .vid_thumb_time_box
-            00:58
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 When Ping Pong Goes Bad and You Get Owned
-          .vid_thumb_time_box
-            10:31
-      / Animation Category
-      .vid_thumbs.vid_cat_animation
-        .vid_item
-          .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Hiring a Luchador
-          .vid_thumb_time_box
-            00:31
-        .vid_item
-          .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Day and Night Shooting
-          .vid_thumb_time_box
-            02:51
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Luchador VS Eric
-          .vid_thumb_time_box
-            00:58
-        .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 When Ping Pong Goes Bad and You Get Owned
-          .vid_thumb_time_box
-            10:31
+            01:16
       / Motion Graphics Category
       .vid_thumbs.vid_cat_motion_graphics
         .vid_item
           .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Hiring a Luchador
+          = link img("vid_thumbs/ey1.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey2.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey3.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey4.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          %h3 Engine Yard
           .vid_thumb_time_box
-            00:31
+            00:53
         .vid_item
           .new_vid
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Day and Night Shooting
+          = link img("vid_thumbs/id1.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id2.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id3.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id4.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          %h3 Info Diet
           .vid_thumb_time_box
-            02:51
+            01:03
         .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 Luchador VS Eric
+          .new_vid
+          = link img("vid_thumbs/parsely1.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely2.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely3.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely4.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          %h3 Parse.ly
           .vid_thumb_time_box
-            00:58
+            01:16
         .vid_item
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          = img ('vid_thumb_temp_odd.png')
-          = img ('vid_thumb_temp_even.png')
-          %h3 When Ping Pong Goes Bad and You Get Owned
+          .new_vid
+          = link img("vid_thumbs/pl1.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl2.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl3.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl4.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          %h3 Promo Labs
           .vid_thumb_time_box
-            10:31
+            00:39
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/sc1.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc2.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc3.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc4.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          %h3 Swift Capital
+          .vid_thumb_time_box
+            01:08
         /%a{:href => "#", :class => "gradient_button_white left"} Show 4 More
         /%a{:href => "#", :class => "gradient_button_white right"} Next Category
     = partial('_foot_banner')
