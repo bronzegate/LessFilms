@@ -841,8 +841,9 @@ p.world_changer {
   width: 191px;
   height: 115px;
   margin: 0 -4px 0 0;
+  box-shadow: 0 3px 3px #999999;
 }
-/* line 346 */
+/* line 347 */
 .videos_col .vid_thumbs .vid_item h3 {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -851,7 +852,7 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 350 */
+/* line 351 */
 .videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
   display: inline-block;
   font-family: "SignikaSemibold";
@@ -864,7 +865,7 @@ p.world_changer {
   border-radius: 2px;
   padding: 3px;
 }
-/* line 359 */
+/* line 360 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -873,12 +874,12 @@ p.world_changer {
   position: absolute;
   margin: -11px 0 0 -11px;
 }
-/* line 368 */
+/* line 369 */
 .videos_col div:nth-of-type(2) {
   display: inline-block;
 }
 
-/* line 373 */
+/* line 374 */
 .lucha_hire_us {
   background: url("../images/lucha_hire_us.png") no-repeat top center;
   margin: 0 auto;
@@ -887,7 +888,7 @@ p.world_changer {
   height: auto;
 }
 
-/* line 380 */
+/* line 381 */
 .hire_us_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -895,7 +896,7 @@ p.world_changer {
   color: #9a9a9a;
   margin: 0 0 45px 0;
 }
-/* line 383 */
+/* line 384 */
 .hire_us_col h3 {
   font-family: "SignikaSemibold";
   font-size: 22px;
@@ -903,7 +904,7 @@ p.world_changer {
   color: #6faa44;
   white-space: nowrap;
 }
-/* line 386 */
+/* line 387 */
 .hire_us_col h4 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -912,7 +913,7 @@ p.world_changer {
   margin: 10px 0 5px 0;
   clear: left;
 }
-/* line 390 */
+/* line 391 */
 .hire_us_col h4.ready {
   font-family: "SignikaSemibold";
   font-size: 16px;
@@ -920,11 +921,11 @@ p.world_changer {
   color: #666666;
   margin-bottom: 13px;
 }
-/* line 393 */
+/* line 394 */
 .hire_us_col .social_col {
   float: left;
 }
-/* line 395 */
+/* line 396 */
 .hire_us_col .social_col img {
   background: #6faa44;
   width: 24px;
@@ -934,16 +935,16 @@ p.world_changer {
   float: left;
   clear: left;
 }
-/* line 403 */
+/* line 404 */
 .hire_us_col .social_col img:last-of-type {
   margin-bottom: 20px;
 }
-/* line 405 */
+/* line 406 */
 .hire_us_col .social_col a {
   float: left;
 }
 
-/* line 410 */
+/* line 411 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -952,12 +953,12 @@ p.world_changer {
   border-radius: 5px;
   margin: 0 0 50px 0;
 }
-/* line 417 */
+/* line 418 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 420 */
+/* line 421 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -965,7 +966,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 426 */
+/* line 427 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -975,7 +976,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 431 */
+/* line 432 */
 .foot_banner .gradient_button_green {
   float: right;
   position: relative;

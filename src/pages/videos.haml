@@ -3,17 +3,66 @@
   %h1.page_headline SLAMMIN' VIDEOS FROM YOURS TRULY...
   .content
     .videos_col
-      .vid_nav        
-        .vid_category.vid_nav_conferences.current
+      .vid_nav
+        .vid_category.vid_nav_motion_graphics.current
+          %h3 Motion Graphics        
+        .vid_category.vid_nav_conferences.closed
           %h3 Conferences
-        .vid_category.vid_nav_motion_graphics.closed
-          %h3 Motion Graphics
         .vid_category.vid_nav_office_culture.closed
           %h3 Office Culture
         .vid_category.vid_nav_web_commercials.closed
           %h3 Web Commercials
+        .vid_category.vid_nav_shorts.closed
+          %h3 Shorts
       / Category class refers to the category of videos currently displayed
       / Add the new_vid class in the vid_item class to get the "New" ribbon overlay
+      / Motion Graphics Category
+      .vid_thumbs.vid_cat_motion_graphics
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/ey1.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey2.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey3.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey4.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
+          %h3 Engine Yard
+          .vid_thumb_time_box
+            00:53
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/id1.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id2.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id3.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id4.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
+          %h3 Info Diet
+          .vid_thumb_time_box
+            01:03
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/parsely1.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely2.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely3.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely4.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
+          %h3 Parse.ly
+          .vid_thumb_time_box
+            01:16
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/pl1.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl2.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl3.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl4.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
+          %h3 Promo Labs
+          .vid_thumb_time_box
+            00:39
+        .vid_item
+          .new_vid
+          = link img("vid_thumbs/sc1.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc2.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc3.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc4.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
+          %h3 Swift Capital
+          .vid_thumb_time_box
+            01:08
       / Conferences Category
       .vid_thumbs.vid_cat_conferences
         .vid_item
@@ -145,53 +194,44 @@
           %h3 WoW Raid Ready
           .vid_thumb_time_box
             00:30
-      / Motion Graphics Category
-      .vid_thumbs.vid_cat_motion_graphics
+      / Shorts Category
+      .vid_thumbs.vid_cat_shorts
         .vid_item
           .new_vid
-          = link img("vid_thumbs/ey1.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
-          = link img("vid_thumbs/ey2.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
-          = link img("vid_thumbs/ey3.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
-          = link img("vid_thumbs/ey4.jpg"), "http://youtube.com/v/N8KgjO4-K4o;autoplay=1", :class => "video"
-          %h3 Engine Yard
+          = link img("vid_thumbs/austin1.jpg"), "http://youtube.com/v/hYlQ6-AhKC8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/austin2.jpg"), "http://youtube.com/v/hYlQ6-AhKC8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/austin3.jpg"), "http://youtube.com/v/hYlQ6-AhKC8;autoplay=1", :class => "video"
+          = link img("vid_thumbs/austin4.jpg"), "http://youtube.com/v/hYlQ6-AhKC8;autoplay=1", :class => "video"
+          %h3 Austin, TX
           .vid_thumb_time_box
-            00:53
+            01:31
         .vid_item
           .new_vid
-          = link img("vid_thumbs/id1.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
-          = link img("vid_thumbs/id2.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
-          = link img("vid_thumbs/id3.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
-          = link img("vid_thumbs/id4.jpg"), "http://youtube.com/v/lNFNOSzik14;autoplay=1", :class => "video"
-          %h3 Info Diet
+          = link img("vid_thumbs/pp1.jpg"), "http://youtube.com/v/y2Zl8D4La1M;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pp2.jpg"), "http://youtube.com/v/y2Zl8D4La1M;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pp3.jpg"), "http://youtube.com/v/y2Zl8D4La1M;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pp4.jpg"), "http://youtube.com/v/y2Zl8D4La1M;autoplay=1", :class => "video"
+          %h3 Work Happy Ping Pong Epic
           .vid_thumb_time_box
-            01:03
+            01:00
         .vid_item
           .new_vid
-          = link img("vid_thumbs/parsely1.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
-          = link img("vid_thumbs/parsely2.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
-          = link img("vid_thumbs/parsely3.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
-          = link img("vid_thumbs/parsely4.jpg"), "http://youtube.com/v/clKpU9ygaCA;autoplay=1", :class => "video"
-          %h3 Parse.ly
+          = link img("vid_thumbs/petersburg1.jpg"), "http://youtube.com/v/I3Gx9trRc_M;autoplay=1", :class => "video"
+          = link img("vid_thumbs/petersburg2.jpg"), "http://youtube.com/v/I3Gx9trRc_M;autoplay=1", :class => "video"
+          = link img("vid_thumbs/petersburg3.jpg"), "http://youtube.com/v/I3Gx9trRc_M;autoplay=1", :class => "video"
+          = link img("vid_thumbs/petersburg4.jpg"), "http://youtube.com/v/I3Gx9trRc_M;autoplay=1", :class => "video"
+          %h3 St. Petersburg 
           .vid_thumb_time_box
-            01:16
+            01:02
         .vid_item
           .new_vid
-          = link img("vid_thumbs/pl1.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
-          = link img("vid_thumbs/pl2.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
-          = link img("vid_thumbs/pl3.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
-          = link img("vid_thumbs/pl4.jpg"), "http://youtube.com/v/vGAFe7l5nQ8;autoplay=1", :class => "video"
-          %h3 Promo Labs
+          = link img("vid_thumbs/tj1.jpg"), "http://youtube.com/v/fnIPB6jbwLQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/tj2.jpg"), "http://youtube.com/v/fnIPB6jbwLQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/tj3.jpg"), "http://youtube.com/v/fnIPB6jbwLQ;autoplay=1", :class => "video"
+          = link img("vid_thumbs/tj4.jpg"), "http://youtube.com/v/fnIPB6jbwLQ;autoplay=1", :class => "video"
+          %h3 Toy Joy 
           .vid_thumb_time_box
-            00:39
-        .vid_item
-          .new_vid
-          = link img("vid_thumbs/sc1.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
-          = link img("vid_thumbs/sc2.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
-          = link img("vid_thumbs/sc3.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
-          = link img("vid_thumbs/sc4.jpg"), "http://youtube.com/v/o_04Z3DB-gQ;autoplay=1", :class => "video"
-          %h3 Swift Capital
-          .vid_thumb_time_box
-            01:08
+            00:50
         /%a{:href => "#", :class => "gradient_button_white left"} Show 4 More
         /%a{:href => "#", :class => "gradient_button_white right"} Next Category
     = partial('_foot_banner')

@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
 				'transitionOut'		: 'none',
 				'title'				: this.title,
 				'width'				: 680,
-				'height'			: 495,
+				'height'			: 410,
 				'href'				: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
 				'type'				: 'swf',
 				'centerOnScroll'	: 'true',

@@ -35,6 +35,9 @@ $(document).ready(function(){
 		if($(this).hasClass('vid_nav_motion_graphics')){
 			$('.vid_cat_motion_graphics, .vid_cat_motion_graphics .new_vid').fadeIn(fadeInSpeed);
 		}
+		if($(this).hasClass('vid_nav_shorts')){
+			$('.vid_cat_shorts, .vid_cat_shorts .new_vid').fadeIn(fadeInSpeed);
+		}
 	
 	});
 });
