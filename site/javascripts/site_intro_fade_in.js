@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 		$(".lucha_home, .wrapper, .footer").css({'overflow' : 'hidden', 'display' : 'none'});
 		$(".intro_vid").delay(4600).queue(function( frst ) {
-			$(this).css({'display' : 'none'});	
+			$(this).fadeOut("fast");	
 		frst();
 		});
 		$(".lucha_home").delay(4900).queue(function( nxt ) {
