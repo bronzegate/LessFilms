@@ -1,0 +1,40 @@
+/ Get rid of the footer box-shadow only on this page
+:css
+  .footer{box-shadow: 0 0 0;}
+
+/ Play the intro video once per session  
+= javascripts ('site_intro_fade_in')
+
+.intro_vid
+  %video{:autoplay => "autoplay", :width => "1410px"}
+    %source{:src => "videos/lucha_intro.m4v", :type => "video/mp4"}
+    %source{:src => "videos/lucha_intro.ogv", :type => "video/ogg"}
+  
+/ Start Normal Flow
+.lucha_home
+  .wrapper
+    = partial('_header')
+    .content
+      .home_col
+        %h1.home_headline WE'RE RIDICULOUSLY GOOD AT CRAFTING VIDEOS.
+        %p
+          Just sit back and let us create something awesome for you. We take storytelling seriously. See for yourself; check out our <a href="videos.html">videos</a>.
+        .video_sm
+          .video_sm_top
+            %a{:href => "http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1", :class => "video"}
+              = img 'engine_yard_sm.jpg', :alt => "The Information Diet"
+          .video_sm_bottom
+            %a{:href => "http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1", :class => "video"} "Click. Deploy. Innovate"
+            %br
+            %a{:href => "http://www.engineyard.com/", :target => "_blank"} Engine Yard
+        .video_sm
+          .video_sm_top
+            %a{:href => "http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1", :class => "video"}
+              = img 'grasshopper_sm.jpg', :alt => "Grasshopper"
+          .video_sm_bottom
+            %a{:href => "http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1", :class => "video"} "Fashion Photography"
+            %br
+            %a{:href => "http://grasshopper.com/", :target => "_blank"} Grasshopper
+        .hire_us_lg
+          %a{:href => "hire_us.html", :class => "gradient_button_green"} Hire Us
+    .clearfix

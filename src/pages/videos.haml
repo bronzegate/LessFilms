@@ -1,0 +1,220 @@
+.wrapper
+  = partial('_header')
+  %h1.page_headline BODY SLAMMINGLY GOOD VIDEOS
+  .content
+    .videos_col
+      .vid_nav
+        .vid_category.vid_nav_motion_graphics.current
+          %h3 Motion Graphics        
+        .vid_category.vid_nav_conferences.closed
+          %h3 Conferences
+        .vid_category.vid_nav_office_culture.closed
+          %h3 Office Culture
+        .vid_category.vid_nav_web_commercials.closed
+          %h3 Web Commercials
+        .vid_category.vid_nav_shorts.closed
+          %h3 Shorts
+      / Category class refers to the category of videos currently displayed
+      / Add the new_vid class in the vid_item class to get the "New" ribbon overlay
+      / Motion Graphics Category
+      .vid_thumbs.vid_cat_motion_graphics
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/ey1.jpg"), "http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey2.jpg"), "http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey3.jpg"), "http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/ey4.jpg"), "http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1", :class => "video"
+          %h3 Engine Yard
+          .vid_thumb_time_box
+            00:53
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/id1.jpg"), "http://youtube.com/v/lNFNOSzik14?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id2.jpg"), "http://youtube.com/v/lNFNOSzik14?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id3.jpg"), "http://youtube.com/v/lNFNOSzik14?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/id4.jpg"), "http://youtube.com/v/lNFNOSzik14?hd=1;autoplay=1", :class => "video"
+          %h3 Info Diet
+          .vid_thumb_time_box
+            01:03
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/parsely1.jpg"), "http://youtube.com/v/clKpU9ygaCA?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely2.jpg"), "http://youtube.com/v/clKpU9ygaCA?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely3.jpg"), "http://youtube.com/v/clKpU9ygaCA?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/parsely4.jpg"), "http://youtube.com/v/clKpU9ygaCA?hd=1;autoplay=1", :class => "video"
+          %h3 Parse.ly
+          .vid_thumb_time_box
+            01:16
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/pl1.jpg"), "http://youtube.com/v/vGAFe7l5nQ8?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl2.jpg"), "http://youtube.com/v/vGAFe7l5nQ8?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl3.jpg"), "http://youtube.com/v/vGAFe7l5nQ8?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pl4.jpg"), "http://youtube.com/v/vGAFe7l5nQ8?hd=1;autoplay=1", :class => "video"
+          %h3 Promo Labs
+          .vid_thumb_time_box
+            00:39
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/sc1.jpg"), "http://youtube.com/v/o_04Z3DB-gQ?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc2.jpg"), "http://youtube.com/v/o_04Z3DB-gQ?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc3.jpg"), "http://youtube.com/v/o_04Z3DB-gQ?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sc4.jpg"), "http://youtube.com/v/o_04Z3DB-gQ?hd=1;autoplay=1", :class => "video"
+          %h3 Swift Capital
+          .vid_thumb_time_box
+            01:08
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/bp1.jpg"), "http://youtube.com/v/k7SNGHBiqLI?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/bp2.jpg"), "http://youtube.com/v/k7SNGHBiqLI?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/bp3.jpg"), "http://youtube.com/v/k7SNGHBiqLI?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/bp4.jpg"), "http://youtube.com/v/k7SNGHBiqLI?hd=1;autoplay=1", :class => "video"
+          %h3 BusinessPartners.com
+          .vid_thumb_time_box
+            01:01      
+      / Conferences Category
+      .vid_thumbs.vid_cat_conferences
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/lessconf1.jpg"), "http://youtube.com/v/_uGMo6yvqvE?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/lessconf2.jpg"), "http://youtube.com/v/_uGMo6yvqvE?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/lessconf3.jpg"), "http://youtube.com/v/_uGMo6yvqvE?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/lessconf4.jpg"), "http://youtube.com/v/_uGMo6yvqvE?hd=1;autoplay=1", :class => "video"
+          %h3 LessConf 2012
+          .vid_thumb_time_box
+            01:23
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/mr1.jpg"), "http://youtube.com/v/SXZxE9_My4c?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/mr2.jpg"), "http://youtube.com/v/SXZxE9_My4c?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/mr3.jpg"), "http://youtube.com/v/SXZxE9_My4c?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/mr4.jpg"), "http://youtube.com/v/SXZxE9_My4c?hd=1;autoplay=1", :class => "video"
+          %h3 Madison Ruby
+          .vid_thumb_time_box
+            00:23
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/sf1.jpg"), "http://youtube.com/v/IPbNZN62_Kg?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sf2.jpg"), "http://youtube.com/v/IPbNZN62_Kg?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sf3.jpg"), "http://youtube.com/v/IPbNZN62_Kg?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sf4.jpg"), "http://youtube.com/v/IPbNZN62_Kg?hd=1;autoplay=1", :class => "video"
+          %h3 Social Fresh
+          .vid_thumb_time_box
+            03:27
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/sl1.jpg"), "http://youtube.com/v/SjgPIW1Bno4?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sl2.jpg"), "http://youtube.com/v/SjgPIW1Bno4?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sl3.jpg"), "http://youtube.com/v/SjgPIW1Bno4?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/sl4.jpg"), "http://youtube.com/v/SjgPIW1Bno4?hd=1;autoplay=1", :class => "video"
+          %h3 Strange Loop 2011
+          .vid_thumb_time_box
+            01:05
+      / Office Culture Category
+      .vid_thumbs.vid_cat_office_culture
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/gowalla1.jpg"), "http://youtube.com/v/2aDsjk8bfLc?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla2.jpg"), "http://youtube.com/v/2aDsjk8bfLc?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla3.jpg"), "http://youtube.com/v/2aDsjk8bfLc?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/gowalla4.jpg"), "http://youtube.com/v/2aDsjk8bfLc?hd=1;autoplay=1", :class => "video"
+          %h3 Gowalla
+          .vid_thumb_time_box
+            01:16
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/grooveshark1.jpg"), "http://youtube.com/v/qtcYIP31QXo?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grooveshark2.jpg"), "http://youtube.com/v/qtcYIP31QXo?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grooveshark3.jpg"), "http://youtube.com/v/qtcYIP31QXo?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grooveshark4.jpg"), "http://youtube.com/v/qtcYIP31QXo?hd=1;autoplay=1", :class => "video"
+          %h3 Grooveshark
+          .vid_thumb_time_box
+            00:55
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/nwc1.jpg"), "http://youtube.com/v/ukmxXGZ3hrk?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/nwc2.jpg"), "http://youtube.com/v/ukmxXGZ3hrk?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/nwc3.jpg"), "http://youtube.com/v/ukmxXGZ3hrk?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/nwc4.jpg"), "http://youtube.com/v/ukmxXGZ3hrk?hd=1;autoplay=1", :class => "video"
+          %h3 New Work City
+          .vid_thumb_time_box
+            02:23 
+      / Web Commercials Category
+      .vid_thumbs.vid_cat_web_commercials
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/dm1.jpg"), "http://youtube.com/v/BucMlqq_06o?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/dm2.jpg"), "http://youtube.com/v/BucMlqq_06o?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/dm3.jpg"), "http://youtube.com/v/BucMlqq_06o?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/dm4.jpg"), "http://youtube.com/v/BucMlqq_06o?hd=1;autoplay=1", :class => "video"
+          %h3 dress.me
+          .vid_thumb_time_box
+            01:16
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/grasshopper1.jpg"), "http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grasshopper2.jpg"), "http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grasshopper3.jpg"), "http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/grasshopper4.jpg"), "http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1", :class => "video"
+          %h3 Grasshopper
+          .vid_thumb_time_box
+            00:31
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/rs1.jpg"), "http://youtube.com/v/jo5y9tq4NXk?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/rs2.jpg"), "http://youtube.com/v/jo5y9tq4NXk?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/rs3.jpg"), "http://youtube.com/v/jo5y9tq4NXk?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/rs4.jpg"), "http://youtube.com/v/jo5y9tq4NXk?hd=1;autoplay=1", :class => "video"
+          %h3 RentingSmart
+          .vid_thumb_time_box
+            00:28
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/wow1.jpg"), "http://youtube.com/v/LiHBhxAQt_k?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/wow2.jpg"), "http://youtube.com/v/LiHBhxAQt_k?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/wow3.jpg"), "http://youtube.com/v/LiHBhxAQt_k?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/wow4.jpg"), "http://youtube.com/v/LiHBhxAQt_k?hd=1;autoplay=1", :class => "video"
+          %h3 WoW Raid Ready
+          .vid_thumb_time_box
+            00:30     
+      / Shorts Category
+      .vid_thumbs.vid_cat_shorts
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/austin1.jpg"), "http://youtube.com/v/hYlQ6-AhKC8?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/austin2.jpg"), "http://youtube.com/v/hYlQ6-AhKC8?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/austin3.jpg"), "http://youtube.com/v/hYlQ6-AhKC8?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/austin4.jpg"), "http://youtube.com/v/hYlQ6-AhKC8?hd=1;autoplay=1", :class => "video"
+          %h3 Austin, TX
+          .vid_thumb_time_box
+            01:31
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/pp1.jpg"), "http://youtube.com/v/y2Zl8D4La1M?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pp2.jpg"), "http://youtube.com/v/y2Zl8D4La1M?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pp3.jpg"), "http://youtube.com/v/y2Zl8D4La1M?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/pp4.jpg"), "http://youtube.com/v/y2Zl8D4La1M?hd=1;autoplay=1", :class => "video"
+          %h3 Work Happy Ping Pong Epic
+          .vid_thumb_time_box
+            01:00
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/petersburg1.jpg"), "http://youtube.com/v/I3Gx9trRc_M?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/petersburg2.jpg"), "http://youtube.com/v/I3Gx9trRc_M?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/petersburg3.jpg"), "http://youtube.com/v/I3Gx9trRc_M?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/petersburg4.jpg"), "http://youtube.com/v/I3Gx9trRc_M?hd=1;autoplay=1", :class => "video"
+          %h3 St. Petersburg 
+          .vid_thumb_time_box
+            01:02
+        .vid_item
+          /.new_vid
+          = link img("vid_thumbs/tj1.jpg"), "http://youtube.com/v/fnIPB6jbwLQ?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/tj2.jpg"), "http://youtube.com/v/fnIPB6jbwLQ?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/tj3.jpg"), "http://youtube.com/v/fnIPB6jbwLQ?hd=1;autoplay=1", :class => "video"
+          = link img("vid_thumbs/tj4.jpg"), "http://youtube.com/v/fnIPB6jbwLQ?hd=1;autoplay=1", :class => "video"
+          %h3 Toy Joy 
+          .vid_thumb_time_box
+            00:50
+        /%a{:href => "#", :class => "gradient_button_white left"} Show 4 More
+        /%a{:href => "#", :class => "gradient_button_white right"} Next Category
+    = partial('_foot_banner')

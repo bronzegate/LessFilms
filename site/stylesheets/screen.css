@@ -1,0 +1,987 @@
+@font-face {
+  font-family: "LeagueGothicRegular";
+  src: url("../fonts/League_Gothic-webfont.eot");
+  src: url("../fonts/League_Gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/League_Gothic-webfont.woff") format("woff"), url("../fonts/League_Gothic-webfont.ttf") format("truetype"), url("../fonts/League_Gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SignikaSemibold";
+  src: url("Signika-Semibold-webfont.eot");
+  src: url("Signika-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Signika-Semibold-webfont.woff") format("woff"), url("../fonts/Signika-Semibold-webfont.ttf") format("truetype"), url("../fonts/Signika-Semibold-webfont.svg#SignikaSemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SignikaLight";
+  src: url("Signika-Light-webfont.eot");
+  src: url("Signika-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Signika-Light-webfont.woff") format("woff"), url("../fonts/Signika-Light-webfont.ttf") format("truetype"), url("../fonts/Signika-Light-webfont.svg#SignikaLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 16, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+:focus {
+  outline: 0;
+}
+
+/* line 19, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+body {
+  line-height: 1.5;
+  color: black;
+  background: white;
+}
+
+/* line 24, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 29, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 33, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 38, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 42, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+q:before, q:after {
+  content: "";
+}
+
+/* line 45, c:/sites/lessfilms/src/stylesheets/global_reset.sass */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* line 110, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.left {
+  float: left;
+}
+
+/* line 113, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.right {
+  float: right;
+}
+
+/* line 129, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.tr {
+  text-align: right;
+}
+
+/* line 135, c:/sites/lessfilms/src/stylesheets/utils.sass */
+strong {
+  font-weight: bold;
+}
+
+/* line 139, c:/sites/lessfilms/src/stylesheets/utils.sass */
+div {
+  *zoom: 1;
+}
+/* line 38, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 141, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.c {
+  clear: both;
+}
+
+/* line 210, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.abs {
+  position: absolute;
+}
+
+/* line 213, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.rel {
+  position: relative;
+}
+
+/* line 297, c:/sites/lessfilms/src/stylesheets/utils.sass */
+small {
+  font-size: 9px;
+}
+
+/* line 300, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.clear {
+  clear: both;
+}
+
+/* line 303, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.tr {
+  text-align: right;
+}
+
+/* line 306, c:/sites/lessfilms/src/stylesheets/utils.sass */
+p {
+  margin: 5px 0 10px 0;
+}
+
+/* line 311, c:/sites/lessfilms/src/stylesheets/utils.sass */
+div {
+  *zoom: 1;
+}
+/* line 38, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 314, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.c {
+  *zoom: 1;
+}
+/* line 38, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 317, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.hidden {
+  display: none !important;
+}
+
+/* line 320, c:/sites/lessfilms/src/stylesheets/utils.sass */
+li {
+  list-style: none;
+}
+
+/* line 323, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.bullets {
+  margin: 5px 0 15px 20px;
+}
+/* line 325, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.bullets li {
+  list-style: disc;
+}
+
+/* line 328, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.tr, div.tr, span.tc {
+  text-align: right;
+}
+
+/* line 331, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.tc, div.tc, span.tc, td.tc {
+  text-align: center;
+}
+
+/* line 334, c:/sites/lessfilms/src/stylesheets/utils.sass */
+div, img, form, ul, td, th {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: left;
+}
+/* line 340, c:/sites/lessfilms/src/stylesheets/utils.sass */
+div .clear, img .clear, form .clear, ul .clear, td .clear, th .clear {
+  clear: both;
+}
+
+/* line 343, c:/sites/lessfilms/src/stylesheets/utils.sass */
+ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/* line 347, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.bullets {
+  margin: 15px 0 15px 15px;
+}
+
+/* line 350, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.no_bullets {
+  list-style: none;
+  margin: 0 0 0 0;
+}
+
+/* line 355, c:/sites/lessfilms/src/stylesheets/utils.sass */
+.bullets li {
+  margin: 3px 0;
+}
+
+/* line 2, c:/sites/lessfilms/src/stylesheets/contact.sass */
+.hire_us_col .contact_form_col {
+  width: 248px;
+  margin: 0 100px 0 0;
+  float: left;
+}
+/* line 6, c:/sites/lessfilms/src/stylesheets/contact.sass */
+.hire_us_col .contact_form_col input {
+  border: 0;
+}
+/* line 8, c:/sites/lessfilms/src/stylesheets/contact.sass */
+.hire_us_col .contact_form_col input.normal, .hire_us_col .contact_form_col textarea.normal {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #9a9a9a;
+  width: 100%;
+  padding: 13px 15px;
+  margin: 0 0 10px 0;
+  border: solid #dddddd 1px;
+  border-radius: 3px;
+  line-height: 20px;
+}
+/* line 16, c:/sites/lessfilms/src/stylesheets/contact.sass */
+.hire_us_col .contact_form_col .hide {
+  display: none;
+}
+
+/* line 19, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector {
+  line-height: 47px;
+  margin: 0 0 20px -2px;
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  background-position: -483px -130px;
+  line-height: 47px;
+  height: 47px;
+}
+/* line 25, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select {
+  width: 100%;
+  height: 47px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  border: solid 1px white;
+}
+/* line 26, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select:hover {
+  cursor: pointer;
+}
+/* line 33, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector span {
+  padding: 0px 0px 0px 7px;
+  cursor: pointer;
+  color: #9a9a9a;
+  width: 265px;
+  height: 47px;
+  line-height: 47px;
+  text-shadow: 0 1px 0 white;
+}
+/* line 41, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.disabled span {
+  color: #bbbbbb;
+}
+/* line 46, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector span {
+  background-position: right 0px;
+  height: 47px;
+  line-height: 48px;
+}
+/* line 51, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select {
+  width: 278px;
+  top: 0px;
+  left: 3px;
+  right: 0px;
+  bottom: 3px;
+}
+/* line 52, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector select option {
+  color: #9a9a9a;
+}
+/* line 59, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector:active, div.selector.active {
+  background-position: -483px -130px;
+}
+/* line 61, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector:active span, div.selector.active span {
+  background-position: right 0;
+}
+/* line 63, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus, div.selector.hover, div.selector:hover {
+  background-position: -483px -130px;
+}
+/* line 65, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus span, div.selector.hover span, div.selector:hover span {
+  background-position: right 0;
+}
+/* line 68, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus:active, div.selector.focus.active {
+  background-position: -483px -130px;
+}
+/* line 70, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector:hover:active, div.selector.active:hover {
+  background-position: -483px -130px;
+}
+/* line 72, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.focus:active span, div.selector:hover:active span, div.selector.active:hover span, div.selector.focus.active span {
+  background-position: right 0;
+}
+/* line 74, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.disabled {
+  background-position: -483px -130px;
+}
+/* line 76, c:/sites/lessfilms/src/stylesheets/contact.sass */
+div.selector.disabled span {
+  background-position: right 0;
+}
+
+/* line 19 */
+html, body {
+  height: 100%;
+}
+
+/* line 22 */
+body {
+  background: #ececec;
+  color: #595959;
+  font-family: "SignikaLight";
+  font-size: 16px;
+  font-weight: 400;
+  color: #595959;
+  position: relative;
+}
+
+/* line 28 */
+h1 {
+  font-family: "LeagueGothicRegular";
+  font-size: 50px;
+  font-weight: 400;
+  color: #595959;
+  line-height: 50px;
+}
+
+/* line 32 */
+a {
+  color: #3f94cd;
+  text-decoration: none;
+}
+/* line 35 */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 40 */
+.clearfix {
+  clear: both;
+}
+
+/* line 43 */
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 24px;
+  min-height: 100%;
+  text-align: center;
+}
+
+/* line 51 */
+.header {
+  width: 1024px;
+}
+/* line 53 */
+.header img {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 57 */
+.nav {
+  float: right;
+}
+/* line 60 */
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 63 */
+.nav ul li:last-child {
+  margin-right: 0;
+}
+/* line 65 */
+.nav ul li a {
+  text-decoration: none;
+  color: #666666;
+}
+/* line 68 */
+.nav ul li a:hover {
+  color: #999999;
+}
+
+/* line 71 */
+.content {
+  overflow: auto;
+  padding-bottom: 0 0 150px 0;
+}
+
+/* line 75 */
+.footer {
+  background: white;
+  color: #cacaca;
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  height: 150px;
+  clear: both;
+  box-shadow: 0 -15px 30px #dddddd;
+}
+/* line 85 */
+.footer hr {
+  padding: 5px 0 0 0;
+  margin: 0 0 25px 0;
+  border-width: 0;
+  border-bottom: dashed 1px #cacaca;
+}
+
+/* line 90 */
+.footer_cells {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 300px;
+}
+/* line 94 */
+.footer_cells p {
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+/* line 98 */
+.footer_cells p:first-child {
+  width: 190px;
+}
+/* line 100 */
+.footer_cells p:last-child {
+  width: 110px;
+}
+/* line 102 */
+.footer_cells img {
+  float: left;
+  padding: 15px 10px 0 10px;
+}
+
+/* line 108 */
+.video_sm {
+  float: left;
+  display: inline-block;
+  margin: 25px 20px 0 0;
+}
+/* line 112 */
+.video_sm .video_sm_top {
+  display: block;
+  background: #505050;
+  width: 150px;
+  height: 75px;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px 1px #d0d0d0, 1px 0 1px #d0d0d0, -1px 0 1px #d0d0d0;
+  margin: 0 0 0 1px;
+  overflow: hidden;
+}
+/* line 121 */
+.video_sm .video_sm_bottom {
+  font-size: 13px;
+  display: block;
+  background: white;
+  width: 140px;
+  height: 45px;
+  padding: 5px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 2px 2px #d0d0d0, 1px 0 1px #d0d0d0, -1px 0 2px #d0d0d0;
+  margin: 0 0 10px 1px;
+}
+/* line 131 */
+.video_sm:first-child {
+  margin-right: 20px;
+}
+
+/* line 136 */
+.intro_vid {
+  margin: 0 auto;
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -705px;
+}
+
+/* line 144 */
+.home_col {
+  float: left;
+  width: 485px;
+}
+
+/* line 148 */
+h1.home_headline {
+  margin: 75px 0 42px 0;
+}
+
+/* line 151 */
+.lucha_home {
+  background: url("../images/lucha_home_large.png") no-repeat top center;
+  margin: 0 auto;
+  min-width: 1024px;
+  min-height: 837px;
+  height: auto;
+}
+
+/* line 159 */
+.hire_us_lg {
+  clear: both;
+  padding: 45px 1px 5px 1px;
+}
+
+/* line 165 */
+.process_col {
+  text-align: center;
+}
+
+/* line 168 */
+h1.page_headline {
+  z-index: 1;
+  line-height: inherit;
+  position: relative;
+  margin: 0 auto -40px auto;
+  top: -100px;
+}
+
+/* line 176 */
+.before_after img {
+  pointer-events: none;
+  position: absolute;
+  margin: -16px 0 0 0;
+}
+/* line 180 */
+.before_after .top {
+  border-radius: 3px 3px 0 0;
+  text-align: center;
+  background: white;
+  height: 307px;
+}
+/* line 185 */
+.before_after .top h1 {
+  font-family: "LeagueGothicRegular";
+  font-size: 100px;
+  font-weight: 400;
+  color: #6faa44;
+  line-height: 100px;
+  padding: 25px 0 0 0;
+}
+/* line 189 */
+.before_after .top h3 {
+  font-family: "SignikaSemibold";
+  font-size: 20px;
+  font-weight: 600;
+  color: #6faa44;
+  padding: 20px 0 10px 0;
+  line-height: 20px;
+}
+/* line 193 */
+.before_after .top .feature_list {
+  width: 250px;
+  margin: 0 auto;
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #333333;
+}
+/* line 199 */
+.before_after .top .feature_list ul li:before {
+  color: #6faa44;
+  content: "\2713";
+  font-weight: bold;
+  margin: 0 8px 0 0;
+}
+/* line 204 */
+.before_after .bottom {
+  border-radius: 0 0 3px 3px;
+  overflow: hidden;
+  background: #333333;
+  height: 87px;
+}
+/* line 209 */
+.before_after .bottom h2 {
+  font-family: "SignikaSemibold";
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  line-height: 87px;
+}
+/* line 212 */
+.before_after .bottom h2.left {
+  float: left;
+  margin: 0 0 0 45px;
+}
+/* line 215 */
+.before_after .bottom h2.right {
+  float: right;
+  margin: 0 45px 0 0;
+}
+/* line 218 */
+.before_after .bottom .mid {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 55px;
+  margin-top: 16px;
+}
+/* line 224 */
+.before_after .bottom .mid .gradient_button_green {
+  width: 230px;
+  padding: 0;
+  box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #111111;
+}
+
+/* line 229 */
+.process_item {
+  float: left;
+  width: 225px;
+  display: inline-block;
+  text-align: center;
+  margin: 80px 40px 90px 0;
+}
+/* line 235 */
+.process_item:nth-of-type(5) {
+  margin-right: 0;
+}
+/* line 237 */
+.process_item h3 {
+  font-family: "SignikaSemibold";
+  font-size: 20px;
+  font-weight: 400;
+  color: #6faa44;
+  display: inline-block;
+  float: left;
+  margin-top: 15px;
+}
+/* line 242 */
+.process_item h3:nth-of-type(1) {
+  color: white;
+  background: #6faa44;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  margin-right: 10px;
+}
+/* line 250 */
+.process_item p {
+  text-align: left;
+  clear: both;
+  padding: 15px 0 0 0;
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 25px;
+}
+
+/* line 259 */
+.lucha_about {
+  background: url("../images/lucha_about.png") no-repeat top center;
+  margin: 0 auto;
+  min-width: 1024px;
+  min-height: 837px;
+  height: auto;
+}
+
+/* line 266 */
+.about_col {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+  width: 561px;
+  min-height: 686px;
+}
+/* line 270 */
+.about_col h3 {
+  font-family: "SignikaSemibold";
+  font-size: 20px;
+  font-weight: 600;
+  color: #6faa44;
+  margin: 0 0 10px 0;
+}
+/* line 273 */
+.about_col .team_member {
+  width: 173px;
+  display: inline-block;
+  margin: 0 21px 140px 0;
+  float: left;
+}
+/* line 278 */
+.about_col .team_member:nth-of-type(3) {
+  margin-right: 0;
+}
+/* line 280 */
+.about_col .team_member img {
+  padding: 7px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px #aaaaaa;
+  margin: 5px 0 20px 0;
+}
+/* line 286 */
+.about_col .team_member h4 {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 900;
+  color: #666666;
+}
+/* line 288 */
+.about_col .team_member p {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #888888;
+  margin: 10px 0 0 0;
+}
+
+/* line 292 */
+p.world_changer {
+  margin: 0 0 50px 0;
+}
+
+/* line 297 */
+.videos_col {
+  background: white;
+  padding: 20px;
+  margin: 0 0 135px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #d6d6d6;
+}
+/* line 303 */
+.videos_col .vid_nav {
+  float: left;
+  width: 190px;
+  box-sizing: content-box;
+  margin: 0 0 0 15px;
+  padding: 0 15px 0 0;
+}
+/* line 309 */
+.videos_col .vid_nav .vid_category {
+  margin: 0 0 10px 0;
+}
+/* line 311 */
+.videos_col .vid_nav .vid_category .triangle {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #3f94cd;
+  display: inline-block;
+  position: absolute;
+  margin: 8px 0 0 -15px;
+}
+/* line 322 */
+.videos_col .vid_nav .vid_category h3 {
+  font-family: "SignikaSemibold";
+  font-size: 18px;
+  font-weight: 400;
+  color: #3f94cd;
+  display: inline-block;
+}
+/* line 325 */
+.videos_col .vid_nav .vid_category h3:hover {
+  cursor: pointer;
+}
+/* line 327 */
+.videos_col .vid_nav .vid_category li {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #3f94cd;
+  line-height: 20px;
+  margin: 0 0 10px 25px;
+}
+/* line 331 */
+.videos_col .vid_nav .vid_category li:before {
+  content: "- ";
+  margin: 0 0 0 -8px;
+}
+/* line 334 */
+.videos_col .vid_nav .vid_category:last-of-type {
+  margin-bottom: 0;
+}
+/* line 336 */
+.videos_col .vid_thumbs {
+  float: right;
+  width: 764px;
+  display: none;
+}
+/* line 340 */
+.videos_col .vid_thumbs .vid_item {
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+/* line 343 */
+.videos_col .vid_thumbs .vid_item img {
+  width: 191px;
+  height: 115px;
+  margin: 0 -4px 0 0;
+  box-shadow: 0 3px 3px #999999;
+}
+/* line 348 */
+.videos_col .vid_thumbs .vid_item h3 {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 600;
+  color: #838383;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+/* line 352 */
+.videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
+  display: inline-block;
+  font-family: "SignikaSemibold";
+  font-size: 13px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 13px;
+  background: #f2f2f2;
+  border: solid #cccccc 1px;
+  border-radius: 2px;
+  padding: 3px;
+}
+/* line 361 */
+.videos_col .vid_thumbs .new_vid {
+  background: url("../images/new_vid_ribbon.png");
+  width: 69px;
+  height: 69px;
+  display: inline-block;
+  position: absolute;
+  margin: -11px 0 0 -11px;
+}
+/* line 370 */
+.videos_col div:nth-of-type(2) {
+  display: inline-block;
+}
+
+/* line 375 */
+.lucha_hire_us {
+  background: url("../images/lucha_hire_us.png") no-repeat top center;
+  margin: 0 auto;
+  min-width: 1024px;
+  min-height: 837px;
+  height: auto;
+}
+
+/* line 382 */
+.hire_us_col {
+  font-family: "SignikaLight";
+  font-size: 15px;
+  font-weight: 400;
+  color: #9a9a9a;
+  margin: 0 0 45px 0;
+}
+/* line 385 */
+.hire_us_col h3 {
+  font-family: "SignikaSemibold";
+  font-size: 22px;
+  font-weight: 600;
+  color: #6faa44;
+  white-space: nowrap;
+}
+/* line 388 */
+.hire_us_col h4 {
+  font-family: "SignikaSemibold";
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  margin: 10px 0 5px 0;
+  clear: left;
+}
+/* line 392 */
+.hire_us_col h4.ready {
+  font-family: "SignikaSemibold";
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 13px;
+}
+/* line 395 */
+.hire_us_col .social_col {
+  float: left;
+}
+/* line 397 */
+.hire_us_col .social_col img {
+  background: #6faa44;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  margin: 0 5px 10px 0;
+  float: left;
+  clear: left;
+}
+/* line 405 */
+.hire_us_col .social_col img:last-of-type {
+  margin-bottom: 20px;
+}
+/* line 407 */
+.hire_us_col .social_col a {
+  float: left;
+}
+
+/* line 412 */
+.foot_banner {
+  height: 130px;
+  background: #333333;
+  display: block;
+  clear: both;
+  border-radius: 5px;
+  margin: 0 0 50px 0;
+}
+/* line 419 */
+.foot_banner img {
+  position: absolute;
+  margin-top: -82px;
+}
+/* line 422 */
+.foot_banner .banner_text {
+  width: 460px;
+  line-height: 20px;
+  color: #d6d6d6;
+  margin: 0 auto;
+  padding: 0 0 0 45px;
+}
+/* line 428 */
+.foot_banner .banner_text h3 {
+  font-family: "LeagueGothicRegular";
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  line-height: 40px;
+  padding: 25px 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 433 */
+.foot_banner .gradient_button_green {
+  float: right;
+  position: relative;
+  top: -65px;
+  right: 35px;
+  box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #111111;
+}

@@ -1,0 +1,48 @@
+@import fonts
+@import compass
+
+$experimental-support-for-svg: true
+
+// Green Button -->
+.gradient_button_green, a.gradient_button_green, input.gradient_green_button
+  background: #75B654
+  padding: 0 43px
+  width: auto
+  height: 55px
+  line-height: 55px
+  border-radius: 5px
+  +SignikaSemibold(30px, 400, #BFEA9D)
+  @include background-image(linear-gradient(top, #86CB52, #65A355)) 
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  box-shadow: 0 -2px 0 #AFE483, 0 -3px 0 #5EA14D, 0 3px 3px #777
+  border-right: solid 1px #5EA14D
+  border-left: solid 1px #5EA14D
+  text-shadow: 0 -1px 0 #5B7745
+  &:hover
+    color: #fff 
+    cursor: pointer
+  &:active
+    +background-image(linear-gradient(top, #65A355, #86CB52))
+
+// White Button -->    
+.gradient_button_white, a.gradient_button_white
+  background: #F7F7F7
+  color: #666
+  padding: 0 15px
+  height: 30px
+  line-height: 31px
+  border-radius: 3px
+  +background-image(linear-gradient(top, #FAFAFA, #E1E1E1)) 
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  box-shadow: 0 -1px 0 #D0D0D0, 1px 0 0 #D0D0D0, 0 1px 0 #fff, 0 3px 2px #D0D0D0, -1px 0 0 #D0D0D0
+  text-shadow: 0 1px 0 #fff
+  &:hover
+    cursor: pointer
+    color: #999
+  &:active
+    +background-image(linear-gradient(top, #E1E1E1, #FAFAFA))
+    

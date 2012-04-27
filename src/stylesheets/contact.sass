@@ -1,0 +1,77 @@
+.hire_us_col
+  .contact_form_col
+    width: 248px
+    margin: 0 100px 0 0
+    +fl
+    input
+      border: 0
+    input.normal, textarea.normal
+      +SignikaLight(15px, 400, #9A9A9A)
+      width: 100%
+      padding: 13px 15px
+      margin: 0 0 10px 0
+      border: solid #ddd 1px
+      border-radius: 3px
+      line-height: 20px
+    .hide
+      display: none
+    
+div.selector
+  line-height: 47px
+  margin: 0 0 20px -2px
+  width: 100%
+  height: 47px
+  font-size: 15px
+  select
+    &:hover
+      cursor: pointer
+    width: 100%
+    height: 47px
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-size: 12px
+    border: solid 1px #fff
+  span
+    padding: 0px 0px 0px 7px
+    cursor: pointer
+    color: #9A9A9A
+    width: 265px
+    height: 47px
+    line-height: 47px
+    text-shadow: 0 1px 0 #fff
+  &.disabled span
+    color: #bbb
+  background-position: -483px -130px
+  line-height: 47px
+  height: 47px
+  span
+    background-position: right 0px
+    height: 47px
+    line-height: 48px
+  // change these to adjust positioning of select element 
+  select
+    option
+      color: #9A9A9A
+    width: 278px
+    top: 0px
+    left: 3px
+    right: 0px
+    bottom: 3px
+  &:active, &.active
+    background-position: -483px -130px
+  &:active span, &.active span
+    background-position: right 0
+  &.focus, &.hover, &:hover
+    background-position: -483px -130px
+  &.focus span, &.hover span, &:hover span
+    background-position: right 0
+  &.focus
+    &:active, &.active
+      background-position: -483px -130px
+  &:hover:active, &.active:hover
+    background-position: -483px -130px
+  &.focus:active span, &:hover:active span, &.active:hover span, &.focus.active span
+    background-position: right 0
+  &.disabled
+    background-position: -483px -130px
+    span
+      background-position: right 0  

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>LessFilms</title>
+    <!-- Remote JQuery library disabled temporarily so local testing will work properly -->
+    <!-- %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"} -->
+    <!-- Upon final deployment, remove below included file in favor of remote JQuery library -->
+    <script language="javascript" src="javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/menu_scripts.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/jquery-css-transform.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/jquery-animate-css-rotate-scale.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/fancy_vids.js" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/jquery.cookie.js" type="text/javascript"></script>
+    <!-- FancyBox -->
+    <script src='fancybox/jquery.fancybox-1.3.4.pack.js' type='text/javascript'></script>
+    <link href='fancybox/jquery.fancybox-1.3.4.css' media='screen' rel='stylesheet' type='text/css' />
+    <!-- Custom Forms -->
+    <script language="javascript" src="javascripts/jquery.uniform.js" type="text/javascript"></script>
+    <link href='stylesheets/uniform_default.css' rel='stylesheet' type='text/css' />
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(function(){
+          $("select").uniform();
+        });
+      //]]>
+    </script>
+    <link href='stylesheets/screen.css' rel='stylesheet' type='text/css' />
+    <link href='stylesheets/buttons.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <!-- Get rid of the footer box-shadow only on this page -->
+    <style type='text/css'>
+      /*<![CDATA[*/
+        .footer{box-shadow: 0 0 0;}
+      /*]]>*/
+    </style>
+    <!-- Play the intro video once per session -->
+    <script language="javascript" src="javascripts/site_intro_fade_in.js" type="text/javascript"></script>
+    <div class='intro_vid'>
+      <video autoplay='autoplay' width='1410px'>
+        <source src='videos/lucha_intro.m4v' type='video/mp4'></source>
+        <source src='videos/lucha_intro.ogv' type='video/ogg'></source>
+      </video>
+    </div>
+    <!-- Start Normal Flow -->
+    <div class='lucha_home'>
+      <div class='wrapper'>
+        <div class='header'>
+          <a href="index.html"><img alt="Logo" src="images/logo.png"/></a>
+          <div class='nav'>
+            <ul>
+              <li>
+                <a href="videos.html">Videos</a>
+              </li>
+              <li>
+                <a href="process.html">Process</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                <a class='gradient_button_white' href='hire_us.html'>Hire Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='content'>
+          <div class='home_col'>
+            <h1 class='home_headline'>WE'RE RIDICULOUSLY GOOD AT CRAFTING VIDEOS.</h1>
+            <p>
+              From the chubby guys at LessEverything, we present LessFilms. We shoot, edit and produce slammin' to chic videos for your product or service! See below or <a href="videos.html">more videos</a>.
+            </p>
+            <div class='video_sm'>
+              <div class='video_sm_top'>
+                <a class='video' href='http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1'>
+                  <img alt="The Information Diet" src="images/engine_yard_sm.jpg"/>
+                </a>
+              </div>
+              <div class='video_sm_bottom'>
+                <a class='video' href='http://youtube.com/v/N8KgjO4-K4o?hd=1;autoplay=1'>"Click. Deploy. Innovate"</a>
+                <br />
+                <a href='http://www.engineyard.com/' target='_blank'>Engine Yard</a>
+              </div>
+            </div>
+            <div class='video_sm'>
+              <div class='video_sm_top'>
+                <a class='video' href='http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1'>
+                  <img alt="Grasshopper" src="images/grasshopper_sm.jpg"/>
+                </a>
+              </div>
+              <div class='video_sm_bottom'>
+                <a class='video' href='http://youtube.com/v/SM21iKbt8p4?hd=1;autoplay=1'>"Fashion Photography"</a>
+                <br />
+                <a href='http://grasshopper.com/' target='_blank'>Grasshopper</a>
+              </div>
+            </div>
+            <div class='hire_us_lg'>
+              <a class='gradient_button_green' href='hire_us.html'>Hire Us</a>
+            </div>
+          </div>
+        </div>
+        <div class='clearfix'></div>
+      </div>
+    </div>
+    <div class='footer'>
+      <hr />
+      &copy; 2012 LessFilms. All rights reserved.
+      <div class='footer_cells'>
+        <p>
+          LessFIlms is another project brought to you by the handsome fellows of LessEverything.
+        </p>
+        <p>
+          <a href='http://lesseverything.com/' target='_blank'>
+            <img alt="Copy logo" src="images/copy_logo.png"/>
+          </a>
+        </p>
+      </div>
+    </div>
+    <!-- This has to be here for some reason -->
+    <script type='text/javascript'>
+      //<![CDATA[
+        ;
+      //]]>
+    </script>
+  </body>
+</html>
