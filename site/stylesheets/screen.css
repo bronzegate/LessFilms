@@ -392,7 +392,7 @@ a:hover {
 
 /* line 43 */
 .wrapper {
-  width: 1024px;
+  width: 970px;
   margin: 0 auto;
   margin-top: 24px;
   min-height: 100%;
@@ -401,7 +401,7 @@ a:hover {
 
 /* line 51 */
 .header {
-  width: 1024px;
+  width: 970px;
 }
 /* line 53 */
 .header img {
@@ -543,7 +543,7 @@ h1.home_headline {
 .lucha_home {
   background: url("../images/lucha_home_large.png") no-repeat top center;
   margin: 0 auto;
-  min-width: 1024px;
+  min-width: 970px;
   min-height: 837px;
   height: auto;
 }
@@ -573,15 +573,16 @@ h1.page_headline {
   pointer-events: none;
   position: absolute;
   margin: -16px 0 0 0;
+  width: 960px;
 }
-/* line 180 */
+/* line 181 */
 .before_after .top {
   border-radius: 3px 3px 0 0;
   text-align: center;
   background: white;
-  height: 307px;
+  height: 287px;
 }
-/* line 185 */
+/* line 187 */
 .before_after .top h1 {
   font-family: "LeagueGothicRegular";
   font-size: 100px;
@@ -590,7 +591,7 @@ h1.page_headline {
   line-height: 100px;
   padding: 25px 0 0 0;
 }
-/* line 189 */
+/* line 191 */
 .before_after .top h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -599,7 +600,7 @@ h1.page_headline {
   padding: 20px 0 10px 0;
   line-height: 20px;
 }
-/* line 193 */
+/* line 195 */
 .before_after .top .feature_list {
   width: 250px;
   margin: 0 auto;
@@ -608,21 +609,21 @@ h1.page_headline {
   font-weight: 400;
   color: #333333;
 }
-/* line 199 */
+/* line 201 */
 .before_after .top .feature_list ul li:before {
   color: #6faa44;
   content: "\2713";
   font-weight: bold;
   margin: 0 8px 0 0;
 }
-/* line 204 */
+/* line 206 */
 .before_after .bottom {
   border-radius: 0 0 3px 3px;
   overflow: hidden;
   background: #333333;
   height: 87px;
 }
-/* line 209 */
+/* line 211 */
 .before_after .bottom h2 {
   font-family: "SignikaSemibold";
   font-size: 25px;
@@ -630,17 +631,17 @@ h1.page_headline {
   color: white;
   line-height: 87px;
 }
-/* line 212 */
+/* line 214 */
 .before_after .bottom h2.left {
   float: left;
   margin: 0 0 0 45px;
 }
-/* line 215 */
+/* line 217 */
 .before_after .bottom h2.right {
   float: right;
   margin: 0 45px 0 0;
 }
-/* line 218 */
+/* line 220 */
 .before_after .bottom .mid {
   margin: 0 auto;
   text-align: center;
@@ -648,26 +649,26 @@ h1.page_headline {
   height: 55px;
   margin-top: 16px;
 }
-/* line 224 */
+/* line 226 */
 .before_after .bottom .mid .gradient_button_green {
   width: 230px;
   padding: 0;
   box-shadow: 0 -2px 0 #afe483, 0 -3px 0 #5ea14d, 0 3px 3px #111111;
 }
 
-/* line 229 */
+/* line 231 */
 .process_item {
   float: left;
-  width: 225px;
+  width: 228px;
   display: inline-block;
   text-align: center;
-  margin: 80px 40px 90px 0;
+  margin: 80px 19px 115px 0;
 }
-/* line 235 */
+/* line 239 */
 .process_item:nth-of-type(5) {
   margin-right: 0;
 }
-/* line 237 */
+/* line 241 */
 .process_item h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -677,7 +678,7 @@ h1.page_headline {
   float: left;
   margin-top: 15px;
 }
-/* line 242 */
+/* line 246 */
 .process_item h3:nth-of-type(1) {
   color: white;
   background: #6faa44;
@@ -687,11 +688,11 @@ h1.page_headline {
   border-radius: 32px;
   margin-right: 10px;
 }
-/* line 250 */
+/* line 254 */
 .process_item p {
   text-align: left;
   clear: both;
-  padding: 15px 0 0 0;
+  padding: 15px 20px 0 0;
   font-family: "SignikaLight";
   font-size: 15px;
   font-weight: 400;
@@ -699,25 +700,25 @@ h1.page_headline {
   line-height: 25px;
 }
 
-/* line 259 */
+/* line 263 */
 .lucha_about {
   background: url("../images/lucha_about.png") no-repeat top center;
   margin: 0 auto;
-  min-width: 1024px;
+  min-width: 970px;
   min-height: 837px;
   height: auto;
 }
 
-/* line 266 */
+/* line 270 */
 .about_col {
   font-family: "SignikaLight";
   font-size: 15px;
   font-weight: 400;
   color: #666666;
-  width: 561px;
-  min-height: 686px;
+  width: 560px;
+  min-height: 634px;
 }
-/* line 270 */
+/* line 274 */
 .about_col h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -725,18 +726,18 @@ h1.page_headline {
   color: #6faa44;
   margin: 0 0 10px 0;
 }
-/* line 273 */
+/* line 277 */
 .about_col .team_member {
-  width: 173px;
+  width: 190px;
   display: inline-block;
-  margin: 0 21px 140px 0;
+  margin: 0 20px 140px 0;
   float: left;
 }
-/* line 278 */
+/* line 282 */
 .about_col .team_member:nth-of-type(3) {
   margin-right: 0;
 }
-/* line 280 */
+/* line 284 */
 .about_col .team_member img {
   padding: 7px;
   background: white;
@@ -744,14 +745,14 @@ h1.page_headline {
   box-shadow: 0 2px 2px #aaaaaa;
   margin: 5px 0 20px 0;
 }
-/* line 286 */
+/* line 290 */
 .about_col .team_member h4 {
   font-family: "SignikaLight";
   font-size: 15px;
   font-weight: 900;
   color: #666666;
 }
-/* line 288 */
+/* line 292 */
 .about_col .team_member p {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -759,17 +760,17 @@ h1.page_headline {
   color: #888888;
   margin: 10px 0 0 0;
 }
-/* line 291 */
+/* line 295 */
 .about_col .team_member a {
   display: block;
 }
 
-/* line 294 */
+/* line 298 */
 p.world_changer {
   margin: 0 0 50px 0;
 }
 
-/* line 299 */
+/* line 303 */
 .videos_col {
   background: white;
   padding: 20px;
@@ -777,19 +778,19 @@ p.world_changer {
   border-radius: 5px;
   box-shadow: 0 2px 2px #d6d6d6;
 }
-/* line 305 */
+/* line 309 */
 .videos_col .vid_nav {
   float: left;
-  width: 190px;
+  width: 150px;
   box-sizing: content-box;
   margin: 0 0 0 15px;
   padding: 0 15px 0 0;
 }
-/* line 311 */
+/* line 315 */
 .videos_col .vid_nav .vid_category {
   margin: 0 0 10px 0;
 }
-/* line 313 */
+/* line 317 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -800,7 +801,7 @@ p.world_changer {
   position: absolute;
   margin: 8px 0 0 -15px;
 }
-/* line 324 */
+/* line 328 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -808,11 +809,11 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 327 */
+/* line 331 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
-/* line 329 */
+/* line 333 */
 .videos_col .vid_nav .vid_category li {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -821,34 +822,34 @@ p.world_changer {
   line-height: 20px;
   margin: 0 0 10px 25px;
 }
-/* line 333 */
+/* line 337 */
 .videos_col .vid_nav .vid_category li:before {
   content: "- ";
   margin: 0 0 0 -8px;
 }
-/* line 336 */
+/* line 340 */
 .videos_col .vid_nav .vid_category:last-of-type {
   margin-bottom: 0;
 }
-/* line 338 */
+/* line 342 */
 .videos_col .vid_thumbs {
   float: right;
-  width: 764px;
+  width: 740px;
   display: none;
 }
-/* line 342 */
+/* line 347 */
 .videos_col .vid_thumbs .vid_item {
   display: inline-block;
   margin: 0 0 30px 0;
 }
-/* line 345 */
+/* line 350 */
 .videos_col .vid_thumbs .vid_item img {
-  width: 191px;
+  width: 186px;
   height: 115px;
   margin: 0 -4px 0 0;
   box-shadow: 0 3px 3px #999999;
 }
-/* line 350 */
+/* line 356 */
 .videos_col .vid_thumbs .vid_item h3 {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -857,7 +858,7 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 354 */
+/* line 360 */
 .videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
   display: inline-block;
   font-family: "SignikaSemibold";
@@ -870,7 +871,7 @@ p.world_changer {
   border-radius: 2px;
   padding: 3px;
 }
-/* line 363 */
+/* line 369 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -879,21 +880,21 @@ p.world_changer {
   position: absolute;
   margin: -11px 0 0 -11px;
 }
-/* line 372 */
+/* line 378 */
 .videos_col div:nth-of-type(2) {
   display: inline-block;
 }
 
-/* line 377 */
+/* line 383 */
 .lucha_hire_us {
   background: url("../images/lucha_hire_us.png") no-repeat top center;
   margin: 0 auto;
-  min-width: 1024px;
+  min-width: 970px;
   min-height: 837px;
   height: auto;
 }
 
-/* line 384 */
+/* line 390 */
 .hire_us_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -901,7 +902,7 @@ p.world_changer {
   color: #9a9a9a;
   margin: 0 0 45px 0;
 }
-/* line 387 */
+/* line 393 */
 .hire_us_col h3 {
   font-family: "SignikaSemibold";
   font-size: 22px;
@@ -909,7 +910,7 @@ p.world_changer {
   color: #6faa44;
   white-space: nowrap;
 }
-/* line 390 */
+/* line 396 */
 .hire_us_col h4 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -918,7 +919,7 @@ p.world_changer {
   margin: 10px 0 5px 0;
   clear: left;
 }
-/* line 394 */
+/* line 400 */
 .hire_us_col h4.ready {
   font-family: "SignikaSemibold";
   font-size: 16px;
@@ -926,11 +927,11 @@ p.world_changer {
   color: #666666;
   margin-bottom: 13px;
 }
-/* line 397 */
+/* line 403 */
 .hire_us_col .social_col {
   float: left;
 }
-/* line 399 */
+/* line 405 */
 .hire_us_col .social_col img {
   background: #6faa44;
   width: 24px;
@@ -940,16 +941,16 @@ p.world_changer {
   float: left;
   clear: left;
 }
-/* line 407 */
+/* line 413 */
 .hire_us_col .social_col img:last-of-type {
   margin-bottom: 20px;
 }
-/* line 409 */
+/* line 415 */
 .hire_us_col .social_col a {
   float: left;
 }
 
-/* line 414 */
+/* line 420 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -958,12 +959,12 @@ p.world_changer {
   border-radius: 5px;
   margin: 0 0 50px 0;
 }
-/* line 421 */
+/* line 427 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 424 */
+/* line 430 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -971,7 +972,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 45px;
 }
-/* line 430 */
+/* line 436 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -981,7 +982,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 435 */
+/* line 441 */
 .foot_banner .gradient_button_green {
   float: right;
   position: relative;

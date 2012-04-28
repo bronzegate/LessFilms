@@ -12,7 +12,7 @@
 
 $footer_height: 150px
   
-$lwidth: 1024px
+$lwidth: 970px
 
 // Element Styles -->
 
@@ -151,7 +151,7 @@ h1.home_headline
 .lucha_home
   background: url('../images/lucha_home_large.png') no-repeat top center
   +centered
-  min-width: 1024px
+  min-width: $lwidth
   min-height: 837px
   height: auto
 
@@ -177,11 +177,13 @@ h1.page_headline
     pointer-events: none
     position: absolute
     margin: -16px 0 0 0
+    width: 960px
   .top
     border-radius: 3px 3px 0 0
     +tc
     background: #fff
-    height: 307px
+    //height: 307px
+    height: 287px
     h1
       +LeagueGothicRegular(100px, 400, #6FAA44)
       line-height: 100px
@@ -228,10 +230,12 @@ h1.page_headline
       
 .process_item
   +fl
-  width: 225px
+  //width: 225px
+  width: 228px
   display: inline-block
   +tc
-  margin: 80px 40px 90px 0
+  //margin: 80px 40px 90px 0
+  margin: 80px 19px 115px 0
   &:nth-of-type(5)
     margin-right: 0
   h3
@@ -250,7 +254,7 @@ h1.page_headline
   p
     +tl
     clear: both
-    padding: 15px 0 0 0
+    padding: 15px 20px 0 0
     +SignikaLight(15px, 400, #838383)
     line-height: 25px
     
@@ -259,7 +263,7 @@ h1.page_headline
 .lucha_about
   background: url('../images/lucha_about.png') no-repeat top center
   +centered
-  min-width: 1024px
+  min-width: $lwidth
   min-height: 837px
   height: auto
   
@@ -304,7 +308,7 @@ p.world_changer
   box-shadow: 0 2px 2px #D6D6D6
   .vid_nav
     +fl
-    width: 190px
+    width: 150px
     box-sizing: content-box
     margin: 0 0 0 15px
     padding: 0 15px 0 0
@@ -337,13 +341,15 @@ p.world_changer
         margin-bottom: 0
   .vid_thumbs
     +fr
-    width: 764px
+    //width: 764px
+    width: 740px
     display: none
     .vid_item
       display: inline-block
       margin: 0 0 30px 0
       img
-        width: 191px
+        //width: 191px
+        width: 186px
         height: 115px
         margin: 0 -4px 0 0
         box-shadow: 0 3px 3px #999
@@ -377,7 +383,7 @@ p.world_changer
 .lucha_hire_us
   background: url('../images/lucha_hire_us.png') no-repeat top center
   +centered
-  min-width: 1024px
+  min-width: $lwidth
   min-height: 837px
   height: auto
   
