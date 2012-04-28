@@ -2,6 +2,8 @@ $(document).ready(function(){
   
   if($.cookie("viewed_intro") == null)    {        
     
+    $('#lucha').css({'height' : ($(window).height())+'px'});
+    
     $("#lucha").bind('ended', function(){				
       $('.intro_vid').fadeOut("fast");	    
       $(".lucha_home").fadeIn(1000).css({'overflow' : 'auto', 'background-position' : 'center 24px'});    
