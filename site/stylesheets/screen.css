@@ -665,10 +665,15 @@ h1.page_headline {
   margin: 80px 19px 115px 0;
 }
 /* line 239 */
-.process_item:nth-of-type(5) {
-  margin-right: 0;
+.process_item:nth-of-type(2) {
+  margin-left: 10px;
 }
 /* line 241 */
+.process_item:nth-of-type(5) {
+  margin-right: 0;
+  width: 218px;
+}
+/* line 244 */
 .process_item h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -678,7 +683,7 @@ h1.page_headline {
   float: left;
   margin-top: 15px;
 }
-/* line 246 */
+/* line 249 */
 .process_item h3:nth-of-type(1) {
   color: white;
   background: #6faa44;
@@ -688,7 +693,7 @@ h1.page_headline {
   border-radius: 32px;
   margin-right: 10px;
 }
-/* line 254 */
+/* line 257 */
 .process_item p {
   text-align: left;
   clear: both;
@@ -700,7 +705,7 @@ h1.page_headline {
   line-height: 25px;
 }
 
-/* line 263 */
+/* line 266 */
 .lucha_about {
   background: url("../images/lucha_about.png") no-repeat top center;
   margin: 0 auto;
@@ -709,7 +714,7 @@ h1.page_headline {
   height: auto;
 }
 
-/* line 270 */
+/* line 273 */
 .about_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -718,7 +723,7 @@ h1.page_headline {
   width: 560px;
   min-height: 634px;
 }
-/* line 274 */
+/* line 277 */
 .about_col h3 {
   font-family: "SignikaSemibold";
   font-size: 20px;
@@ -726,18 +731,18 @@ h1.page_headline {
   color: #6faa44;
   margin: 0 0 10px 0;
 }
-/* line 277 */
+/* line 280 */
 .about_col .team_member {
   width: 190px;
   display: inline-block;
   margin: 0 20px 140px 0;
   float: left;
 }
-/* line 282 */
+/* line 285 */
 .about_col .team_member:nth-of-type(3) {
   margin-right: 0;
 }
-/* line 284 */
+/* line 287 */
 .about_col .team_member img {
   padding: 7px;
   background: white;
@@ -745,14 +750,14 @@ h1.page_headline {
   box-shadow: 0 2px 2px #aaaaaa;
   margin: 5px 0 20px 0;
 }
-/* line 290 */
+/* line 293 */
 .about_col .team_member h4 {
   font-family: "SignikaLight";
   font-size: 15px;
   font-weight: 900;
   color: #666666;
 }
-/* line 292 */
+/* line 295 */
 .about_col .team_member p {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -760,17 +765,17 @@ h1.page_headline {
   color: #888888;
   margin: 10px 0 0 0;
 }
-/* line 295 */
+/* line 298 */
 .about_col .team_member a {
   display: block;
 }
 
-/* line 298 */
+/* line 301 */
 p.world_changer {
   margin: 0 0 50px 0;
 }
 
-/* line 303 */
+/* line 306 */
 .videos_col {
   background: white;
   padding: 20px;
@@ -778,7 +783,7 @@ p.world_changer {
   border-radius: 5px;
   box-shadow: 0 2px 2px #d6d6d6;
 }
-/* line 309 */
+/* line 312 */
 .videos_col .vid_nav {
   float: left;
   width: 150px;
@@ -786,11 +791,11 @@ p.world_changer {
   margin: 0 0 0 15px;
   padding: 0 15px 0 0;
 }
-/* line 315 */
+/* line 318 */
 .videos_col .vid_nav .vid_category {
   margin: 0 0 10px 0;
 }
-/* line 317 */
+/* line 320 */
 .videos_col .vid_nav .vid_category .triangle {
   width: 0;
   height: 0;
@@ -801,7 +806,7 @@ p.world_changer {
   position: absolute;
   margin: 8px 0 0 -15px;
 }
-/* line 328 */
+/* line 331 */
 .videos_col .vid_nav .vid_category h3 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -809,11 +814,11 @@ p.world_changer {
   color: #3f94cd;
   display: inline-block;
 }
-/* line 331 */
+/* line 334 */
 .videos_col .vid_nav .vid_category h3:hover {
   cursor: pointer;
 }
-/* line 333 */
+/* line 336 */
 .videos_col .vid_nav .vid_category li {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -822,34 +827,34 @@ p.world_changer {
   line-height: 20px;
   margin: 0 0 10px 25px;
 }
-/* line 337 */
+/* line 340 */
 .videos_col .vid_nav .vid_category li:before {
   content: "- ";
   margin: 0 0 0 -8px;
 }
-/* line 340 */
+/* line 343 */
 .videos_col .vid_nav .vid_category:last-of-type {
   margin-bottom: 0;
 }
-/* line 342 */
+/* line 345 */
 .videos_col .vid_thumbs {
   float: right;
   width: 740px;
   display: none;
 }
-/* line 347 */
+/* line 350 */
 .videos_col .vid_thumbs .vid_item {
   display: inline-block;
   margin: 0 0 30px 0;
 }
-/* line 350 */
+/* line 353 */
 .videos_col .vid_thumbs .vid_item img {
   width: 186px;
   height: 115px;
   margin: 0 -4px 0 0;
   box-shadow: 0 3px 3px #999999;
 }
-/* line 356 */
+/* line 359 */
 .videos_col .vid_thumbs .vid_item h3 {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -858,7 +863,7 @@ p.world_changer {
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 360 */
+/* line 363 */
 .videos_col .vid_thumbs .vid_item .vid_thumb_time_box {
   display: inline-block;
   font-family: "SignikaSemibold";
@@ -871,7 +876,7 @@ p.world_changer {
   border-radius: 2px;
   padding: 3px;
 }
-/* line 369 */
+/* line 372 */
 .videos_col .vid_thumbs .new_vid {
   background: url("../images/new_vid_ribbon.png");
   width: 69px;
@@ -880,12 +885,12 @@ p.world_changer {
   position: absolute;
   margin: -11px 0 0 -11px;
 }
-/* line 378 */
+/* line 381 */
 .videos_col div:nth-of-type(2) {
   display: inline-block;
 }
 
-/* line 383 */
+/* line 386 */
 .lucha_hire_us {
   background: url("../images/lucha_hire_us.png") no-repeat top center;
   margin: 0 auto;
@@ -894,7 +899,7 @@ p.world_changer {
   height: auto;
 }
 
-/* line 390 */
+/* line 393 */
 .hire_us_col {
   font-family: "SignikaLight";
   font-size: 15px;
@@ -902,7 +907,7 @@ p.world_changer {
   color: #9a9a9a;
   margin: 0 0 45px 0;
 }
-/* line 393 */
+/* line 396 */
 .hire_us_col h3 {
   font-family: "SignikaSemibold";
   font-size: 22px;
@@ -910,7 +915,7 @@ p.world_changer {
   color: #6faa44;
   white-space: nowrap;
 }
-/* line 396 */
+/* line 399 */
 .hire_us_col h4 {
   font-family: "SignikaSemibold";
   font-size: 18px;
@@ -919,7 +924,7 @@ p.world_changer {
   margin: 10px 0 5px 0;
   clear: left;
 }
-/* line 400 */
+/* line 403 */
 .hire_us_col h4.ready {
   font-family: "SignikaSemibold";
   font-size: 16px;
@@ -927,11 +932,11 @@ p.world_changer {
   color: #666666;
   margin-bottom: 13px;
 }
-/* line 403 */
+/* line 406 */
 .hire_us_col .social_col {
   float: left;
 }
-/* line 405 */
+/* line 408 */
 .hire_us_col .social_col img {
   background: #6faa44;
   width: 24px;
@@ -941,16 +946,16 @@ p.world_changer {
   float: left;
   clear: left;
 }
-/* line 413 */
+/* line 416 */
 .hire_us_col .social_col img:last-of-type {
   margin-bottom: 20px;
 }
-/* line 415 */
+/* line 418 */
 .hire_us_col .social_col a {
   float: left;
 }
 
-/* line 420 */
+/* line 423 */
 .foot_banner {
   height: 130px;
   background: #333333;
@@ -959,12 +964,12 @@ p.world_changer {
   border-radius: 5px;
   margin: 0 0 50px 0;
 }
-/* line 427 */
+/* line 430 */
 .foot_banner img {
   position: absolute;
   margin-top: -82px;
 }
-/* line 430 */
+/* line 433 */
 .foot_banner .banner_text {
   width: 460px;
   line-height: 20px;
@@ -972,7 +977,7 @@ p.world_changer {
   margin: 0 auto;
   padding: 0 0 0 60px;
 }
-/* line 436 */
+/* line 439 */
 .foot_banner .banner_text h3 {
   font-family: "LeagueGothicRegular";
   font-size: 40px;
@@ -982,7 +987,7 @@ p.world_changer {
   padding: 25px 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 441 */
+/* line 444 */
 .foot_banner .gradient_button_green {
   float: right;
   position: relative;
