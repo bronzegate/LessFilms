@@ -45,14 +45,17 @@
     <style type='text/css'>
       /*<![CDATA[*/
         .footer{box-shadow: 0 0 0;}
+        .lucha_home, .wrapper, .footer{overflow:hidden;display:none;}
       /*]]>*/
     </style>
     <!-- Play the intro video once per session -->
-    <!-- = javascripts ('site_intro_fade_in') -->
-    <!-- .intro_vid -->
-    <!-- %video{:autoplay => "autoplay", :width => "1410px"} -->
-    <!-- %source{:src => "videos/lucha_intro.m4v", :type => "video/mp4"} -->
-    <!-- %source{:src => "videos/lucha_intro.ogv", :type => "video/ogg"} -->
+    <script language="javascript" src="javascripts/site_intro_fade_in.js" type="text/javascript"></script>
+    <div class='intro_vid'>
+      <video autoplay='autoplay' id='lucha' width='1410px'>
+        <source src='videos/lucha_intro.m4v' type='video/mp4'></source>
+        <source src='videos/lucha_intro.ogv' type='video/ogg'></source>
+      </video>
+    </div>
     <!-- Start Normal Flow -->
     <div class='lucha_home'>
       <div class='wrapper'>

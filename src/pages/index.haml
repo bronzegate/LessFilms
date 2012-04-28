@@ -1,14 +1,15 @@
 / Get rid of the footer box-shadow only on this page
 :css
   .footer{box-shadow: 0 0 0;}
+  .lucha_home, .wrapper, .footer{overflow:hidden;display:none;}
 
 / Play the intro video once per session  
-/= javascripts ('site_intro_fade_in')
+= javascripts ('site_intro_fade_in')
 
-/.intro_vid
-/  %video{:autoplay => "autoplay", :width => "1410px"}
-/    %source{:src => "videos/lucha_intro.m4v", :type => "video/mp4"}
-/    %source{:src => "videos/lucha_intro.ogv", :type => "video/ogg"}
+.intro_vid
+  %video{:id => "lucha", :autoplay => "autoplay", :width => "1410px"}
+    %source{:src => "videos/lucha_intro.m4v", :type => "video/mp4"}
+    %source{:src => "videos/lucha_intro.ogv", :type => "video/ogg"}
   
 / Start Normal Flow
 .lucha_home
