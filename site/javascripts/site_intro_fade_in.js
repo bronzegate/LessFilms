@@ -1,4 +1,6 @@
-$(document).ready(function(){  	
+$(document).ready(function(){
+
+  $(".lucha_home, .wrapper, .footer").css({'overflow' : 'hidden', 'display' : 'none'});  	
   
   if($.cookie("viewed_intro") == null)    {        
     
