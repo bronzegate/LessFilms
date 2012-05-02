@@ -1,0 +1,18 @@
+- @page_title = "LessFilms | 404 Not Found" 
+/ Get rid of the footer box-shadow only on this page
+:css
+  .footer{box-shadow: 0 0 0;}
+  
+/ Start Normal Flow
+.lucha_home
+  .wrapper
+    = partial('_header')
+    .content
+      .home_col
+        %h1{:style => "margin-top: 75px;"} ERROR 404 
+        %h1 FILE NOT FOUND
+        %p
+          Oops! You're outa' the ring! 
+          %br
+          You have 10 seconds to get back in. 9... 8... 7... 6...
+    .clearfix
