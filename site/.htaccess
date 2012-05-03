@@ -534,11 +534,3 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
-
-# Custom 404 Page
-ErrorDocument 404 /404.html 
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^lessfilms\.com$ [NC]
-RewriteRule ^(.*)$ http://lessfilms.com/$1 [R=301,L]
-Redirect /index.html http://lessfilms.com/
